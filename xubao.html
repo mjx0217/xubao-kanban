@@ -26,6 +26,10 @@ body {
   gap: 12px;
 }
 .header h1 { font-size: 20px; font-weight: 600; letter-spacing: 0.5px; }
+.header-subtitle { display: flex; align-items: center; gap: 12px; font-size: 13px; flex-wrap: wrap; }
+#timeRange { color: rgba(255,255,255,0.75); font-size: 12px; }
+.delta-badge { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); padding: 3px 10px; border-radius: 12px; color: rgba(255,255,255,0.9); white-space: nowrap; }
+.delta-val { font-weight: 700; }
 .header-right {
   display: flex;
   gap: 20px;
@@ -239,6 +243,12 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
 
 <div class="header">
   <h1>📊 <span id="boardTitle">沈阳基地·续报完成率看板</span></h1>
+  <div class="header-subtitle">
+    <span id="timeRange">数据区间：19:00 → 20:00</span>
+    <span class="delta-badge" id="deltaXubao">续报 <span class="delta-val" id="dvXubao">+226</span></span>
+    <span class="delta-badge" id="deltaGap">距完标 <span class="delta-val" id="dvGap">-232</span></span>
+    <span class="delta-badge" id="deltaDaily">今日增长 <span class="delta-val" id="dvDaily">+226</span></span>
+  </div>
   <div class="header-right">
     <div class="header-stat">
       <div class="header-stat-val" id="totalInclass">-</div>
@@ -660,6 +670,18 @@ function renderHeader() {
   document.getElementById('scComplete').textContent = m.totalCompleteRate + '%';
   document.getElementById('scDaily').textContent = '+' + fmt2(m.totalDaily);
   document.getElementById('updateTime').textContent = m.updated;
+  // Delta from previous update
+  if (m.prevXubao !== undefined) {
+    const dx = m.totalXubao - m.prevXubao;
+    const dg = m.totalGap - m.prevGap;
+    const dd = m.totalDaily - m.prevDaily;
+    document.getElementById('dvXubao').textContent = (dx >= 0 ? '+' : '') + dx.toLocaleString();
+    document.getElementById('dvGap').textContent = (dg >= 0 ? '+' : '') + dg.toLocaleString();
+    document.getElementById('dvDaily').textContent = (dd >= 0 ? '+' : '') + dd.toLocaleString();
+    document.getElementById('dvXubao').style.color = dx >= 0 ? '#86efac' : '#fca5a5';
+    document.getElementById('dvGap').style.color = dg >= 0 ? '#fca5a5' : '#86efac';
+    document.getElementById('dvDaily').style.color = '#86efac';
+  }
 }
 
 function loadData() {
