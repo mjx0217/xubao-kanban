@@ -547,6 +547,7 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
 
   // ─── Init ───────────────────────────────────────────────────────────────
   function init(d) {
+    console.warn('[KANBAN] init called, ctCount=' + (d.classTeachers ? d.classTeachers.length : 0));
     rawData = d;
 
     // Rate range
@@ -571,20 +572,29 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
 
   // Load data - try JSON file first, fall back to embedded
   function loadData() {
+    window._debugLog = [];
+    function log(msg) { window._debugLog.push(msg); console.warn('[KANBAN]', msg); }
+    log('loadData start');
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'xubao_data.json?t=' + Date.now(), true);
     xhr.onload = function() {
+      log('xhr.onload status=' + xhr.status + ' responseSize=' + (xhr.responseText ? xhr.responseText.length : 0));
       if (xhr.status === 200 || xhr.status === 0) {
         try {
-          init(JSON.parse(xhr.responseText));
+          var d = JSON.parse(xhr.responseText);
+          log('JSON parsed OK, ctCount=' + (d.classTeachers ? d.classTeachers.length : 0));
+          init(d);
+          log('init done');
         } catch(e) {
+          log('JSON parse error: ' + e);
           alert('JSON解析失败: ' + e);
         }
       } else {
+        log('HTTP error: ' + xhr.status);
         alert('数据加载失败，HTTP ' + xhr.status);
       }
     };
-    xhr.onerror = function() { alert('网络请求失败，请检查网络连接'); };
+    xhr.onerror = function() { log('xhr.onerror fired'); alert('网络请求失败，请检查网络连接'); };
     xhr.send();
   }
 
