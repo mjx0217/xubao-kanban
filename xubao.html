@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>沈阳基地·续报完成率看板</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: #f2f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #059669, #047857);
+  color: white;
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.header h1 { font-size: 20px; font-weight: 600; letter-spacing: 0.5px; }
+.header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.header-stat { text-align: center; min-width: 70px; }
+.header-stat-val { font-size: 22px; font-weight: 700; }
+.header-stat-label { font-size: 12px; opacity: 0.85; margin-top: 1px; }
+.refresh-btn {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 7px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.15s;
+}
+.refresh-btn:hover { background: rgba(255,255,255,0.25); }
+
+/* Main content */
+.content { padding: 20px 32px; max-width: 1400px; margin: 0 auto; }
+
+/* Stat cards */
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f5;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.stat-card-label { font-size: 12px; color: #888; font-weight: 500; }
+.stat-card-value { font-size: 26px; font-weight: 700; color: #333; }
+.stat-card-sub { font-size: 11px; color: #aaa; }
+
+/* Sections */
+.table-section {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f5;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.table-section-header {
+  padding: 14px 20px;
+  border-bottom: 2px solid #f0f0f5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.table-section-header:hover { background: #f8f9ff; }
+.table-section-title { font-size: 15px; font-weight: 600; color: #059669; flex: 1; }
+.table-section-meta { font-size: 12px; color: #aaa; }
+.accordion-arrow { font-size: 12px; color: #888; transition: transform 0.2s; }
+.table-section-header.open .accordion-arrow { transform: rotate(180deg); }
+.table-section-body { overflow-x: auto; }
+.table-section-body.collapsed { display: none; }
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 800px; }
+thead th {
+  background: #fafafa;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 500;
+  color: #888;
+  font-size: 12px;
+  border-bottom: 1px solid #f0f0f5;
+  white-space: nowrap;
+}
+tbody tr { border-bottom: 1px solid #f5f5f5; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: #f8f9ff; }
+tbody td { padding: 10px 12px; color: #333; }
+.td-num { text-align: right; font-variant-numeric: tabular-nums; }
+.td-center { text-align: center; }
+
+/* Rate bar */
+.rate-cell { min-width: 120px; }
+.rate-bar-wrap { display: flex; align-items: center; gap: 8px; }
+.rate-bar-bg { flex: 1; height: 8px; background: #f0f0f0; border-radius: 4px; overflow: hidden; min-width: 60px; }
+.rate-bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+.rate-text { font-weight: 600; font-size: 13px; min-width: 44px; text-align: right; }
+
+/* Subject tags */
+.subject-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+.subject-tag {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  background: #e8f5e9;
+  color: #2e7d32;
+  white-space: nowrap;
+}
+
+/* Color legend */
+.legend-bar {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f5;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+  color: #666;
+  flex-wrap: wrap;
+}
+.legend-label { font-weight: 500; }
+.legend-gradient { display: flex; align-items: center; gap: 6px; }
+.legend-gradient-bar { width: 120px; height: 8px; border-radius: 4px; }
+.legend-endpoints { display: flex; justify-content: space-between; width: 120px; font-size: 11px; color: #888; }
+
+/* Footer */
+.footer { text-align: center; padding: 20px; color: #ccc; font-size: 12px; }
+
+/* Search */
+.search-bar {
+  padding: 12px 20px;
+  border-bottom: 1px solid #f0f0f5;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search-input {
+  flex: 1;
+  max-width: 300px;
+  padding: 7px 12px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.search-input:focus { border-color: #059669; }
+
+/* Group filter */
+.group-filter {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0f0f5;
+}
+.filter-btn {
+  padding: 4px 12px;
+  border-radius: 16px;
+  border: 1.5px solid #d0d0d0;
+  background: white;
+  font-size: 12px;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: #059669; color: #059669; }
+.filter-btn.active { background: #059669; border-color: #059669; color: white; }
+
+@media (max-width: 768px) {
+  .header { padding: 14px 16px; }
+  .content { padding: 14px 16px; }
+  .stat-card-value { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 <span id="boardTitle">沈阳基地·续报完成率看板</span></h1>
+  <div class="header-right">
+    <div class="header-stat">
+      <div class="header-stat-val" id="totalInclass">-</div>
+      <div class="header-stat-label">在班人次</div>
+    </div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="totalXubao">-</div>
+      <div class="header-stat-label">续报人次</div>
+    </div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="totalTarget">-</div>
+      <div class="header-stat-label">目标人次</div>
+    </div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="totalGap">-</div>
+      <div class="header-stat-label">距完标人次</div>
+    </div>
+    <div class="header-stat">
+      <div class="header-stat-val" id="totalDaily">-</div>
+      <div class="header-stat-label">今日增长人次</div>
+    </div>
+    <button class="refresh-btn" onclick="location.reload()">🔄 刷新数据</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- Stat cards -->
+  <div class="stat-cards">
+    <div class="stat-card">
+      <div class="stat-card-label">续报人次</div>
+      <div class="stat-card-value" id="scXubao">-</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">目标人次</div>
+      <div class="stat-card-value" id="scTarget">-</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">距完标人次</div>
+      <div class="stat-card-value" id="scGap">-</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">续报率</div>
+      <div class="stat-card-value" id="scRate">-</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">目标完成率</div>
+      <div class="stat-card-value" id="scComplete">-</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">今日增长</div>
+      <div class="stat-card-value" id="scDaily">-</div>
+    </div>
+  </div>
+
+  <!-- Color legend -->
+  <div class="legend-bar">
+    <span class="legend-label">目标完成率</span>
+    <div class="legend-gradient">
+      <div class="legend-gradient-bar" id="legendBar"></div>
+      <div class="legend-endpoints"><span>0%</span><span>50%</span><span>100%</span></div>
+    </div>
+    <span style="color:#aaa;font-size:11px">红黄绿连续色阶 · 越高越绿</span>
+    <span class="legend-note" style="margin-left:auto;font-size:11px;color:#aaa">数据更新时间：<span id="updateTime">-</span></span>
+  </div>
+
+  <!-- 学科汇总 -->
+  <div class="table-section">
+    <div class="table-section-header" onclick="toggleSection('subjects')">
+      <span class="table-section-title">📚 学科汇总</span>
+      <span class="table-section-meta" id="subjectMeta"></span>
+      <span class="accordion-arrow">▼</span>
+    </div>
+    <div class="table-section-body" id="subjectsBody">
+      <table>
+        <thead>
+          <tr>
+            <th>学科</th>
+            <th>在班人次</th>
+            <th>续报人次</th>
+            <th>目标人次</th>
+            <th>距完标人次</th>
+            <th>今日增长人次</th>
+            <th>续报率</th>
+            <th>目标完成率</th>
+          </tr>
+        </thead>
+        <tbody id="subjectsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 教学组汇总 -->
+  <div class="table-section">
+    <div class="table-section-header" onclick="toggleSection('groups')">
+      <span class="table-section-title">👥 教学组汇总</span>
+      <span class="table-section-meta" id="groupMeta"></span>
+      <span class="accordion-arrow">▼</span>
+    </div>
+    <div class="table-section-body" id="groupsBody">
+      <table>
+        <thead>
+          <tr>
+            <th>教学组</th>
+            <th>班主任数</th>
+            <th>在班人次</th>
+            <th>续报人次</th>
+            <th>目标人次</th>
+            <th>距完标人次</th>
+            <th>今日增长人次</th>
+            <th>续报率</th>
+            <th>目标完成率</th>
+          </tr>
+        </thead>
+        <tbody id="groupsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 班主任明细 -->
+  <div class="table-section">
+    <div class="table-section-header" onclick="toggleSection('ct')">
+      <span class="table-section-title">🏫 班主任明细</span>
+      <span class="table-section-meta" id="ctMeta"></span>
+      <span class="accordion-arrow">▼</span>
+    </div>
+    <div class="search-bar">
+      <input class="search-input" id="searchInput" placeholder="搜索班主任姓名..." oninput="filterCT()">
+    </div>
+    <div class="group-filter" id="groupFilterBtns"></div>
+    <div class="table-section-body" id="ctBody">
+      <table>
+        <thead>
+          <tr>
+            <th>班主任</th>
+            <th>教学组</th>
+            <th>学科</th>
+            <th>在班人次</th>
+            <th>续报人次</th>
+            <th>目标人次</th>
+            <th>距完标人次</th>
+            <th>今日增长人次</th>
+            <th>续报率</th>
+            <th>目标完成率</th>
+          </tr>
+        </thead>
+        <tbody id="ctTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">续报完成率看板 · 实时数据</div>
+
+<script>
+let rawData = {};
+let filteredCT = [];
+let currentGroup = '全部';
+let searchText = '';
+
+function rateColor(rate) {
+  rate = Math.max(0, Math.min(100, rate));
+  let r, g, b;
+  if (rate <= 50) {
+    const t = rate / 50;
+    r = 220;
+    g = Math.round(38 + (179 - 38) * t);
+    b = 38;
+  } else {
+    const t = (rate - 50) / 50;
+    r = Math.round(234 + (22 - 234) * t);
+    g = Math.round(179 + (163 - 179) * t);
+    b = Math.round(8 + (74 - 8) * t);
+  }
+  return `rgb(${r},${g},${b})`;
+}
+
+function rateColorHex(rate) {
+  rate = Math.max(0, Math.min(100, rate));
+  let r, g, b;
+  if (rate <= 50) {
+    const t = rate / 50;
+    r = 220;
+    g = Math.round(38 + (179 - 38) * t);
+    b = 38;
+  } else {
+    const t = (rate - 50) / 50;
+    r = Math.round(234 + (22 - 234) * t);
+    g = Math.round(179 + (163 - 179) * t);
+    b = Math.round(8 + (74 - 8) * t);
+  }
+  return '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+}
+
+function fmt(n) { return n.toLocaleString(); }
+
+function buildLegend() {
+  const bar = document.getElementById('legendBar');
+  const steps = 20;
+  let gradient = '';
+  for (let i = 0; i <= steps; i++) {
+    gradient += rateColorHex(i * 5) + ' ' + (i / steps * 100) + '%';
+    if (i < steps) gradient += ', ';
+  }
+  bar.style.background = `linear-gradient(to right, ${gradient})`;
+}
+
+function makeRateBar(rate) {
+  const color = rateColorHex(rate);
+  const displayRate = rate > 100 ? '>100' : rate.toFixed(1);
+  return `<div class="rate-cell">
+    <div class="rate-bar-wrap">
+      <div class="rate-bar-bg">
+        <div class="rate-bar-fill" style="width:${Math.min(100, rate)}%;background:${color}"></div>
+      </div>
+      <span class="rate-text" style="color:${color}">${displayRate}%</span>
+    </div>
+  </div>`;
+}
+
+function toggleSection(name) {
+  const header = event.currentTarget;
+  const body = document.getElementById(name + 'Body');
+  header.classList.toggle('open');
+  body.classList.toggle('collapsed');
+}
+
+function renderSubjects() {
+  const tbody = document.getElementById('subjectsTable');
+  document.getElementById('subjectMeta').textContent = `共 ${rawData.subjects.length} 个学科`;
+  tbody.innerHTML = rawData.subjects.map(s => `
+    <tr>
+      <td><b>${s.name}</b></td>
+      <td class="td-num">${fmt(s.inclass)}</td>
+      <td class="td-num">${fmt(s.xubao)}</td>
+      <td class="td-num">${fmt(s.target)}</td>
+      <td class="td-num">${fmt(s.gap)}</td>
+      <td class="td-num">+${fmt(s.daily)}</td>
+      <td class="td-num">${s.rate}%</td>
+      <td>${makeRateBar(s.completeRate)}</td>
+    </tr>`).join('');
+}
+
+function renderGroups() {
+  const tbody = document.getElementById('groupsTable');
+  document.getElementById('groupMeta').textContent = `共 ${rawData.groups.length} 个教学组`;
+  tbody.innerHTML = rawData.groups.map(g => `
+    <tr>
+      <td><b>${g.name}</b></td>
+      <td class="td-num">${g.ctCount}</td>
+      <td class="td-num">${fmt(g.inclass)}</td>
+      <td class="td-num">${fmt(g.xubao)}</td>
+      <td class="td-num">${fmt(g.target)}</td>
+      <td class="td-num">${fmt(g.gap)}</td>
+      <td class="td-num">+${fmt(g.daily)}</td>
+      <td class="td-num">${g.rate}%</td>
+      <td>${makeRateBar(g.completeRate)}</td>
+    </tr>`).join('');
+}
+
+function renderGroupFilter() {
+  const container = document.getElementById('groupFilterBtns');
+  const allGroups = ['全部', ...new Set(rawData.classTeachers.map(c => c.group))].sort();
+  container.innerHTML = allGroups.map(g => {
+    const active = g === currentGroup ? 'active' : '';
+    return `<button class="filter-btn ${active}" onclick="setGroup('${g}')">${g}</button>`;
+  }).join('');
+}
+
+function setGroup(g) {
+  currentGroup = g;
+  renderGroupFilter();
+  renderCT();
+}
+
+function filterCT() {
+  searchText = document.getElementById('searchInput').value.trim().toLowerCase();
+  renderCT();
+}
+
+function renderCT() {
+  const tbody = document.getElementById('ctTable');
+  let list = rawData.classTeachers;
+
+  // Filter by group
+  if (currentGroup !== '全部') {
+    list = list.filter(c => c.group === currentGroup);
+  }
+
+  // Filter by search
+  if (searchText) {
+    list = list.filter(c => c.name.toLowerCase().includes(searchText));
+  }
+
+  document.getElementById('ctMeta').textContent = `共 ${list.length} 位班主任`;
+  tbody.innerHTML = list.map(c => `
+    <tr>
+      <td><b>${c.name}</b></td>
+      <td>${c.group}</td>
+      <td>
+        <div class="subject-tags">
+          ${c.subjects.map(s => `<span class="subject-tag">${s}</span>`).join('')}
+        </div>
+      </td>
+      <td class="td-num">${fmt(c.inclass)}</td>
+      <td class="td-num">${fmt(c.xubao)}</td>
+      <td class="td-num">${fmt(c.target)}</td>
+      <td class="td-num">${fmt(c.gap)}</td>
+      <td class="td-num">+${fmt(c.daily)}</td>
+      <td class="td-num">${c.rate}%</td>
+      <td>${makeRateBar(c.completeRate)}</td>
+    </tr>`).join('');
+}
+
+function renderHeader() {
+  const m = rawData.meta;
+  document.getElementById('totalInclass').textContent = fmt(m.totalInclass);
+  document.getElementById('totalXubao').textContent = fmt(m.totalXubao);
+  document.getElementById('totalTarget').textContent = fmt(m.totalTarget);
+  document.getElementById('totalGap').textContent = fmt(m.totalGap);
+  document.getElementById('totalDaily').textContent = '+' + fmt(m.totalDaily);
+  document.getElementById('scXubao').textContent = fmt(m.totalXubao);
+  document.getElementById('scTarget').textContent = fmt(m.totalTarget);
+  document.getElementById('scGap').textContent = fmt(m.totalGap);
+  document.getElementById('scRate').textContent = m.totalRate + '%';
+  document.getElementById('scComplete').textContent = m.totalCompleteRate + '%';
+  document.getElementById('scDaily').textContent = '+' + fmt(m.totalDaily);
+  document.getElementById('updateTime').textContent = m.updated;
+}
+
+function loadData() {
+  fetch('xubao_data.json')
+    .then(r => r.json())
+    .then(d => {
+      rawData = d;
+      buildLegend();
+      renderHeader();
+      renderSubjects();
+      renderGroups();
+      renderGroupFilter();
+      renderCT();
+      // 默认展开状态
+      document.querySelectorAll('.table-section-header').forEach(h => h.classList.add('open'));
+    });
+}
+
+loadData();
+</script>
+</body>
+</html>
