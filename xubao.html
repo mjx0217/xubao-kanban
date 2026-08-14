@@ -772,7 +772,7 @@ function renderHeader() {
 }
 
 function loadData() {
-  fetch('xubao_data.json')
+  fetch('xubao_data.json?v=20')
     .then(r => r.json())
     .then(d => {
       rawData = d;
