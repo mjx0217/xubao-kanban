@@ -26,10 +26,35 @@ body {
   gap: 12px;
 }
 .header h1 { font-size: 20px; font-weight: 600; letter-spacing: 0.5px; }
-.header-subtitle { display: flex; align-items: center; gap: 12px; font-size: 13px; flex-wrap: wrap; }
-#timeRange { color: rgba(255,255,255,0.75); font-size: 12px; }
-.delta-badge { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); padding: 3px 10px; border-radius: 12px; color: rgba(255,255,255,0.9); white-space: nowrap; }
-.delta-val { font-weight: 700; }
+.header-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  font-size: 13px;
+  flex-wrap: wrap;
+  background: rgba(0,0,0,0.15);
+  border-radius: 8px;
+  padding: 6px 14px;
+  width: fit-content;
+}
+.subtitle-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px;
+  border-right: 1px solid rgba(255,255,255,0.15);
+  white-space: nowrap;
+}
+.subtitle-item:last-child { border-right: none; }
+.subtitle-item .s-label { color: rgba(255,255,255,0.65); font-size: 12px; }
+.subtitle-item .s-prev { color: rgba(255,255,255,0.5); font-size: 12px; }
+.subtitle-item .s-arrow { color: rgba(255,255,255,0.4); }
+.subtitle-item .s-curr { color: #fff; font-weight: 600; }
+.subtitle-item .s-delta { font-weight: 700; }
+.delta-good { color: #86efac; }
+.delta-bad { color: #fca5a5; }
+.delta-neutral { color: #fff; }
+#timeRange { color: rgba(255,255,255,0.6); font-size: 12px; margin-right: 10px; border-right: 1px solid rgba(255,255,255,0.15); padding-right: 10px; }
 .header-right {
   display: flex;
   gap: 20px;
@@ -244,10 +269,25 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
 <div class="header">
   <h1>📊 <span id="boardTitle">沈阳基地·续报完成率看板</span></h1>
   <div class="header-subtitle">
-    <span id="timeRange">数据区间：19:00 → 20:00</span>
-    <span class="delta-badge" id="deltaXubao">续报 <span class="delta-val" id="dvXubao">+226</span></span>
-    <span class="delta-badge" id="deltaGap">距完标 <span class="delta-val" id="dvGap">-232</span></span>
-    <span class="delta-badge" id="deltaDaily">今日增长 <span class="delta-val" id="dvDaily">+226</span></span>
+    <span id="timeRange">加载中...</span>
+    <span class="subtitle-item">
+      <span class="s-label">续报人次：</span>
+      <span class="s-prev" id="sPrevXubao">-</span>
+      <span class="s-arrow"> → </span>
+      <span class="s-curr" id="sCurrXubao">-</span>
+      <span class="s-delta" id="sDeltaXubao"></span>
+    </span>
+    <span class="subtitle-item">
+      <span class="s-label">距完标：</span>
+      <span class="s-prev" id="sPrevGap">-</span>
+      <span class="s-arrow"> → </span>
+      <span class="s-curr" id="sCurrGap">-</span>
+      <span class="s-delta" id="sDeltaGap"></span>
+    </span>
+    <span class="subtitle-item">
+      <span class="s-label">时段增长：</span>
+      <span class="s-delta" id="sDeltaDaily"></span>
+    </span>
   </div>
   <div class="header-right">
     <div class="header-stat">
@@ -672,38 +712,62 @@ function renderHeader() {
   document.getElementById('updateTime').textContent = m.updated;
   // Delta from previous update
   // Time range and delta from previous update
+  const fmt2 = n => n.toLocaleString();
   if (m.prevXubao !== undefined) {
     const dx = m.totalXubao - m.prevXubao;
     const dg = m.totalGap - m.prevGap;
     const dd = m.totalDaily - m.prevDaily;
-    document.getElementById('dvXubao').textContent = (dx >= 0 ? '+' : '') + dx.toLocaleString();
-    document.getElementById('dvGap').textContent = (dg >= 0 ? '+' : '') + dg.toLocaleString();
-    document.getElementById('dvDaily').textContent = (dd >= 0 ? '+' : '') + dd.toLocaleString();
-    document.getElementById('dvXubao').style.color = dx >= 0 ? '#86efac' : '#fca5a5';
-    document.getElementById('dvGap').style.color = dg >= 0 ? '#fca5a5' : '#86efac';
-    document.getElementById('dvDaily').style.color = '#86efac';
+
+    document.getElementById('sPrevXubao').textContent = fmt2(m.prevXubao);
+    document.getElementById('sCurrXubao').textContent = fmt2(m.totalXubao);
+    const dxEl = document.getElementById('sDeltaXubao');
+    dxEl.textContent = (dx >= 0 ? '（+' : '（') + dx.toLocaleString() + '）';
+    dxEl.className = 's-delta ' + (dx >= 0 ? 'delta-good' : 'delta-bad');
+
+    document.getElementById('sPrevGap').textContent = fmt2(m.prevGap);
+    document.getElementById('sCurrGap').textContent = fmt2(m.totalGap);
+    const dgEl = document.getElementById('sDeltaGap');
+    if (dg <= 0) {
+      dgEl.textContent = '（减少了' + Math.abs(dg).toLocaleString() + '）';
+      dgEl.className = 's-delta delta-good';
+    } else {
+      dgEl.textContent = '（增加了' + dg.toLocaleString() + '）';
+      dgEl.className = 's-delta delta-bad';
+    }
+
+    const ddEl = document.getElementById('sDeltaDaily');
+    ddEl.textContent = (dd >= 0 ? '+' : '') + dd.toLocaleString();
+    ddEl.className = 's-delta ' + (dd >= 0 ? 'delta-good' : 'delta-bad');
 
     // Time range display
     const prevTime = new Date(m.prevUpdated.replace(' ', 'T'));
     const currTime = new Date(m.updated.replace(' ', 'T'));
     const diffMs = currTime - prevTime;
-    const prevStr = m.prevUpdated.slice(-5); // HH:MM
-    const currStr = m.updated.slice(-5);     // HH:MM
+    const prevStr = m.prevUpdated.slice(-5);
+    const currStr = m.updated.slice(-5);
     let intervalStr = '';
     if (diffMs >= 86400000) {
       const days = Math.floor(diffMs / 86400000);
       const hours = Math.round((diffMs % 86400000) / 3600000);
-      intervalStr = `${prevStr} → ${currStr} (+${days}天${hours}小时)`;
+      intervalStr = `${prevStr} → ${currStr}（+${days}天${hours}小时）`;
     } else if (diffMs >= 3600000) {
       const hours = Math.round(diffMs / 3600000);
-      intervalStr = `${prevStr} → ${currStr} (+${hours}小时)`;
+      intervalStr = `${prevStr} → ${currStr}（+${hours}小时）`;
     } else {
       const mins = Math.round(diffMs / 60000);
-      intervalStr = `${prevStr} → ${currStr} (+${mins}分钟)`;
+      intervalStr = `${prevStr} → ${currStr}（+${mins}分钟）`;
     }
     document.getElementById('timeRange').textContent = '数据区间：' + intervalStr;
   } else {
-    document.getElementById('timeRange').textContent = '数据区间：' + m.updated.slice(-5) + ' (首版)';
+    document.getElementById('timeRange').textContent = '数据区间：' + m.updated.slice(-5) + '（首版）';
+    document.getElementById('sCurrXubao').textContent = fmt2(m.totalXubao);
+    document.getElementById('sCurrGap').textContent = fmt2(m.totalGap);
+    document.getElementById('sDeltaDaily').textContent = '+' + fmt2(m.totalDaily);
+    document.getElementById('sDeltaDaily').className = 's-delta delta-good';
+    document.getElementById('sPrevXubao').textContent = '—';
+    document.getElementById('sPrevGap').textContent = '—';
+    document.getElementById('sDeltaXubao').textContent = '';
+    document.getElementById('sDeltaGap').textContent = '';
   }
 }
 
