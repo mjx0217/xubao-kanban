@@ -671,6 +671,7 @@ function renderHeader() {
   document.getElementById('scDaily').textContent = '+' + fmt2(m.totalDaily);
   document.getElementById('updateTime').textContent = m.updated;
   // Delta from previous update
+  // Time range and delta from previous update
   if (m.prevXubao !== undefined) {
     const dx = m.totalXubao - m.prevXubao;
     const dg = m.totalGap - m.prevGap;
@@ -681,6 +682,28 @@ function renderHeader() {
     document.getElementById('dvXubao').style.color = dx >= 0 ? '#86efac' : '#fca5a5';
     document.getElementById('dvGap').style.color = dg >= 0 ? '#fca5a5' : '#86efac';
     document.getElementById('dvDaily').style.color = '#86efac';
+
+    // Time range display
+    const prevTime = new Date(m.prevUpdated.replace(' ', 'T'));
+    const currTime = new Date(m.updated.replace(' ', 'T'));
+    const diffMs = currTime - prevTime;
+    const prevStr = m.prevUpdated.slice(-5); // HH:MM
+    const currStr = m.updated.slice(-5);     // HH:MM
+    let intervalStr = '';
+    if (diffMs >= 86400000) {
+      const days = Math.floor(diffMs / 86400000);
+      const hours = Math.round((diffMs % 86400000) / 3600000);
+      intervalStr = `${prevStr} → ${currStr} (+${days}天${hours}小时)`;
+    } else if (diffMs >= 3600000) {
+      const hours = Math.round(diffMs / 3600000);
+      intervalStr = `${prevStr} → ${currStr} (+${hours}小时)`;
+    } else {
+      const mins = Math.round(diffMs / 60000);
+      intervalStr = `${prevStr} → ${currStr} (+${mins}分钟)`;
+    }
+    document.getElementById('timeRange').textContent = '数据区间：' + intervalStr;
+  } else {
+    document.getElementById('timeRange').textContent = '数据区间：' + m.updated.slice(-5) + ' (首版)';
   }
 }
 
