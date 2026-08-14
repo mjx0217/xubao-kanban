@@ -445,16 +445,20 @@ function makeRateBar(rate) {
   </div>`;
 }
 
-// ─── Gap bar cell (how close to filling the gap) ────────────────────────────
-// The "gap" bar shows what % of the original target has been achieved
-// Color: 0% gap filled = red (far from target), 100%+ = green (at/over target)
+// ─── Gap bar cell ──────────────────────────────────────────────────────────
+// Over-fulfilled (xubao >= target): show green "已完成" badge
+// Under target: show progress bar + gap count
 function makeGapBar(gap, xubao, target) {
   if (target <= 0) return `<span class="gap-text">—</span>`;
-  // achieved ratio: xubao/target, the complement is gap/target
-  const achieved = Math.min(100, xubao / target * 100);
+  if (xubao >= target) {
+    // Over-fulfilled: green badge
+    return `<span class="gap-text" style="color:#16a34a;font-weight:700">已完成 ✓</span>`;
+  }
+  // Under target: progress bar colored by completion %
+  const achieved = xubao / target * 100;
   const color = rateColorHex(achieved);
   return `<div class="gap-bar-wrap">
-    <div class="gap-bar-bg"><div class="gap-bar-fill" style="width:${Math.min(100, achieved)}%;background:${color}"></div></div>
+    <div class="gap-bar-bg"><div class="gap-bar-fill" style="width:${achieved.toFixed(1)}%;background:${color}"></div></div>
     <span class="gap-text" style="color:${color}">${fmt(gap)}</span>
   </div>`;
 }
