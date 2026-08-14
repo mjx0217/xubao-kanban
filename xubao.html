@@ -300,7 +300,7 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
     }
     var achieved = xubao / target * 100;
     var color = rateColorHex(normalizeRate(achieved));
-    var gapDisplay = Number.isInteger(gap) ? fmt(gap) : gap.toFixed(1);
+    var gapDisplay = fmt(Math.round(gap));
     return '<div class="gap-bar-wrap"><div class="gap-bar-bg"><div class="gap-bar-fill" style="width:' + achieved.toFixed(1) + '%;background:' + color + '"></div></div><span class="gap-text" style="color:' + color + '">' + gapDisplay + '</span></div>';
   }
 
