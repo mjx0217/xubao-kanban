@@ -1,90 +1,90 @@
 {
   "meta": {
     "base": "沈阳",
-    "updated": "2026-08-15 18:00",
+    "updated": "2026-08-15 19:00",
     "totalInclass": 145615,
-    "totalXubao": 129426,
-    "totalTarget": 132012.42,
-    "totalGap": 2586.42,
-    "totalDaily": 328,
+    "totalXubao": 129450,
+    "totalTarget": 132003.42,
+    "totalGap": 2553.42,
+    "totalDaily": 352,
     "totalRate": 88.9,
-    "totalCompleteRate": 98.0,
+    "totalCompleteRate": 98.1,
     "ctCount": 308,
     "groupCount": 12,
     "subjectCount": 7,
-    "prevUpdated": "2026-08-15 15:00",
-    "prevXubao": 129328,
-    "prevGap": 2700.42,
-    "prevDaily": 230
+    "prevUpdated": "2026-08-15 18:00",
+    "prevXubao": 129426,
+    "prevGap": 2586.42,
+    "prevDaily": 328
   },
   "subjects": [
     {
       "name": "历史",
       "inclass": 4607,
-      "xubao": 4248,
-      "target": 4302.66,
-      "daily": -4,
-      "gap": 54.66,
+      "xubao": 4247,
+      "target": 4300.66,
+      "daily": -5,
+      "gap": 53.66,
       "rate": 92.2,
-      "completeRate": 98.7
+      "completeRate": 98.8
     },
     {
       "name": "地理",
       "inclass": 4209,
-      "xubao": 3881,
-      "target": 3920.08,
-      "daily": -2,
+      "xubao": 3878,
+      "target": 3917.08,
+      "daily": -5,
       "gap": 39.08,
-      "rate": 92.2,
+      "rate": 92.1,
       "completeRate": 99.0
     },
     {
       "name": "数学",
       "inclass": 55208,
-      "xubao": 50503,
+      "xubao": 50513,
       "target": 51362.16,
-      "daily": 150,
-      "gap": 859.16,
+      "daily": 160,
+      "gap": 849.16,
       "rate": 91.5,
       "completeRate": 98.3
     },
     {
       "name": "物理",
       "inclass": 37976,
-      "xubao": 33356,
-      "target": 34117.26,
-      "daily": 99,
-      "gap": 761.26,
-      "rate": 87.8,
+      "xubao": 33367,
+      "target": 34116.26,
+      "daily": 110,
+      "gap": 749.26,
+      "rate": 87.9,
       "completeRate": 97.8
     },
     {
       "name": "生物",
       "inclass": 4217,
-      "xubao": 3895,
-      "target": 3924.94,
-      "daily": 0,
+      "xubao": 3894,
+      "target": 3923.94,
+      "daily": -1,
       "gap": 29.94,
-      "rate": 92.4,
+      "rate": 92.3,
       "completeRate": 99.2
     },
     {
       "name": "英语",
       "inclass": 35981,
-      "xubao": 30414,
-      "target": 31223.72,
-      "daily": 87,
-      "gap": 809.72,
-      "rate": 84.5,
+      "xubao": 30422,
+      "target": 31222.72,
+      "daily": 95,
+      "gap": 800.72,
+      "rate": 84.6,
       "completeRate": 97.4
     },
     {
       "name": "道德与法治",
       "inclass": 3417,
       "xubao": 3129,
-      "target": 3161.6,
+      "target": 3160.6,
       "daily": -2,
-      "gap": 32.6,
+      "gap": 31.6,
       "rate": 91.6,
       "completeRate": 99.0
     }
@@ -93,10 +93,10 @@
     {
       "name": "牟春宇",
       "inclass": 19252,
-      "xubao": 17170,
-      "target": 17536.92,
-      "daily": 39,
-      "gap": 366.92,
+      "xubao": 17172,
+      "target": 17535.92,
+      "daily": 41,
+      "gap": 363.92,
       "rate": 89.2,
       "completeRate": 97.9,
       "ctCount": 45
@@ -104,21 +104,21 @@
     {
       "name": "魏述博",
       "inclass": 18724,
-      "xubao": 16186,
+      "xubao": 16195,
       "target": 16580.33,
-      "daily": 60,
-      "gap": 394.33,
-      "rate": 86.4,
-      "completeRate": 97.6,
+      "daily": 69,
+      "gap": 385.33,
+      "rate": 86.5,
+      "completeRate": 97.7,
       "ctCount": 44
     },
     {
       "name": "张钧瑞",
       "inclass": 12235,
-      "xubao": 10397,
+      "xubao": 10398,
       "target": 10648.86,
-      "daily": 19,
-      "gap": 251.86,
+      "daily": 20,
+      "gap": 250.86,
       "rate": 85.0,
       "completeRate": 97.6,
       "ctCount": 26
@@ -126,10 +126,10 @@
     {
       "name": "王欣",
       "inclass": 11945,
-      "xubao": 9953,
+      "xubao": 9956,
       "target": 10232.35,
-      "daily": 33,
-      "gap": 279.35,
+      "daily": 36,
+      "gap": 276.35,
       "rate": 83.3,
       "completeRate": 97.3,
       "ctCount": 25
@@ -137,12 +137,12 @@
     {
       "name": "牟林荟",
       "inclass": 11801,
-      "xubao": 10064,
-      "target": 10342.51,
-      "daily": 35,
-      "gap": 278.51,
+      "xubao": 10068,
+      "target": 10341.51,
+      "daily": 39,
+      "gap": 273.51,
       "rate": 85.3,
-      "completeRate": 97.3,
+      "completeRate": 97.4,
       "ctCount": 25
     },
     {
@@ -159,34 +159,34 @@
     {
       "name": "王英男",
       "inclass": 11545,
-      "xubao": 10497,
+      "xubao": 10502,
       "target": 10741.34,
-      "daily": 37,
-      "gap": 244.34,
-      "rate": 90.9,
-      "completeRate": 97.7,
+      "daily": 42,
+      "gap": 239.34,
+      "rate": 91.0,
+      "completeRate": 97.8,
       "ctCount": 24
     },
     {
       "name": "孟京雷",
       "inclass": 11506,
-      "xubao": 10279,
+      "xubao": 10282,
       "target": 10517.67,
-      "daily": 40,
-      "gap": 238.67,
-      "rate": 89.3,
-      "completeRate": 97.7,
+      "daily": 43,
+      "gap": 235.67,
+      "rate": 89.4,
+      "completeRate": 97.8,
       "ctCount": 22
     },
     {
       "name": "刘宇",
       "inclass": 11194,
-      "xubao": 10385,
+      "xubao": 10387,
       "target": 10495.21,
-      "daily": 26,
-      "gap": 110.21,
+      "daily": 28,
+      "gap": 108.21,
       "rate": 92.8,
-      "completeRate": 98.9,
+      "completeRate": 99.0,
       "ctCount": 22
     },
     {
@@ -203,9 +203,9 @@
     {
       "name": "缪家新",
       "inclass": 8796,
-      "xubao": 8131,
-      "target": 8201.5,
-      "daily": -3,
+      "xubao": 8127,
+      "target": 8197.5,
+      "daily": -7,
       "gap": 70.5,
       "rate": 92.4,
       "completeRate": 99.1,
@@ -214,10 +214,10 @@
     {
       "name": "郑欣悦",
       "inclass": 7654,
-      "xubao": 7022,
-      "target": 7107.79,
-      "daily": -5,
-      "gap": 85.79,
+      "xubao": 7021,
+      "target": 7104.79,
+      "daily": -6,
+      "gap": 83.79,
       "rate": 91.7,
       "completeRate": 98.8,
       "ctCount": 16
@@ -232,11 +232,11 @@
         "生物"
       ],
       "inclass": 736,
-      "xubao": 648,
-      "target": 654.47,
+      "xubao": 647,
+      "target": 653.47,
       "gap": 6.47,
-      "daily": 2,
-      "rate": 88.0,
+      "daily": 1,
+      "rate": 87.9,
       "completeRate": 99.0
     },
     {
@@ -292,11 +292,11 @@
         "地理"
       ],
       "inclass": 607,
-      "xubao": 494,
-      "target": 505.22,
+      "xubao": 493,
+      "target": 504.22,
       "gap": 11.22,
-      "daily": 0,
-      "rate": 81.4,
+      "daily": -1,
+      "rate": 81.2,
       "completeRate": 97.8
     },
     {
@@ -307,12 +307,12 @@
         "数学"
       ],
       "inclass": 599,
-      "xubao": 546,
+      "xubao": 547,
       "target": 550.92,
-      "gap": 4.92,
-      "daily": 1,
-      "rate": 91.2,
-      "completeRate": 99.1
+      "gap": 3.92,
+      "daily": 2,
+      "rate": 91.3,
+      "completeRate": 99.3
     },
     {
       "ctid": "87737",
@@ -352,11 +352,11 @@
         "道德与法治"
       ],
       "inclass": 590,
-      "xubao": 511,
-      "target": 523.15,
+      "xubao": 510,
+      "target": 522.15,
       "gap": 12.15,
-      "daily": 0,
-      "rate": 86.6,
+      "daily": -1,
+      "rate": 86.4,
       "completeRate": 97.7
     },
     {
@@ -382,12 +382,12 @@
         "历史"
       ],
       "inclass": 588,
-      "xubao": 516,
+      "xubao": 517,
       "target": 525.71,
-      "gap": 9.71,
-      "daily": 1,
-      "rate": 87.8,
-      "completeRate": 98.2
+      "gap": 8.71,
+      "daily": 2,
+      "rate": 87.9,
+      "completeRate": 98.3
     },
     {
       "ctid": "1089394",
@@ -397,11 +397,11 @@
         "地理"
       ],
       "inclass": 588,
-      "xubao": 541,
-      "target": 550.08,
+      "xubao": 540,
+      "target": 549.08,
       "gap": 9.08,
-      "daily": 1,
-      "rate": 92.0,
+      "daily": 0,
+      "rate": 91.8,
       "completeRate": 98.3
     },
     {
@@ -412,11 +412,11 @@
         "历史"
       ],
       "inclass": 586,
-      "xubao": 485,
-      "target": 506.07,
+      "xubao": 484,
+      "target": 505.07,
       "gap": 21.07,
-      "daily": 1,
-      "rate": 82.8,
+      "daily": 0,
+      "rate": 82.6,
       "completeRate": 95.8
     },
     {
@@ -442,11 +442,11 @@
         "地理"
       ],
       "inclass": 584,
-      "xubao": 551,
-      "target": 552.36,
+      "xubao": 550,
+      "target": 551.36,
       "gap": 1.36,
-      "daily": -1,
-      "rate": 94.3,
+      "daily": -2,
+      "rate": 94.2,
       "completeRate": 99.8
     },
     {
@@ -502,12 +502,12 @@
         "英语"
       ],
       "inclass": 582,
-      "xubao": 522,
+      "xubao": 523,
       "target": 528.8,
-      "gap": 6.8,
-      "daily": 0,
-      "rate": 89.7,
-      "completeRate": 98.7
+      "gap": 5.8,
+      "daily": 1,
+      "rate": 89.9,
+      "completeRate": 98.9
     },
     {
       "ctid": "1092392",
@@ -577,12 +577,12 @@
         "道德与法治"
       ],
       "inclass": 580,
-      "xubao": 549,
+      "xubao": 550,
       "target": 548.23,
-      "gap": -0.77,
-      "daily": 0,
-      "rate": 94.7,
-      "completeRate": 100.1
+      "gap": -1.77,
+      "daily": 1,
+      "rate": 94.8,
+      "completeRate": 100.3
     },
     {
       "ctid": "1093860",
@@ -592,12 +592,12 @@
         "英语"
       ],
       "inclass": 580,
-      "xubao": 483,
+      "xubao": 484,
       "target": 488.91,
-      "gap": 5.91,
-      "daily": 2,
-      "rate": 83.3,
-      "completeRate": 98.8
+      "gap": 4.91,
+      "daily": 3,
+      "rate": 83.4,
+      "completeRate": 99.0
     },
     {
       "ctid": "87839",
@@ -607,12 +607,12 @@
         "数学"
       ],
       "inclass": 579,
-      "xubao": 486,
+      "xubao": 487,
       "target": 481.32,
-      "gap": -4.68,
-      "daily": 2,
-      "rate": 83.9,
-      "completeRate": 101.0
+      "gap": -5.68,
+      "daily": 3,
+      "rate": 84.1,
+      "completeRate": 101.2
     },
     {
       "ctid": "1300018",
@@ -802,12 +802,12 @@
         "物理"
       ],
       "inclass": 577,
-      "xubao": 479,
+      "xubao": 480,
       "target": 474.51,
-      "gap": -4.49,
-      "daily": 2,
-      "rate": 83.0,
-      "completeRate": 100.9
+      "gap": -5.49,
+      "daily": 3,
+      "rate": 83.2,
+      "completeRate": 101.2
     },
     {
       "ctid": "87701",
@@ -877,12 +877,12 @@
         "数学"
       ],
       "inclass": 575,
-      "xubao": 488,
+      "xubao": 489,
       "target": 505.56,
-      "gap": 17.56,
-      "daily": 4,
-      "rate": 84.9,
-      "completeRate": 96.5
+      "gap": 16.56,
+      "daily": 5,
+      "rate": 85.0,
+      "completeRate": 96.7
     },
     {
       "ctid": "1306973",
@@ -967,12 +967,12 @@
         "英语"
       ],
       "inclass": 574,
-      "xubao": 480,
+      "xubao": 481,
       "target": 496.81,
-      "gap": 16.81,
-      "daily": 2,
-      "rate": 83.6,
-      "completeRate": 96.6
+      "gap": 15.81,
+      "daily": 3,
+      "rate": 83.8,
+      "completeRate": 96.8
     },
     {
       "ctid": "87752",
@@ -982,11 +982,11 @@
         "物理"
       ],
       "inclass": 574,
-      "xubao": 553,
-      "target": 548.57,
+      "xubao": 552,
+      "target": 547.57,
       "gap": -4.43,
-      "daily": 1,
-      "rate": 96.3,
+      "daily": 0,
+      "rate": 96.2,
       "completeRate": 100.8
     },
     {
@@ -1087,12 +1087,12 @@
         "物理"
       ],
       "inclass": 572,
-      "xubao": 486,
+      "xubao": 487,
       "target": 468.28,
-      "gap": -17.72,
-      "daily": 4,
-      "rate": 85.0,
-      "completeRate": 103.8
+      "gap": -18.72,
+      "daily": 5,
+      "rate": 85.1,
+      "completeRate": 104.0
     },
     {
       "ctid": "1092390",
@@ -1117,12 +1117,12 @@
         "数学"
       ],
       "inclass": 571,
-      "xubao": 513,
+      "xubao": 514,
       "target": 520.17,
-      "gap": 7.17,
-      "daily": -1,
-      "rate": 89.8,
-      "completeRate": 98.6
+      "gap": 6.17,
+      "daily": 0,
+      "rate": 90.0,
+      "completeRate": 98.8
     },
     {
       "ctid": "1089400",
@@ -1207,12 +1207,12 @@
         "英语"
       ],
       "inclass": 570,
-      "xubao": 512,
+      "xubao": 513,
       "target": 522.4,
-      "gap": 10.4,
-      "daily": 1,
-      "rate": 89.8,
-      "completeRate": 98.0
+      "gap": 9.4,
+      "daily": 2,
+      "rate": 90.0,
+      "completeRate": 98.2
     },
     {
       "ctid": "1306983",
@@ -1402,12 +1402,12 @@
         "数学"
       ],
       "inclass": 565,
-      "xubao": 501,
+      "xubao": 502,
       "target": 517.03,
-      "gap": 16.03,
-      "daily": 4,
-      "rate": 88.7,
-      "completeRate": 96.9
+      "gap": 15.03,
+      "daily": 5,
+      "rate": 88.8,
+      "completeRate": 97.1
     },
     {
       "ctid": "87942",
@@ -1417,12 +1417,12 @@
         "物理"
       ],
       "inclass": 565,
-      "xubao": 529,
+      "xubao": 530,
       "target": 538.89,
-      "gap": 9.89,
-      "daily": 1,
-      "rate": 93.6,
-      "completeRate": 98.2
+      "gap": 8.89,
+      "daily": 2,
+      "rate": 93.8,
+      "completeRate": 98.4
     },
     {
       "ctid": "1300015",
@@ -1537,12 +1537,12 @@
         "英语"
       ],
       "inclass": 562,
-      "xubao": 470,
+      "xubao": 471,
       "target": 491.83,
-      "gap": 21.83,
-      "daily": 1,
-      "rate": 83.6,
-      "completeRate": 95.6
+      "gap": 20.83,
+      "daily": 2,
+      "rate": 83.8,
+      "completeRate": 95.8
     },
     {
       "ctid": "1306986",
@@ -1567,12 +1567,12 @@
         "数学"
       ],
       "inclass": 559,
-      "xubao": 482,
+      "xubao": 483,
       "target": 503.77,
-      "gap": 21.77,
-      "daily": 6,
-      "rate": 86.2,
-      "completeRate": 95.7
+      "gap": 20.77,
+      "daily": 7,
+      "rate": 86.4,
+      "completeRate": 95.9
     },
     {
       "ctid": "1307290",
@@ -1597,12 +1597,12 @@
         "英语"
       ],
       "inclass": 559,
-      "xubao": 496,
+      "xubao": 497,
       "target": 497.64,
-      "gap": 1.64,
-      "daily": 0,
-      "rate": 88.7,
-      "completeRate": 99.7
+      "gap": 0.64,
+      "daily": 1,
+      "rate": 88.9,
+      "completeRate": 99.9
     },
     {
       "ctid": "88100",
@@ -1762,12 +1762,12 @@
         "数学"
       ],
       "inclass": 547,
-      "xubao": 452,
+      "xubao": 453,
       "target": 477.97,
-      "gap": 25.97,
-      "daily": 3,
-      "rate": 82.6,
-      "completeRate": 94.6
+      "gap": 24.97,
+      "daily": 4,
+      "rate": 82.8,
+      "completeRate": 94.8
     },
     {
       "ctid": "1301704",
@@ -1792,12 +1792,12 @@
         "数学"
       ],
       "inclass": 546,
-      "xubao": 460,
+      "xubao": 461,
       "target": 479.51,
-      "gap": 19.51,
-      "daily": 5,
-      "rate": 84.2,
-      "completeRate": 95.9
+      "gap": 18.51,
+      "daily": 6,
+      "rate": 84.4,
+      "completeRate": 96.1
     },
     {
       "ctid": "1094554",
@@ -1897,12 +1897,12 @@
         "数学"
       ],
       "inclass": 541,
-      "xubao": 484,
+      "xubao": 485,
       "target": 494.91,
-      "gap": 10.91,
-      "daily": 1,
-      "rate": 89.5,
-      "completeRate": 97.8
+      "gap": 9.91,
+      "daily": 2,
+      "rate": 89.6,
+      "completeRate": 98.0
     },
     {
       "ctid": "1092394",
@@ -2392,12 +2392,12 @@
         "物理"
       ],
       "inclass": 500,
-      "xubao": 397,
+      "xubao": 398,
       "target": 407.42,
-      "gap": 10.42,
-      "daily": 4,
-      "rate": 79.4,
-      "completeRate": 97.4
+      "gap": 9.42,
+      "daily": 5,
+      "rate": 79.6,
+      "completeRate": 97.7
     },
     {
       "ctid": "88135",
@@ -2407,12 +2407,12 @@
         "物理"
       ],
       "inclass": 498,
-      "xubao": 456,
+      "xubao": 457,
       "target": 464.68,
-      "gap": 8.68,
-      "daily": 3,
-      "rate": 91.6,
-      "completeRate": 98.1
+      "gap": 7.68,
+      "daily": 4,
+      "rate": 91.8,
+      "completeRate": 98.3
     },
     {
       "ctid": "88150",
@@ -2452,12 +2452,12 @@
         "英语"
       ],
       "inclass": 495,
-      "xubao": 489,
+      "xubao": 490,
       "target": 485.71,
-      "gap": -3.29,
-      "daily": 0,
-      "rate": 98.8,
-      "completeRate": 100.7
+      "gap": -4.29,
+      "daily": 1,
+      "rate": 99.0,
+      "completeRate": 100.9
     },
     {
       "ctid": "1304766",
@@ -2512,12 +2512,12 @@
         "英语"
       ],
       "inclass": 488,
-      "xubao": 468,
+      "xubao": 469,
       "target": 474.94,
-      "gap": 6.94,
-      "daily": 0,
-      "rate": 95.9,
-      "completeRate": 98.5
+      "gap": 5.94,
+      "daily": 1,
+      "rate": 96.1,
+      "completeRate": 98.8
     },
     {
       "ctid": "87940",
@@ -2647,12 +2647,12 @@
         "物理"
       ],
       "inclass": 477,
-      "xubao": 314,
+      "xubao": 315,
       "target": 333.25,
-      "gap": 19.25,
-      "daily": 4,
-      "rate": 65.8,
-      "completeRate": 94.2
+      "gap": 18.25,
+      "daily": 5,
+      "rate": 66.0,
+      "completeRate": 94.5
     },
     {
       "ctid": "1304962",
@@ -2827,12 +2827,12 @@
         "物理"
       ],
       "inclass": 466,
-      "xubao": 435,
+      "xubao": 436,
       "target": 438.0,
-      "gap": 3.0,
-      "daily": 1,
-      "rate": 93.3,
-      "completeRate": 99.3
+      "gap": 2.0,
+      "daily": 2,
+      "rate": 93.6,
+      "completeRate": 99.5
     },
     {
       "ctid": "87941",
@@ -3022,11 +3022,11 @@
         "英语"
       ],
       "inclass": 456,
-      "xubao": 443,
-      "target": 446.69,
+      "xubao": 442,
+      "target": 445.69,
       "gap": 3.69,
-      "daily": 0,
-      "rate": 97.1,
+      "daily": -1,
+      "rate": 96.9,
       "completeRate": 99.2
     },
     {
@@ -3037,11 +3037,11 @@
         "历史"
       ],
       "inclass": 455,
-      "xubao": 435,
-      "target": 437.11,
+      "xubao": 434,
+      "target": 436.11,
       "gap": 2.11,
-      "daily": -2,
-      "rate": 95.6,
+      "daily": -3,
+      "rate": 95.4,
       "completeRate": 99.5
     },
     {
@@ -3322,12 +3322,12 @@
         "物理"
       ],
       "inclass": 441,
-      "xubao": 399,
+      "xubao": 400,
       "target": 410.63,
-      "gap": 11.63,
-      "daily": 1,
-      "rate": 90.5,
-      "completeRate": 97.2
+      "gap": 10.63,
+      "daily": 2,
+      "rate": 90.7,
+      "completeRate": 97.4
     },
     {
       "ctid": "1089395",
@@ -3352,12 +3352,12 @@
         "英语"
       ],
       "inclass": 440,
-      "xubao": 332,
+      "xubao": 333,
       "target": 344.3,
-      "gap": 12.3,
-      "daily": 2,
-      "rate": 75.5,
-      "completeRate": 96.4
+      "gap": 11.3,
+      "daily": 3,
+      "rate": 75.7,
+      "completeRate": 96.7
     },
     {
       "ctid": "1304968",
@@ -3427,12 +3427,12 @@
         "物理"
       ],
       "inclass": 434,
-      "xubao": 347,
+      "xubao": 348,
       "target": 339.28,
-      "gap": -7.72,
-      "daily": 3,
-      "rate": 80.0,
-      "completeRate": 102.3
+      "gap": -8.72,
+      "daily": 4,
+      "rate": 80.2,
+      "completeRate": 102.6
     },
     {
       "ctid": "87803",
@@ -3472,12 +3472,12 @@
         "物理"
       ],
       "inclass": 431,
-      "xubao": 321,
+      "xubao": 322,
       "target": 349.31,
-      "gap": 28.31,
-      "daily": 3,
-      "rate": 74.5,
-      "completeRate": 91.9
+      "gap": 27.31,
+      "daily": 4,
+      "rate": 74.7,
+      "completeRate": 92.2
     },
     {
       "ctid": "1304970",
@@ -3502,12 +3502,12 @@
         "物理"
       ],
       "inclass": 428,
-      "xubao": 318,
+      "xubao": 319,
       "target": 347.48,
-      "gap": 29.48,
-      "daily": 2,
-      "rate": 74.3,
-      "completeRate": 91.5
+      "gap": 28.48,
+      "daily": 3,
+      "rate": 74.5,
+      "completeRate": 91.8
     },
     {
       "ctid": "1304773",
@@ -3637,12 +3637,12 @@
         "物理"
       ],
       "inclass": 415,
-      "xubao": 323,
+      "xubao": 324,
       "target": 337.84,
-      "gap": 14.84,
-      "daily": 3,
-      "rate": 77.8,
-      "completeRate": 95.6
+      "gap": 13.84,
+      "daily": 4,
+      "rate": 78.1,
+      "completeRate": 95.9
     },
     {
       "ctid": "88110",
@@ -4657,12 +4657,12 @@
         "数学"
       ],
       "inclass": 229,
-      "xubao": 186,
+      "xubao": 187,
       "target": 196.12,
-      "gap": 10.12,
-      "daily": 3,
-      "rate": 81.2,
-      "completeRate": 94.8
+      "gap": 9.12,
+      "daily": 4,
+      "rate": 81.7,
+      "completeRate": 95.4
     },
     {
       "ctid": "1306974",
