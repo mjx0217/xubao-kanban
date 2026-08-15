@@ -418,7 +418,7 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
         }
         if (c.key === 'daily') {
           if (tableKey === 'ct') { html += '<td>' + makeDailyBadge(val, data._badgeStats.max, data._badgeStats.median) + '</td>'; }
-          else { html += '<td>+' + fmt(val) + '</td>'; }
+          else { html += '<td>' + (val >= 0 ? '+' : '') + fmt(val) + '</td>'; }
           return;
         }
         if (c.key === 'rate') { html += '<td>' + val.toFixed(1) + '%</td>'; return; }
