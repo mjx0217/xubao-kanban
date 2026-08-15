@@ -11,7 +11,11 @@
     "totalCompleteRate": 98.0,
     "ctCount": 308,
     "groupCount": 12,
-    "subjectCount": 7
+    "subjectCount": 7,
+    "prevUpdated": "2026-08-15 12:00",
+    "prevXubao": 129245,
+    "prevGap": 2801.43,
+    "prevDaily": 147
   },
   "subjects": [
     {
