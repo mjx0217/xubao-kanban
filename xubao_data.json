@@ -1,50 +1,50 @@
 {
   "meta": {
     "base": "沈阳",
-    "updated": "2026-08-16 12:00",
+    "updated": "2026-08-16 07:00",
     "totalInclass": 145514,
-    "totalXubao": 129857,
-    "totalTarget": 131958.4,
-    "totalGap": 2101.4,
-    "totalDaily": 95,
-    "totalRate": 89.2,
+    "totalXubao": 129881,
+    "totalTarget": 131954.4,
+    "totalGap": 2073.4,
+    "totalDaily": 119,
+    "totalRate": 89.3,
     "totalCompleteRate": 98.4,
     "ctCount": 308,
     "groupCount": 12,
     "subjectCount": 7,
-    "prevUpdated": "2026-08-16 07:00",
-    "prevXubao": 129762,
-    "prevGap": 2212.4,
-    "prevDaily": 743
+    "prevUpdated": "2026-08-16 12:00",
+    "prevXubao": 129857,
+    "prevGap": -2101.4,
+    "prevDaily": 95
   },
   "subjects": [
     {
       "name": "数学",
       "inclass": 55179.0,
-      "xubao": 50679.0,
-      "target": 51342.78246646299,
-      "gap": 663.78,
-      "daily": 35.0,
-      "rate": 91.8,
+      "xubao": 50689.0,
+      "target": 51342.78246646298,
+      "gap": 653.78,
+      "daily": 45.0,
+      "rate": 91.9,
       "completeRate": 98.7
     },
     {
       "name": "物理",
       "inclass": 37962.0,
-      "xubao": 33468.0,
-      "target": 34113.25802466203,
-      "gap": 645.26,
-      "daily": 32.0,
+      "xubao": 33478.0,
+      "target": 34112.25802466203,
+      "gap": 634.26,
+      "daily": 42.0,
       "rate": 88.2,
       "completeRate": 98.1
     },
     {
       "name": "英语",
       "inclass": 35953.0,
-      "xubao": 30555.0,
-      "target": 31211.725912755013,
-      "gap": 656.73,
-      "daily": 25.0,
+      "xubao": 30560.0,
+      "target": 31209.725912755013,
+      "gap": 649.73,
+      "daily": 30.0,
       "rate": 85.0,
       "completeRate": 97.9
     },
@@ -61,10 +61,10 @@
     {
       "name": "生物",
       "inclass": 4211.0,
-      "xubao": 3895.0,
-      "target": 3920.6766709480003,
+      "xubao": 3894.0,
+      "target": 3919.6766709480003,
       "gap": 25.68,
-      "daily": 1.0,
+      "daily": 0.0,
       "rate": 92.5,
       "completeRate": 99.3
     },
@@ -93,10 +93,10 @@
     {
       "name": "牟春宇",
       "inclass": 19246.0,
-      "xubao": 17218.0,
+      "xubao": 17222.0,
       "target": 17536.50828146699,
-      "gap": 318.51,
-      "daily": 18.0,
+      "gap": 314.51,
+      "daily": 22.0,
       "ctCount": 45,
       "rate": 89.5,
       "completeRate": 98.2
@@ -104,21 +104,21 @@
     {
       "name": "魏述博",
       "inclass": 18716.0,
-      "xubao": 16250.0,
-      "target": 16576.74974319499,
-      "gap": 326.75,
-      "daily": 14.0,
+      "xubao": 16256.0,
+      "target": 16575.74974319499,
+      "gap": 319.75,
+      "daily": 20.0,
       "ctCount": 44,
-      "rate": 86.8,
-      "completeRate": 98.0
+      "rate": 86.9,
+      "completeRate": 98.1
     },
     {
       "name": "杭禹则",
       "inclass": 11740.0,
-      "xubao": 10891.0,
+      "xubao": 10893.0,
       "target": 10981.80152474299,
-      "gap": 90.8,
-      "daily": 3.0,
+      "gap": 88.8,
+      "daily": 5.0,
       "ctCount": 23,
       "rate": 92.8,
       "completeRate": 99.2
@@ -126,10 +126,10 @@
     {
       "name": "王英男",
       "inclass": 11537.0,
-      "xubao": 10540.0,
+      "xubao": 10542.0,
       "target": 10735.346902190997,
-      "gap": 195.35,
-      "daily": 9.0,
+      "gap": 193.35,
+      "daily": 11.0,
       "ctCount": 24,
       "rate": 91.4,
       "completeRate": 98.2
@@ -137,21 +137,21 @@
     {
       "name": "张钧瑞",
       "inclass": 12223.0,
-      "xubao": 10435.0,
+      "xubao": 10438.0,
       "target": 10643.812477315,
-      "gap": 208.81,
-      "daily": 6.0,
+      "gap": 205.81,
+      "daily": 9.0,
       "ctCount": 26,
       "rate": 85.4,
-      "completeRate": 98.0
+      "completeRate": 98.1
     },
     {
       "name": "刘宇",
       "inclass": 11186.0,
-      "xubao": 10406.0,
+      "xubao": 10407.0,
       "target": 10489.070598778002,
-      "gap": 83.07,
-      "daily": 0.0,
+      "gap": 82.07,
+      "daily": 1.0,
       "ctCount": 22,
       "rate": 93.0,
       "completeRate": 99.2
@@ -159,10 +159,10 @@
     {
       "name": "孟京雷",
       "inclass": 11501.0,
-      "xubao": 10326.0,
+      "xubao": 10330.0,
       "target": 10514.568330363005,
-      "gap": 188.57,
-      "daily": 12.0,
+      "gap": 184.57,
+      "daily": 16.0,
       "ctCount": 22,
       "rate": 89.8,
       "completeRate": 98.2
@@ -170,10 +170,10 @@
     {
       "name": "牟林荟",
       "inclass": 11793.0,
-      "xubao": 10118.0,
+      "xubao": 10122.0,
       "target": 10337.948510913988,
-      "gap": 219.95,
-      "daily": 12.0,
+      "gap": 215.95,
+      "daily": 16.0,
       "ctCount": 25,
       "rate": 85.8,
       "completeRate": 97.9
@@ -181,10 +181,10 @@
     {
       "name": "王欣",
       "inclass": 11937.0,
-      "xubao": 10002.0,
-      "target": 10229.964924525997,
+      "xubao": 10000.0,
+      "target": 10227.964924525997,
       "gap": 227.96,
-      "daily": 7.0,
+      "daily": 5.0,
       "ctCount": 25,
       "rate": 83.8,
       "completeRate": 97.8
@@ -192,10 +192,10 @@
     {
       "name": "刘鹤鑫",
       "inclass": 9215.0,
-      "xubao": 8516.0,
+      "xubao": 8517.0,
       "target": 8621.995110387996,
-      "gap": 106.0,
-      "daily": 11.0,
+      "gap": 105.0,
+      "daily": 12.0,
       "ctCount": 20,
       "rate": 92.4,
       "completeRate": 98.8
@@ -203,10 +203,10 @@
     {
       "name": "缪家新",
       "inclass": 8784.0,
-      "xubao": 8128.0,
-      "target": 8191.240284456997,
+      "xubao": 8127.0,
+      "target": 8190.240284456997,
       "gap": 63.24,
-      "daily": 0.0,
+      "daily": -1.0,
       "ctCount": 16,
       "rate": 92.5,
       "completeRate": 99.2
@@ -262,11 +262,11 @@
         "生物"
       ],
       "inclass": 733.0,
-      "xubao": 646.0,
-      "target": 652.206591371,
+      "xubao": 645.0,
+      "target": 651.206591371,
       "gap": 6.21,
-      "daily": 0.0,
-      "rate": 88.1,
+      "daily": -1.0,
+      "rate": 88.0,
       "completeRate": 99.0
     },
     {
@@ -390,6 +390,21 @@
       "completeRate": 100.6
     },
     {
+      "ctid": "1306982",
+      "name": "展佳琪",
+      "group": "孟京雷",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 581.0,
+      "xubao": 554.0,
+      "target": 555.9215563070001,
+      "gap": 1.92,
+      "daily": 1.0,
+      "rate": 95.4,
+      "completeRate": 99.7
+    },
+    {
       "ctid": "1092255",
       "name": "谷盈利",
       "group": "缪家新",
@@ -403,21 +418,6 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 99.7
-    },
-    {
-      "ctid": "1306982",
-      "name": "展佳琪",
-      "group": "孟京雷",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 581.0,
-      "xubao": 553.0,
-      "target": 555.9215563070001,
-      "gap": 2.92,
-      "daily": 0.0,
-      "rate": 95.2,
-      "completeRate": 99.5
     },
     {
       "ctid": "87752",
@@ -465,6 +465,21 @@
       "completeRate": 98.9
     },
     {
+      "ctid": "1093853",
+      "name": "肖思聪",
+      "group": "刘宇",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 599.0,
+      "xubao": 552.0,
+      "target": 550.919026271,
+      "gap": -1.08,
+      "daily": 1.0,
+      "rate": 92.2,
+      "completeRate": 100.2
+    },
+    {
       "ctid": "1300016",
       "name": "王可新",
       "group": "孟京雷",
@@ -480,18 +495,18 @@
       "completeRate": 100.4
     },
     {
-      "ctid": "1093853",
-      "name": "肖思聪",
-      "group": "刘宇",
+      "ctid": "1092392",
+      "name": "刘思祺",
+      "group": "杭禹则",
       "subjects": [
         "数学"
       ],
-      "inclass": 599.0,
-      "xubao": 551.0,
-      "target": 550.919026271,
+      "inclass": 580.0,
+      "xubao": 550.0,
+      "target": 549.921288568,
       "gap": -0.08,
-      "daily": 0.0,
-      "rate": 92.0,
+      "daily": 1.0,
+      "rate": 94.8,
       "completeRate": 100.0
     },
     {
@@ -523,21 +538,6 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.3
-    },
-    {
-      "ctid": "1092392",
-      "name": "刘思祺",
-      "group": "杭禹则",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 580.0,
-      "xubao": 549.0,
-      "target": 549.921288568,
-      "gap": 0.92,
-      "daily": 0.0,
-      "rate": 94.7,
-      "completeRate": 99.8
     },
     {
       "ctid": "1093854",
@@ -608,7 +608,7 @@
       ],
       "inclass": 554.0,
       "xubao": 543.0,
-      "target": 539.8168267599999,
+      "target": 539.81682676,
       "gap": -3.18,
       "daily": 0.0,
       "rate": 98.0,
@@ -757,12 +757,12 @@
         "数学"
       ],
       "inclass": 564.0,
-      "xubao": 534.0,
+      "xubao": 535.0,
       "target": 539.6546056020001,
-      "gap": 5.65,
-      "daily": 0.0,
-      "rate": 94.7,
-      "completeRate": 99.0
+      "gap": 4.65,
+      "daily": 1.0,
+      "rate": 94.9,
+      "completeRate": 99.1
     },
     {
       "ctid": "1094563",
@@ -1358,7 +1358,7 @@
       ],
       "inclass": 553.0,
       "xubao": 503.0,
-      "target": 503.420397513,
+      "target": 503.42039751300007,
       "gap": 0.42,
       "daily": 1.0,
       "rate": 91.0,
@@ -1395,6 +1395,21 @@
       "completeRate": 99.8
     },
     {
+      "ctid": "1306519",
+      "name": "崔潆心",
+      "group": "牟林荟",
+      "subjects": [
+        "英语"
+      ],
+      "inclass": 578.0,
+      "xubao": 503.0,
+      "target": 511.88401002399985,
+      "gap": 8.88,
+      "daily": 1.0,
+      "rate": 87.0,
+      "completeRate": 98.3
+    },
+    {
       "ctid": "1307290",
       "name": "黄文昊",
       "group": "王英男",
@@ -1403,26 +1418,11 @@
       ],
       "inclass": 559.0,
       "xubao": 502.0,
-      "target": 513.679003919,
+      "target": 513.6790039189999,
       "gap": 11.68,
       "daily": 0.0,
       "rate": 89.8,
       "completeRate": 97.7
-    },
-    {
-      "ctid": "1306519",
-      "name": "崔潆心",
-      "group": "牟林荟",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 578.0,
-      "xubao": 502.0,
-      "target": 511.88401002399985,
-      "gap": 9.88,
-      "daily": 0.0,
-      "rate": 86.9,
-      "completeRate": 98.1
     },
     {
       "ctid": "1096162",
@@ -1468,6 +1468,21 @@
       "daily": 0.0,
       "rate": 90.7,
       "completeRate": 98.0
+    },
+    {
+      "ctid": "87851",
+      "name": "赵锶羽",
+      "group": "孟京雷",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 574.0,
+      "xubao": 498.0,
+      "target": 505.2433625020001,
+      "gap": 7.24,
+      "daily": 3.0,
+      "rate": 86.8,
+      "completeRate": 98.6
     },
     {
       "ctid": "1092584",
@@ -1523,26 +1538,26 @@
       ],
       "inclass": 559.0,
       "xubao": 497.0,
-      "target": 497.638633562,
+      "target": 497.63863356199994,
       "gap": 0.64,
       "daily": 0.0,
       "rate": 88.9,
       "completeRate": 99.9
     },
     {
-      "ctid": "87851",
-      "name": "赵锶羽",
-      "group": "孟京雷",
+      "ctid": "1092390",
+      "name": "王瑞",
+      "group": "牟林荟",
       "subjects": [
-        "数学"
+        "英语"
       ],
-      "inclass": 574.0,
+      "inclass": 571.0,
       "xubao": 496.0,
-      "target": 505.24336250199997,
-      "gap": 9.24,
+      "target": 491.59445025199983,
+      "gap": -4.41,
       "daily": 1.0,
-      "rate": 86.4,
-      "completeRate": 98.2
+      "rate": 86.9,
+      "completeRate": 100.9
     },
     {
       "ctid": "87700",
@@ -1573,21 +1588,6 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.4
-    },
-    {
-      "ctid": "1092390",
-      "name": "王瑞",
-      "group": "牟林荟",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 571.0,
-      "xubao": 495.0,
-      "target": 491.59445025199983,
-      "gap": -3.41,
-      "daily": 0.0,
-      "rate": 86.7,
-      "completeRate": 100.7
     },
     {
       "ctid": "87771",
@@ -1703,7 +1703,7 @@
       ],
       "inclass": 547.0,
       "xubao": 491.0,
-      "target": 498.2388930370001,
+      "target": 498.238893037,
       "gap": 7.24,
       "daily": 1.0,
       "rate": 89.8,
@@ -2077,12 +2077,12 @@
         "英语"
       ],
       "inclass": 562.0,
-      "xubao": 471.0,
+      "xubao": 472.0,
       "target": 491.829590915,
-      "gap": 20.83,
-      "daily": 0.0,
-      "rate": 83.8,
-      "completeRate": 95.8
+      "gap": 19.83,
+      "daily": 1.0,
+      "rate": 84.0,
+      "completeRate": 96.0
     },
     {
       "ctid": "1096286",
@@ -2205,6 +2205,21 @@
       "completeRate": 96.6
     },
     {
+      "ctid": "87476",
+      "name": "马文彬老师",
+      "group": "王英男",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 499.0,
+      "xubao": 463.0,
+      "target": 472.172886956,
+      "gap": 9.17,
+      "daily": 1.0,
+      "rate": 92.8,
+      "completeRate": 98.1
+    },
+    {
       "ctid": "1094411",
       "name": "乔硕",
       "group": "刘鹤鑫",
@@ -2233,21 +2248,6 @@
       "daily": 0.0,
       "rate": 84.0,
       "completeRate": 95.3
-    },
-    {
-      "ctid": "87476",
-      "name": "马文彬老师",
-      "group": "王英男",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 499.0,
-      "xubao": 462.0,
-      "target": 472.172886956,
-      "gap": 10.17,
-      "daily": 0.0,
-      "rate": 92.6,
-      "completeRate": 97.8
     },
     {
       "ctid": "87940",
@@ -2303,7 +2303,7 @@
       ],
       "inclass": 561.0,
       "xubao": 457.0,
-      "target": 478.33527449900004,
+      "target": 478.3352744990001,
       "gap": 21.34,
       "daily": 0.0,
       "rate": 81.5,
@@ -2400,6 +2400,21 @@
       "completeRate": 100.4
     },
     {
+      "ctid": "1301829",
+      "name": "刘鹤鑫",
+      "group": "刘鹤鑫",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 521.0,
+      "xubao": 449.0,
+      "target": 462.1678949569999,
+      "gap": 13.17,
+      "daily": 2.0,
+      "rate": 86.2,
+      "completeRate": 97.2
+    },
+    {
       "ctid": "1092389",
       "name": "范晓迪",
       "group": "杭禹则",
@@ -2415,21 +2430,6 @@
       "completeRate": 100.3
     },
     {
-      "ctid": "1301829",
-      "name": "刘鹤鑫",
-      "group": "刘鹤鑫",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 521.0,
-      "xubao": 448.0,
-      "target": 462.1678949569999,
-      "gap": 14.17,
-      "daily": 1.0,
-      "rate": 86.0,
-      "completeRate": 96.9
-    },
-    {
       "ctid": "88310",
       "name": "徐月颖",
       "group": "张钧瑞",
@@ -2438,7 +2438,7 @@
       ],
       "inclass": 530.0,
       "xubao": 448.0,
-      "target": 460.26705863100005,
+      "target": 460.2670586310001,
       "gap": 12.27,
       "daily": 0.0,
       "rate": 84.5,
@@ -2617,12 +2617,12 @@
         "物理"
       ],
       "inclass": 466.0,
-      "xubao": 433.0,
+      "xubao": 434.0,
       "target": 438.850042136,
-      "gap": 5.85,
-      "daily": 0.0,
-      "rate": 92.9,
-      "completeRate": 98.7
+      "gap": 4.85,
+      "daily": 1.0,
+      "rate": 93.1,
+      "completeRate": 98.9
     },
     {
       "ctid": "1300229",
@@ -2655,6 +2655,21 @@
       "completeRate": 99.5
     },
     {
+      "ctid": "88335",
+      "name": "陈野",
+      "group": "牟春宇",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 448.0,
+      "xubao": 430.0,
+      "target": 430.676763142,
+      "gap": 0.68,
+      "daily": 1.0,
+      "rate": 96.0,
+      "completeRate": 99.8
+    },
+    {
       "ctid": "1095950",
       "name": "宋希冉",
       "group": "牟春宇",
@@ -2678,26 +2693,11 @@
       ],
       "inclass": 524.0,
       "xubao": 429.0,
-      "target": 442.94383129600004,
+      "target": 442.943831296,
       "gap": 13.94,
       "daily": 3.0,
       "rate": 81.9,
       "completeRate": 96.9
-    },
-    {
-      "ctid": "88335",
-      "name": "陈野",
-      "group": "牟春宇",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 448.0,
-      "xubao": 429.0,
-      "target": 430.676763142,
-      "gap": 1.68,
-      "daily": 0.0,
-      "rate": 95.8,
-      "completeRate": 99.6
     },
     {
       "ctid": "1089395",
@@ -3023,7 +3023,7 @@
       ],
       "inclass": 461.0,
       "xubao": 396.0,
-      "target": 402.9889274919999,
+      "target": 402.98892749199996,
       "gap": 6.99,
       "daily": 1.0,
       "rate": 85.9,
@@ -3053,7 +3053,7 @@
       ],
       "inclass": 492.0,
       "xubao": 395.0,
-      "target": 419.39903761100015,
+      "target": 419.3990376110001,
       "gap": 24.4,
       "daily": 2.0,
       "rate": 80.3,
@@ -3135,6 +3135,21 @@
       "completeRate": 96.6
     },
     {
+      "ctid": "1304766",
+      "name": "林博",
+      "group": "牟春宇",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 493.0,
+      "xubao": 389.0,
+      "target": 399.94421085400035,
+      "gap": 10.94,
+      "daily": 3.0,
+      "rate": 78.9,
+      "completeRate": 97.3
+    },
+    {
       "ctid": "1096163",
       "name": "潘昭燃",
       "group": "牟林荟",
@@ -3165,19 +3180,19 @@
       "completeRate": 99.2
     },
     {
-      "ctid": "1304766",
-      "name": "林博",
-      "group": "牟春宇",
+      "ctid": "87673",
+      "name": "李雯老师",
+      "group": "张钧瑞",
       "subjects": [
-        "物理"
+        "英语"
       ],
-      "inclass": 493.0,
+      "inclass": 484.0,
       "xubao": 388.0,
-      "target": 399.94421085400035,
-      "gap": 11.94,
-      "daily": 2.0,
-      "rate": 78.7,
-      "completeRate": 97.0
+      "target": 392.5501329709998,
+      "gap": 4.55,
+      "daily": 1.0,
+      "rate": 80.2,
+      "completeRate": 98.8
     },
     {
       "ctid": "87870",
@@ -3188,26 +3203,11 @@
       ],
       "inclass": 514.0,
       "xubao": 388.0,
-      "target": 399.9653685940001,
+      "target": 399.96536859400004,
       "gap": 11.97,
       "daily": 0.0,
       "rate": 75.5,
       "completeRate": 97.0
-    },
-    {
-      "ctid": "87673",
-      "name": "李雯老师",
-      "group": "张钧瑞",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 484.0,
-      "xubao": 387.0,
-      "target": 392.5501329709998,
-      "gap": 5.55,
-      "daily": 0.0,
-      "rate": 80.0,
-      "completeRate": 98.6
     },
     {
       "ctid": "1093998",
@@ -3278,7 +3278,7 @@
       ],
       "inclass": 458.0,
       "xubao": 382.0,
-      "target": 391.784599006,
+      "target": 391.78459900599995,
       "gap": 9.78,
       "daily": 0.0,
       "rate": 83.4,
@@ -3308,7 +3308,7 @@
       ],
       "inclass": 452.0,
       "xubao": 381.0,
-      "target": 386.73839694000003,
+      "target": 386.7383969400001,
       "gap": 5.74,
       "daily": 0.0,
       "rate": 84.3,
@@ -3383,7 +3383,7 @@
       ],
       "inclass": 405.0,
       "xubao": 366.0,
-      "target": 368.96270069299993,
+      "target": 368.962700693,
       "gap": 2.96,
       "daily": 0.0,
       "rate": 90.4,
@@ -3562,12 +3562,12 @@
         "英语"
       ],
       "inclass": 446.0,
-      "xubao": 355.0,
+      "xubao": 356.0,
       "target": 374.53177075299993,
-      "gap": 19.53,
-      "daily": -1.0,
-      "rate": 79.6,
-      "completeRate": 94.8
+      "gap": 18.53,
+      "daily": 0.0,
+      "rate": 79.8,
+      "completeRate": 95.1
     },
     {
       "ctid": "87948",
@@ -3578,7 +3578,7 @@
       ],
       "inclass": 434.0,
       "xubao": 352.0,
-      "target": 339.2796792900002,
+      "target": 339.2796792900003,
       "gap": -12.72,
       "daily": 2.0,
       "rate": 81.1,
@@ -3653,7 +3653,7 @@
       ],
       "inclass": 507.0,
       "xubao": 345.0,
-      "target": 392.59322986400014,
+      "target": 392.5932298640001,
       "gap": 47.59,
       "daily": 1.0,
       "rate": 68.0,
@@ -3667,12 +3667,12 @@
         "数学"
       ],
       "inclass": 391.0,
-      "xubao": 343.0,
+      "xubao": 344.0,
       "target": 344.893439674,
-      "gap": 1.89,
-      "daily": 0.0,
-      "rate": 87.7,
-      "completeRate": 99.5
+      "gap": 0.89,
+      "daily": 1.0,
+      "rate": 88.0,
+      "completeRate": 99.7
     },
     {
       "ctid": "88366",
@@ -3682,12 +3682,12 @@
         "物理"
       ],
       "inclass": 454.0,
-      "xubao": 343.0,
+      "xubao": 344.0,
       "target": 369.25589695300005,
-      "gap": 26.26,
-      "daily": 1.0,
-      "rate": 75.6,
-      "completeRate": 92.9
+      "gap": 25.26,
+      "daily": 2.0,
+      "rate": 75.8,
+      "completeRate": 93.2
     },
     {
       "ctid": "1304968",
@@ -3697,12 +3697,12 @@
         "物理"
       ],
       "inclass": 439.0,
-      "xubao": 341.0,
+      "xubao": 342.0,
       "target": 355.95571956400005,
-      "gap": 14.96,
-      "daily": 1.0,
-      "rate": 77.7,
-      "completeRate": 95.8
+      "gap": 13.96,
+      "daily": 2.0,
+      "rate": 77.9,
+      "completeRate": 96.1
     },
     {
       "ctid": "1092250",
@@ -3712,12 +3712,12 @@
         "英语"
       ],
       "inclass": 440.0,
-      "xubao": 336.0,
+      "xubao": 337.0,
       "target": 344.297373346,
-      "gap": 8.3,
-      "daily": 1.0,
-      "rate": 76.4,
-      "completeRate": 97.6
+      "gap": 7.3,
+      "daily": 2.0,
+      "rate": 76.6,
+      "completeRate": 97.9
     },
     {
       "ctid": "87943",
@@ -3758,11 +3758,41 @@
       ],
       "inclass": 385.0,
       "xubao": 328.0,
-      "target": 339.00467530500003,
+      "target": 339.004675305,
       "gap": 11.0,
       "daily": 0.0,
       "rate": 85.2,
       "completeRate": 96.8
+    },
+    {
+      "ctid": "1304733",
+      "name": "舒庆阳",
+      "group": "魏述博",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 464.0,
+      "xubao": 328.0,
+      "target": 326.5857081800003,
+      "gap": -1.41,
+      "daily": 2.0,
+      "rate": 70.7,
+      "completeRate": 100.4
+    },
+    {
+      "ctid": "1304774",
+      "name": "王志垚",
+      "group": "魏述博",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 419.0,
+      "xubao": 328.0,
+      "target": 342.6927373140002,
+      "gap": 14.69,
+      "daily": 1.0,
+      "rate": 78.3,
+      "completeRate": 95.7
     },
     {
       "ctid": "87853",
@@ -3780,34 +3810,19 @@
       "completeRate": 97.8
     },
     {
-      "ctid": "1304733",
-      "name": "舒庆阳",
+      "ctid": "1089397",
+      "name": "王春扬",
       "group": "魏述博",
       "subjects": [
         "物理"
       ],
-      "inclass": 464.0,
-      "xubao": 327.0,
-      "target": 326.5857081800003,
-      "gap": -0.41,
-      "daily": 1.0,
-      "rate": 70.5,
-      "completeRate": 100.1
-    },
-    {
-      "ctid": "1304774",
-      "name": "王志垚",
-      "group": "魏述博",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 419.0,
-      "xubao": 327.0,
-      "target": 342.6927373140002,
-      "gap": 15.69,
+      "inclass": 415.0,
+      "xubao": 325.0,
+      "target": 337.8430513040002,
+      "gap": 12.84,
       "daily": 0.0,
-      "rate": 78.0,
-      "completeRate": 95.4
+      "rate": 78.3,
+      "completeRate": 96.2
     },
     {
       "ctid": "1092251",
@@ -3817,27 +3832,12 @@
         "英语"
       ],
       "inclass": 450.0,
-      "xubao": 326.0,
-      "target": 346.970861437,
-      "gap": 20.97,
-      "daily": 0.0,
-      "rate": 72.4,
-      "completeRate": 94.0
-    },
-    {
-      "ctid": "1089397",
-      "name": "王春扬",
-      "group": "魏述博",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 415.0,
       "xubao": 325.0,
-      "target": 337.84305130400026,
-      "gap": 12.84,
-      "daily": 0.0,
-      "rate": 78.3,
-      "completeRate": 96.2
+      "target": 345.970861437,
+      "gap": 20.97,
+      "daily": -1.0,
+      "rate": 72.2,
+      "completeRate": 93.9
     },
     {
       "ctid": "88348",
@@ -3908,7 +3908,7 @@
       ],
       "inclass": 477.0,
       "xubao": 317.0,
-      "target": 333.2508704930005,
+      "target": 333.25087049300043,
       "gap": 16.25,
       "daily": 1.0,
       "rate": 66.5,
@@ -3945,21 +3945,6 @@
       "completeRate": 99.3
     },
     {
-      "ctid": "87791",
-      "name": "乔庆宇",
-      "group": "魏述博",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 378.0,
-      "xubao": 311.0,
-      "target": 324.1566219390001,
-      "gap": 13.16,
-      "daily": 0.0,
-      "rate": 82.3,
-      "completeRate": 95.9
-    },
-    {
       "ctid": "1096161",
       "name": "万家欢",
       "group": "牟春宇",
@@ -3987,6 +3972,21 @@
       "gap": 13.15,
       "daily": 0.0,
       "rate": 78.3,
+      "completeRate": 95.9
+    },
+    {
+      "ctid": "87791",
+      "name": "乔庆宇",
+      "group": "魏述博",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 378.0,
+      "xubao": 310.0,
+      "target": 323.15662193900005,
+      "gap": 13.16,
+      "daily": -1.0,
+      "rate": 82.0,
       "completeRate": 95.9
     },
     {
@@ -4102,12 +4102,12 @@
         "物理"
       ],
       "inclass": 335.0,
-      "xubao": 305.0,
+      "xubao": 306.0,
       "target": 312.73566810299997,
-      "gap": 7.74,
-      "daily": 1.0,
-      "rate": 91.0,
-      "completeRate": 97.5
+      "gap": 6.74,
+      "daily": 2.0,
+      "rate": 91.3,
+      "completeRate": 97.8
     },
     {
       "ctid": "88343",
@@ -4185,6 +4185,21 @@
       "completeRate": 99.6
     },
     {
+      "ctid": "1304970",
+      "name": "张楚瑜",
+      "group": "张钧瑞",
+      "subjects": [
+        "英语"
+      ],
+      "inclass": 430.0,
+      "xubao": 297.0,
+      "target": 317.688280598,
+      "gap": 20.69,
+      "daily": 2.0,
+      "rate": 69.1,
+      "completeRate": 93.5
+    },
+    {
       "ctid": "1306505",
       "name": "吴晶如",
       "group": "魏述博",
@@ -4230,36 +4245,6 @@
       "completeRate": 98.1
     },
     {
-      "ctid": "1304970",
-      "name": "张楚瑜",
-      "group": "张钧瑞",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 430.0,
-      "xubao": 296.0,
-      "target": 317.688280598,
-      "gap": 21.69,
-      "daily": 1.0,
-      "rate": 68.8,
-      "completeRate": 93.2
-    },
-    {
-      "ctid": "1309054",
-      "name": "孙绍博",
-      "group": "王欣",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 316.0,
-      "xubao": 296.0,
-      "target": 299.531693725,
-      "gap": 3.53,
-      "daily": 0.0,
-      "rate": 93.7,
-      "completeRate": 98.8
-    },
-    {
       "ctid": "87926",
       "name": "张宁",
       "group": "杭禹则",
@@ -4275,6 +4260,21 @@
       "completeRate": 98.9
     },
     {
+      "ctid": "1309054",
+      "name": "孙绍博",
+      "group": "王欣",
+      "subjects": [
+        "英语"
+      ],
+      "inclass": 316.0,
+      "xubao": 295.0,
+      "target": 298.531693725,
+      "gap": 3.53,
+      "daily": -1.0,
+      "rate": 93.4,
+      "completeRate": 98.8
+    },
+    {
       "ctid": "1092261",
       "name": "关爽",
       "group": "张钧瑞",
@@ -4288,6 +4288,21 @@
       "daily": 0.0,
       "rate": 89.6,
       "completeRate": 99.2
+    },
+    {
+      "ctid": "1300027",
+      "name": "温宁",
+      "group": "魏述博",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 402.0,
+      "xubao": 291.0,
+      "target": 283.2858406840003,
+      "gap": -7.71,
+      "daily": 4.0,
+      "rate": 72.4,
+      "completeRate": 102.7
     },
     {
       "ctid": "1304765",
@@ -4318,21 +4333,6 @@
       "daily": 0.0,
       "rate": 83.1,
       "completeRate": 98.3
-    },
-    {
-      "ctid": "1300027",
-      "name": "温宁",
-      "group": "魏述博",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 402.0,
-      "xubao": 289.0,
-      "target": 283.2858406840002,
-      "gap": -5.71,
-      "daily": 2.0,
-      "rate": 71.9,
-      "completeRate": 102.0
     },
     {
       "ctid": "1306509",
@@ -4447,12 +4447,12 @@
         "物理"
       ],
       "inclass": 325.0,
-      "xubao": 270.0,
+      "xubao": 271.0,
       "target": 274.4148829850001,
-      "gap": 4.41,
-      "daily": 0.0,
-      "rate": 83.1,
-      "completeRate": 98.4
+      "gap": 3.41,
+      "daily": 1.0,
+      "rate": 83.4,
+      "completeRate": 98.8
     },
     {
       "ctid": "1089398",
@@ -4807,12 +4807,12 @@
         "数学"
       ],
       "inclass": 229.0,
-      "xubao": 188.0,
-      "target": 196.11627908200003,
-      "gap": 8.12,
-      "daily": 0.0,
-      "rate": 82.1,
-      "completeRate": 95.9
+      "xubao": 189.0,
+      "target": 196.11627908200006,
+      "gap": 7.12,
+      "daily": 1.0,
+      "rate": 82.5,
+      "completeRate": 96.4
     },
     {
       "ctid": "1309148",
