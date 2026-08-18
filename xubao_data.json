@@ -1,90 +1,90 @@
 {
   "meta": {
     "base": "沈阳",
-    "updated": "2026-08-18 14:00",
+    "updated": "2026-08-18 18:00",
     "totalInclass": 145357,
-    "totalXubao": 130477,
-    "totalTarget": 131797.63,
-    "totalGap": 1320.63,
-    "totalDaily": -11,
+    "totalXubao": 130476,
+    "totalTarget": 131786.63,
+    "totalGap": 1310.63,
+    "totalDaily": -12,
     "totalRate": 89.8,
     "totalCompleteRate": 99.0,
     "ctCount": 308,
     "groupCount": 12,
     "subjectCount": 7,
-    "prevUpdated": "2026-08-17 17:00",
-    "prevXubao": 130417,
-    "prevGap": 1452.67,
-    "prevDaily": 0
+    "prevUpdated": "2026-08-18 14:00",
+    "prevXubao": 130477,
+    "prevGap": 1320.63,
+    "prevDaily": -11
   },
   "subjects": [
     {
       "name": "数学",
       "inclass": 55125.0,
-      "xubao": 50936.0,
+      "xubao": 50941.0,
       "target": 51296.899767616,
-      "gap": 360.9,
-      "daily": -1.0,
+      "gap": 355.9,
+      "daily": 4.0,
       "rate": 92.4,
       "completeRate": 99.3
     },
     {
       "name": "物理",
       "inclass": 37945.0,
-      "xubao": 33638.0,
-      "target": 34093.91581217703,
-      "gap": 455.92,
-      "daily": 0.0,
+      "xubao": 33636.0,
+      "target": 34089.91581217703,
+      "gap": 453.92,
+      "daily": -2.0,
       "rate": 88.6,
       "completeRate": 98.7
     },
     {
       "name": "英语",
       "inclass": 35909.0,
-      "xubao": 30781.0,
-      "target": 31168.42267333901,
-      "gap": 387.42,
-      "daily": 3.0,
+      "xubao": 30782.0,
+      "target": 31166.42267333901,
+      "gap": 384.42,
+      "daily": 4.0,
       "rate": 85.7,
       "completeRate": 98.8
     },
     {
       "name": "历史",
       "inclass": 4582.0,
-      "xubao": 4239.0,
-      "target": 4282.022770284,
+      "xubao": 4238.0,
+      "target": 4281.022770284,
       "gap": 43.02,
-      "daily": -3.0,
+      "daily": -4.0,
       "rate": 92.5,
       "completeRate": 99.0
     },
     {
       "name": "生物",
       "inclass": 4200.0,
-      "xubao": 3882.0,
-      "target": 3905.6766709480003,
+      "xubao": 3880.0,
+      "target": 3903.6766709480003,
       "gap": 23.68,
-      "daily": -4.0,
+      "daily": -6.0,
       "rate": 92.4,
       "completeRate": 99.4
     },
     {
       "name": "地理",
       "inclass": 4191.0,
-      "xubao": 3868.0,
-      "target": 3900.0832788589996,
+      "xubao": 3867.0,
+      "target": 3899.0832788589996,
       "gap": 32.08,
-      "daily": -3.0,
+      "daily": -4.0,
       "rate": 92.3,
       "completeRate": 99.2
     },
     {
       "name": "道德与法治",
       "inclass": 3405.0,
-      "xubao": 3133.0,
-      "target": 3150.6043694649993,
+      "xubao": 3132.0,
+      "target": 3149.6043694649993,
       "gap": 17.6,
-      "daily": -3.0,
+      "daily": -4.0,
       "rate": 92.0,
       "completeRate": 99.4
     }
@@ -94,8 +94,8 @@
       "name": "牟春宇",
       "inclass": 19232.0,
       "xubao": 17284.0,
-      "target": 17520.357118546992,
-      "gap": 236.36,
+      "target": 17518.357118546992,
+      "gap": 234.36,
       "daily": -2.0,
       "ctCount": 45,
       "rate": 89.9,
@@ -104,10 +104,10 @@
     {
       "name": "魏述博",
       "inclass": 18713.0,
-      "xubao": 16354.0,
-      "target": 16573.55869362999,
+      "xubao": 16352.0,
+      "target": 16571.55869362999,
       "gap": 219.56,
-      "daily": 2.0,
+      "daily": 0.0,
       "ctCount": 44,
       "rate": 87.4,
       "completeRate": 98.7
@@ -115,10 +115,10 @@
     {
       "name": "杭禹则",
       "inclass": 11729.0,
-      "xubao": 10927.0,
+      "xubao": 10929.0,
       "target": 10973.246447415991,
-      "gap": 46.25,
-      "daily": 1.0,
+      "gap": 44.25,
+      "daily": 3.0,
       "ctCount": 23,
       "rate": 93.2,
       "completeRate": 99.6
@@ -126,10 +126,10 @@
     {
       "name": "王英男",
       "inclass": 11522.0,
-      "xubao": 10608.0,
+      "xubao": 10610.0,
       "target": 10722.870161883997,
-      "gap": 114.87,
-      "daily": -1.0,
+      "gap": 112.87,
+      "daily": 1.0,
       "ctCount": 24,
       "rate": 92.1,
       "completeRate": 98.9
@@ -137,10 +137,10 @@
     {
       "name": "张钧瑞",
       "inclass": 12209.0,
-      "xubao": 10521.0,
-      "target": 10632.685657536,
+      "xubao": 10520.0,
+      "target": 10631.685657536,
       "gap": 111.69,
-      "daily": 1.0,
+      "daily": 0.0,
       "ctCount": 26,
       "rate": 86.2,
       "completeRate": 98.9
@@ -159,10 +159,10 @@
     {
       "name": "孟京雷",
       "inclass": 11495.0,
-      "xubao": 10411.0,
+      "xubao": 10412.0,
       "target": 10509.611695552005,
-      "gap": 98.61,
-      "daily": 1.0,
+      "gap": 97.61,
+      "daily": 2.0,
       "ctCount": 22,
       "rate": 90.6,
       "completeRate": 99.1
@@ -171,8 +171,8 @@
       "name": "牟林荟",
       "inclass": 11778.0,
       "xubao": 10189.0,
-      "target": 10322.470397667988,
-      "gap": 133.47,
+      "target": 10321.470397667988,
+      "gap": 132.47,
       "daily": 1.0,
       "ctCount": 25,
       "rate": 86.5,
@@ -181,10 +181,10 @@
     {
       "name": "王欣",
       "inclass": 11922.0,
-      "xubao": 10071.0,
-      "target": 10213.266618135,
-      "gap": 142.27,
-      "daily": 1.0,
+      "xubao": 10073.0,
+      "target": 10213.266618134998,
+      "gap": 140.27,
+      "daily": 3.0,
       "ctCount": 25,
       "rate": 84.5,
       "completeRate": 98.6
@@ -203,10 +203,10 @@
     {
       "name": "缪家新",
       "inclass": 8760.0,
-      "xubao": 8104.0,
-      "target": 8161.240284456997,
+      "xubao": 8101.0,
+      "target": 8158.240284456997,
       "gap": 57.24,
-      "daily": -8.0,
+      "daily": -11.0,
       "ctCount": 16,
       "rate": 92.5,
       "completeRate": 99.3
@@ -214,10 +214,10 @@
     {
       "name": "郑欣悦",
       "inclass": 7618.0,
-      "xubao": 7018.0,
-      "target": 7077.146805099,
+      "xubao": 7016.0,
+      "target": 7075.146805099,
       "gap": 59.15,
-      "daily": -5.0,
+      "daily": -7.0,
       "ctCount": 16,
       "rate": 92.1,
       "completeRate": 99.2
@@ -238,7 +238,7 @@
       "daily": -1.0,
       "rate": 93.9,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88298",
@@ -254,7 +254,7 @@
       "daily": 0.0,
       "rate": 93.0,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87835",
@@ -270,7 +270,7 @@
       "daily": -1.0,
       "rate": 88.0,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092257",
@@ -280,13 +280,13 @@
         "生物"
       ],
       "inclass": 658.0,
-      "xubao": 628.0,
-      "target": 631.2080768569999,
+      "xubao": 627.0,
+      "target": 630.2080768569999,
       "gap": 3.21,
-      "daily": 0.0,
-      "rate": 95.4,
+      "daily": -1.0,
+      "rate": 95.3,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87737",
@@ -302,7 +302,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 103.4,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1091010",
@@ -318,7 +318,7 @@
       "daily": 0.0,
       "rate": 98.3,
       "completeRate": 99.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1093008",
@@ -334,7 +334,7 @@
       "daily": 0.0,
       "rate": 97.2,
       "completeRate": 99.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88206",
@@ -350,7 +350,7 @@
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1093184",
@@ -366,7 +366,7 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306982",
@@ -382,7 +382,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 100.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1093853",
@@ -398,7 +398,7 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 100.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88172",
@@ -414,7 +414,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87752",
@@ -430,7 +430,7 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 101.2,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "88347",
@@ -446,7 +446,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092255",
@@ -462,7 +462,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1094422",
@@ -478,7 +478,7 @@
       "daily": -1.0,
       "rate": 97.4,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300016",
@@ -494,7 +494,7 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 100.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306516",
@@ -510,7 +510,7 @@
       "daily": -1.0,
       "rate": 96.0,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092392",
@@ -526,7 +526,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300031",
@@ -542,7 +542,7 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 100.5,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1092254",
@@ -558,7 +558,7 @@
       "daily": 0.0,
       "rate": 94.5,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1093854",
@@ -574,7 +574,7 @@
       "daily": 0.0,
       "rate": 95.1,
       "completeRate": 100.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1301921",
@@ -590,7 +590,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1095953",
@@ -600,13 +600,13 @@
         "英语"
       ],
       "inclass": 563.0,
-      "xubao": 546.0,
-      "target": 548.825327685,
+      "xubao": 545.0,
+      "target": 547.825327685,
       "gap": 2.83,
-      "daily": 0.0,
-      "rate": 97.0,
+      "daily": -1.0,
+      "rate": 96.8,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88308",
@@ -617,12 +617,12 @@
       ],
       "inclass": 553.0,
       "xubao": 544.0,
-      "target": 538.8168267599999,
+      "target": 538.81682676,
       "gap": -5.18,
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 101.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1095951",
@@ -638,7 +638,7 @@
       "daily": 0.0,
       "rate": 95.6,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87736",
@@ -654,7 +654,7 @@
       "daily": 0.0,
       "rate": 94.1,
       "completeRate": 99.0,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1300018",
@@ -670,7 +670,7 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1091008",
@@ -686,7 +686,7 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096171",
@@ -702,23 +702,7 @@
       "daily": 0.0,
       "rate": 95.1,
       "completeRate": 98.8,
-      "perf": "C"
-    },
-    {
-      "ctid": "1089394",
-      "name": "孙嘉",
-      "group": "缪家新",
-      "subjects": [
-        "地理"
-      ],
-      "inclass": 587.0,
-      "xubao": 541.0,
-      "target": 549.082758621,
-      "gap": 8.08,
-      "daily": 0.0,
-      "rate": 92.2,
-      "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1094417",
@@ -734,7 +718,23 @@
       "daily": 0.0,
       "rate": 95.7,
       "completeRate": 100.5,
-      "perf": "S"
+      "perf": ""
+    },
+    {
+      "ctid": "1089394",
+      "name": "孙嘉",
+      "group": "缪家新",
+      "subjects": [
+        "地理"
+      ],
+      "inclass": 587.0,
+      "xubao": 540.0,
+      "target": 548.082758621,
+      "gap": 8.08,
+      "daily": -1.0,
+      "rate": 92.0,
+      "completeRate": 98.5,
+      "perf": ""
     },
     {
       "ctid": "1307471",
@@ -750,7 +750,7 @@
       "daily": -1.0,
       "rate": 94.9,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "88111",
@@ -766,7 +766,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 100.3,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1094563",
@@ -782,7 +782,7 @@
       "daily": 1.0,
       "rate": 93.4,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1096173",
@@ -798,7 +798,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 100.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1301690",
@@ -814,7 +814,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306451",
@@ -830,7 +830,7 @@
       "daily": -1.0,
       "rate": 92.1,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1094555",
@@ -846,7 +846,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87942",
@@ -862,7 +862,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 98.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092260",
@@ -878,7 +878,7 @@
       "daily": 1.0,
       "rate": 92.1,
       "completeRate": 97.4,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87538",
@@ -894,7 +894,7 @@
       "daily": 0.0,
       "rate": 90.5,
       "completeRate": 101.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1091007",
@@ -910,7 +910,7 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1307287",
@@ -926,7 +926,7 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 100.4,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1301689",
@@ -942,7 +942,7 @@
       "daily": 0.0,
       "rate": 91.7,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092428",
@@ -953,12 +953,12 @@
       ],
       "inclass": 567.0,
       "xubao": 531.0,
-      "target": 531.853589903,
+      "target": 531.8535899029999,
       "gap": 0.85,
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87906",
@@ -974,7 +974,7 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306525",
@@ -990,7 +990,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1094564",
@@ -1006,7 +1006,7 @@
       "daily": 0.0,
       "rate": 93.3,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87781",
@@ -1022,7 +1022,7 @@
       "daily": 2.0,
       "rate": 89.4,
       "completeRate": 102.3,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1306520",
@@ -1038,7 +1038,7 @@
       "daily": 0.0,
       "rate": 90.6,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092394",
@@ -1054,7 +1054,7 @@
       "daily": -1.0,
       "rate": 97.6,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092393",
@@ -1070,7 +1070,7 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 100.4,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1093856",
@@ -1086,7 +1086,7 @@
       "daily": 0.0,
       "rate": 92.1,
       "completeRate": 100.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87872",
@@ -1102,7 +1102,7 @@
       "daily": 0.0,
       "rate": 90.2,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306986",
@@ -1118,7 +1118,23 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 100.4,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1096045",
+      "name": "许妍",
+      "group": "杭禹则",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 577.0,
+      "xubao": 523.0,
+      "target": 539.363883146,
+      "gap": 16.36,
+      "daily": 1.0,
+      "rate": 90.6,
+      "completeRate": 97.0,
+      "perf": ""
     },
     {
       "ctid": "87753",
@@ -1134,7 +1150,7 @@
       "daily": -1.0,
       "rate": 91.1,
       "completeRate": 98.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300019",
@@ -1150,23 +1166,7 @@
       "daily": -1.0,
       "rate": 91.6,
       "completeRate": 100.4,
-      "perf": "A"
-    },
-    {
-      "ctid": "1096045",
-      "name": "许妍",
-      "group": "杭禹则",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 577.0,
-      "xubao": 522.0,
-      "target": 539.363883146,
-      "gap": 17.36,
-      "daily": 0.0,
-      "rate": 90.5,
-      "completeRate": 96.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87854",
@@ -1182,7 +1182,7 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096290",
@@ -1198,7 +1198,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 97.4,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87780",
@@ -1214,7 +1214,7 @@
       "daily": 1.0,
       "rate": 90.0,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87793",
@@ -1230,7 +1230,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300022",
@@ -1246,7 +1246,7 @@
       "daily": 0.0,
       "rate": 90.9,
       "completeRate": 97.8,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1302749",
@@ -1262,7 +1262,7 @@
       "daily": 0.0,
       "rate": 94.5,
       "completeRate": 99.2,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1093010",
@@ -1278,7 +1278,7 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 99.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092266",
@@ -1294,7 +1294,7 @@
       "daily": 0.0,
       "rate": 88.4,
       "completeRate": 98.8,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1306983",
@@ -1310,7 +1310,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306452",
@@ -1326,7 +1326,7 @@
       "daily": 0.0,
       "rate": 90.1,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307289",
@@ -1342,7 +1342,7 @@
       "daily": -1.0,
       "rate": 91.1,
       "completeRate": 99.7,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1306449",
@@ -1358,7 +1358,7 @@
       "daily": 0.0,
       "rate": 90.0,
       "completeRate": 98.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300015",
@@ -1374,7 +1374,7 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1096166",
@@ -1390,7 +1390,7 @@
       "daily": -1.0,
       "rate": 86.7,
       "completeRate": 98.0,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092259",
@@ -1406,7 +1406,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87851",
@@ -1422,7 +1422,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1092252",
@@ -1438,7 +1438,7 @@
       "daily": 0.0,
       "rate": 91.7,
       "completeRate": 100.7,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87787",
@@ -1454,7 +1454,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88154",
@@ -1470,7 +1470,7 @@
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87789",
@@ -1486,7 +1486,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.0,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1306981",
@@ -1502,7 +1502,7 @@
       "daily": 0.0,
       "rate": 88.6,
       "completeRate": 98.6,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1096169",
@@ -1518,7 +1518,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1307290",
@@ -1534,7 +1534,23 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1092584",
+      "name": "许红月",
+      "group": "王英男",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 573.0,
+      "xubao": 503.0,
+      "target": 525.523262571,
+      "gap": 22.52,
+      "daily": 1.0,
+      "rate": 87.8,
+      "completeRate": 95.7,
+      "perf": ""
     },
     {
       "ctid": "1306519",
@@ -1550,23 +1566,7 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": "B"
-    },
-    {
-      "ctid": "1092584",
-      "name": "许红月",
-      "group": "王英男",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 573.0,
-      "xubao": 502.0,
-      "target": 525.523262571,
-      "gap": 23.52,
-      "daily": 0.0,
-      "rate": 87.6,
-      "completeRate": 95.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1307291",
@@ -1582,7 +1582,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 98.9,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1096162",
@@ -1598,7 +1598,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.3,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1089396",
@@ -1614,7 +1614,7 @@
       "daily": 0.0,
       "rate": 86.6,
       "completeRate": 97.1,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1093009",
@@ -1630,7 +1630,7 @@
       "daily": 1.0,
       "rate": 87.9,
       "completeRate": 96.3,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1089510",
@@ -1646,7 +1646,7 @@
       "daily": -1.0,
       "rate": 89.3,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87701",
@@ -1662,23 +1662,7 @@
       "daily": 0.0,
       "rate": 86.5,
       "completeRate": 98.4,
-      "perf": "B"
-    },
-    {
-      "ctid": "1092390",
-      "name": "王瑞",
-      "group": "牟林荟",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 570.0,
-      "xubao": 498.0,
-      "target": 490.8088068559998,
-      "gap": -7.19,
-      "daily": 0.0,
-      "rate": 87.4,
-      "completeRate": 101.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87700",
@@ -1694,7 +1678,7 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87771",
@@ -1710,7 +1694,23 @@
       "daily": 0.0,
       "rate": 85.4,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1092390",
+      "name": "王瑞",
+      "group": "牟林荟",
+      "subjects": [
+        "英语"
+      ],
+      "inclass": 570.0,
+      "xubao": 497.0,
+      "target": 489.8088068559998,
+      "gap": -7.19,
+      "daily": -1.0,
+      "rate": 87.2,
+      "completeRate": 101.5,
+      "perf": ""
     },
     {
       "ctid": "1306975",
@@ -1721,12 +1721,12 @@
       ],
       "inclass": 571.0,
       "xubao": 496.0,
-      "target": 509.31617234099997,
+      "target": 509.3161723409999,
       "gap": 13.32,
       "daily": 0.0,
       "rate": 86.9,
       "completeRate": 97.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1301704",
@@ -1742,7 +1742,7 @@
       "daily": -1.0,
       "rate": 90.7,
       "completeRate": 99.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1093860",
@@ -1758,7 +1758,7 @@
       "daily": 0.0,
       "rate": 85.7,
       "completeRate": 101.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1091009",
@@ -1774,7 +1774,7 @@
       "daily": 0.0,
       "rate": 88.4,
       "completeRate": 98.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1095956",
@@ -1790,7 +1790,7 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 98.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87956",
@@ -1806,7 +1806,7 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 100.2,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1089400",
@@ -1822,7 +1822,7 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 97.3,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87839",
@@ -1838,7 +1838,7 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 102.6,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1096167",
@@ -1854,7 +1854,7 @@
       "daily": -1.0,
       "rate": 95.0,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88224",
@@ -1870,7 +1870,7 @@
       "daily": 0.0,
       "rate": 86.2,
       "completeRate": 105.3,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1302752",
@@ -1886,7 +1886,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1094554",
@@ -1902,7 +1902,7 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 97.8,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1096047",
@@ -1918,7 +1918,7 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88100",
@@ -1934,7 +1934,7 @@
       "daily": -1.0,
       "rate": 88.0,
       "completeRate": 98.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87792",
@@ -1950,7 +1950,7 @@
       "daily": -2.0,
       "rate": 81.2,
       "completeRate": 98.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304771",
@@ -1966,7 +1966,7 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87893",
@@ -1982,7 +1982,7 @@
       "daily": 0.0,
       "rate": 98.8,
       "completeRate": 100.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1095947",
@@ -1998,7 +1998,7 @@
       "daily": -1.0,
       "rate": 89.7,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88153",
@@ -2014,7 +2014,7 @@
       "daily": 1.0,
       "rate": 88.2,
       "completeRate": 101.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1304964",
@@ -2030,23 +2030,7 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 99.0,
-      "perf": "A"
-    },
-    {
-      "ctid": "1092551",
-      "name": "盖晶晶",
-      "group": "缪家新",
-      "subjects": [
-        "生物"
-      ],
-      "inclass": 504.0,
-      "xubao": 486.0,
-      "target": 487.74574800900007,
-      "gap": 1.75,
-      "daily": -1.0,
-      "rate": 96.4,
-      "completeRate": 99.6,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1092262",
@@ -2062,7 +2046,23 @@
       "daily": 0.0,
       "rate": 83.3,
       "completeRate": 96.5,
-      "perf": "C"
+      "perf": ""
+    },
+    {
+      "ctid": "1092551",
+      "name": "盖晶晶",
+      "group": "缪家新",
+      "subjects": [
+        "生物"
+      ],
+      "inclass": 504.0,
+      "xubao": 485.0,
+      "target": 486.74574800900007,
+      "gap": 1.75,
+      "daily": -2.0,
+      "rate": 96.2,
+      "completeRate": 99.6,
+      "perf": ""
     },
     {
       "ctid": "1096288",
@@ -2078,7 +2078,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 97.4,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1300026",
@@ -2094,7 +2094,7 @@
       "daily": 0.0,
       "rate": 83.5,
       "completeRate": 101.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1301354",
@@ -2110,7 +2110,7 @@
       "daily": -1.0,
       "rate": 83.5,
       "completeRate": 96.0,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1093851",
@@ -2126,7 +2126,7 @@
       "daily": 0.0,
       "rate": 93.9,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87652",
@@ -2142,7 +2142,7 @@
       "daily": 0.0,
       "rate": 85.4,
       "completeRate": 97.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306973",
@@ -2158,7 +2158,7 @@
       "daily": -1.0,
       "rate": 83.1,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304730",
@@ -2174,23 +2174,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.6,
-      "perf": "A"
-    },
-    {
-      "ctid": "1304731",
-      "name": "李佳欣",
-      "group": "魏述博",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 504.0,
-      "xubao": 475.0,
-      "target": 485.4119499380001,
-      "gap": 10.41,
-      "daily": 0.0,
-      "rate": 94.2,
-      "completeRate": 97.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300025",
@@ -2206,7 +2190,23 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 98.0,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1304731",
+      "name": "李佳欣",
+      "group": "魏述博",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 504.0,
+      "xubao": 474.0,
+      "target": 484.4119499380001,
+      "gap": 10.41,
+      "daily": -1.0,
+      "rate": 94.0,
+      "completeRate": 97.9,
+      "perf": ""
     },
     {
       "ctid": "1096286",
@@ -2222,7 +2222,7 @@
       "daily": 0.0,
       "rate": 90.4,
       "completeRate": 99.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87738",
@@ -2238,7 +2238,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.8,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87826",
@@ -2254,7 +2254,7 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306524",
@@ -2270,7 +2270,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1094411",
@@ -2286,7 +2286,7 @@
       "daily": 0.0,
       "rate": 89.2,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092391",
@@ -2302,7 +2302,7 @@
       "daily": 0.0,
       "rate": 87.5,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307472",
@@ -2318,7 +2318,7 @@
       "daily": 0.0,
       "rate": 85.9,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1302751",
@@ -2328,13 +2328,13 @@
         "数学"
       ],
       "inclass": 547.0,
-      "xubao": 466.0,
+      "xubao": 467.0,
       "target": 477.96643144800004,
-      "gap": 11.97,
-      "daily": 0.0,
-      "rate": 85.2,
-      "completeRate": 97.5,
-      "perf": "B"
+      "gap": 10.97,
+      "daily": 1.0,
+      "rate": 85.4,
+      "completeRate": 97.7,
+      "perf": ""
     },
     {
       "ctid": "87957",
@@ -2350,7 +2350,7 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 97.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300226",
@@ -2366,7 +2366,7 @@
       "daily": -1.0,
       "rate": 96.9,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87476",
@@ -2382,7 +2382,7 @@
       "daily": 1.0,
       "rate": 93.2,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306987",
@@ -2398,7 +2398,7 @@
       "daily": 0.0,
       "rate": 84.4,
       "completeRate": 95.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306523",
@@ -2414,7 +2414,7 @@
       "daily": 0.0,
       "rate": 82.7,
       "completeRate": 97.0,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87940",
@@ -2430,7 +2430,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87779",
@@ -2446,7 +2446,7 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 100.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88135",
@@ -2462,7 +2462,7 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1301829",
@@ -2478,7 +2478,7 @@
       "daily": 0.0,
       "rate": 87.7,
       "completeRate": 98.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1089399",
@@ -2494,7 +2494,7 @@
       "daily": -1.0,
       "rate": 96.8,
       "completeRate": 99.8,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1304728",
@@ -2510,7 +2510,7 @@
       "daily": -1.0,
       "rate": 94.2,
       "completeRate": 99.3,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1300020",
@@ -2526,23 +2526,7 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 98.9,
-      "perf": "B"
-    },
-    {
-      "ctid": "1304962",
-      "name": "李松",
-      "group": "牟春宇",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 473.0,
-      "xubao": 453.0,
-      "target": 456.248514316,
-      "gap": 3.25,
-      "daily": 0.0,
-      "rate": 95.8,
-      "completeRate": 99.3,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "88310",
@@ -2558,7 +2542,23 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 98.2,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1304962",
+      "name": "李松",
+      "group": "牟春宇",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 473.0,
+      "xubao": 452.0,
+      "target": 455.248514316,
+      "gap": 3.25,
+      "daily": -1.0,
+      "rate": 95.6,
+      "completeRate": 99.3,
+      "perf": ""
     },
     {
       "ctid": "1307927",
@@ -2574,7 +2574,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306513",
@@ -2590,7 +2590,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 101.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1092389",
@@ -2606,7 +2606,7 @@
       "daily": 0.0,
       "rate": 90.7,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1094421",
@@ -2622,7 +2622,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1304732",
@@ -2638,7 +2638,7 @@
       "daily": 0.0,
       "rate": 97.4,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1089964",
@@ -2654,7 +2654,23 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 101.7,
-      "perf": "A"
+      "perf": ""
+    },
+    {
+      "ctid": "1092249",
+      "name": "王川益",
+      "group": "牟林荟",
+      "subjects": [
+        "英语"
+      ],
+      "inclass": 529.0,
+      "xubao": 442.0,
+      "target": 449.52081439299997,
+      "gap": 7.52,
+      "daily": 0.0,
+      "rate": 83.6,
+      "completeRate": 98.3,
+      "perf": ""
     },
     {
       "ctid": "88152",
@@ -2670,23 +2686,7 @@
       "daily": 0.0,
       "rate": 96.1,
       "completeRate": 98.0,
-      "perf": "B"
-    },
-    {
-      "ctid": "1092249",
-      "name": "王川益",
-      "group": "牟林荟",
-      "subjects": [
-        "英语"
-      ],
-      "inclass": 529.0,
-      "xubao": 441.0,
-      "target": 449.52081439299997,
-      "gap": 8.52,
-      "daily": -1.0,
-      "rate": 83.4,
-      "completeRate": 98.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1093864",
@@ -2696,13 +2696,13 @@
         "英语"
       ],
       "inclass": 519.0,
-      "xubao": 439.0,
+      "xubao": 440.0,
       "target": 446.6029005749999,
-      "gap": 7.6,
-      "daily": 0.0,
-      "rate": 84.6,
-      "completeRate": 98.3,
-      "perf": "D"
+      "gap": 6.6,
+      "daily": 1.0,
+      "rate": 84.8,
+      "completeRate": 98.5,
+      "perf": ""
     },
     {
       "ctid": "1304729",
@@ -2718,7 +2718,7 @@
       "daily": 0.0,
       "rate": 83.1,
       "completeRate": 101.3,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87947",
@@ -2734,7 +2734,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87742",
@@ -2745,12 +2745,12 @@
       ],
       "inclass": 524.0,
       "xubao": 437.0,
-      "target": 443.51299649900005,
+      "target": 443.512996499,
       "gap": 6.51,
       "daily": 0.0,
       "rate": 83.4,
       "completeRate": 98.5,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304965",
@@ -2766,7 +2766,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096041",
@@ -2782,7 +2782,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87941",
@@ -2798,7 +2798,7 @@
       "daily": 0.0,
       "rate": 93.3,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1096285",
@@ -2814,7 +2814,7 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300229",
@@ -2830,7 +2830,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1095950",
@@ -2841,12 +2841,12 @@
       ],
       "inclass": 464.0,
       "xubao": 431.0,
-      "target": 433.26744017799996,
+      "target": 433.2674401779999,
       "gap": 2.27,
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "88335",
@@ -2862,7 +2862,7 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88136",
@@ -2878,7 +2878,7 @@
       "daily": 1.0,
       "rate": 92.6,
       "completeRate": 100.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096170",
@@ -2894,23 +2894,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 99.8,
-      "perf": "B"
-    },
-    {
-      "ctid": "1089395",
-      "name": "朱宇新",
-      "group": "郑欣悦",
-      "subjects": [
-        "历史"
-      ],
-      "inclass": 437.0,
-      "xubao": 425.0,
-      "target": 424.351249686,
-      "gap": -0.65,
-      "daily": -1.0,
-      "rate": 97.3,
-      "completeRate": 100.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88211",
@@ -2926,7 +2910,23 @@
       "daily": 0.0,
       "rate": 93.6,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1089395",
+      "name": "朱宇新",
+      "group": "郑欣悦",
+      "subjects": [
+        "历史"
+      ],
+      "inclass": 437.0,
+      "xubao": 424.0,
+      "target": 423.351249686,
+      "gap": -0.65,
+      "daily": -2.0,
+      "rate": 97.0,
+      "completeRate": 100.2,
+      "perf": ""
     },
     {
       "ctid": "1094415",
@@ -2942,7 +2942,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 100.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1096043",
@@ -2958,7 +2958,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 100.0,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1304768",
@@ -2974,7 +2974,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88150",
@@ -2990,7 +2990,7 @@
       "daily": 0.0,
       "rate": 84.3,
       "completeRate": 98.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "87669",
@@ -3006,7 +3006,7 @@
       "daily": 0.0,
       "rate": 88.9,
       "completeRate": 100.3,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1093214",
@@ -3022,7 +3022,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.3,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "87944",
@@ -3038,7 +3038,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306989",
@@ -3054,7 +3054,7 @@
       "daily": 0.0,
       "rate": 85.5,
       "completeRate": 100.8,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304963",
@@ -3070,7 +3070,7 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 98.9,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "88291",
@@ -3086,7 +3086,7 @@
       "daily": 0.0,
       "rate": 92.8,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1093857",
@@ -3102,7 +3102,23 @@
       "daily": 0.0,
       "rate": 89.3,
       "completeRate": 101.5,
-      "perf": "A"
+      "perf": ""
+    },
+    {
+      "ctid": "1094000",
+      "name": "王佳鑫",
+      "group": "杭禹则",
+      "subjects": [
+        "数学"
+      ],
+      "inclass": 453.0,
+      "xubao": 407.0,
+      "target": 405.76578099099993,
+      "gap": -1.23,
+      "daily": 1.0,
+      "rate": 89.8,
+      "completeRate": 100.3,
+      "perf": ""
     },
     {
       "ctid": "1092265",
@@ -3118,23 +3134,7 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 100.1,
-      "perf": "A"
-    },
-    {
-      "ctid": "1094000",
-      "name": "王佳鑫",
-      "group": "杭禹则",
-      "subjects": [
-        "数学"
-      ],
-      "inclass": 453.0,
-      "xubao": 406.0,
-      "target": 405.76578099099993,
-      "gap": -0.23,
-      "daily": 0.0,
-      "rate": 89.6,
-      "completeRate": 100.1,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88299",
@@ -3144,13 +3144,13 @@
         "物理"
       ],
       "inclass": 416.0,
-      "xubao": 405.0,
-      "target": 406.41922261900004,
+      "xubao": 404.0,
+      "target": 405.41922261900004,
       "gap": 1.42,
-      "daily": 0.0,
-      "rate": 97.4,
-      "completeRate": 99.7,
-      "perf": "A"
+      "daily": -1.0,
+      "rate": 97.1,
+      "completeRate": 99.6,
+      "perf": ""
     },
     {
       "ctid": "1089392",
@@ -3166,7 +3166,7 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 98.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88110",
@@ -3182,7 +3182,7 @@
       "daily": 0.0,
       "rate": 97.8,
       "completeRate": 99.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87447",
@@ -3198,7 +3198,7 @@
       "daily": 0.0,
       "rate": 80.2,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1095948",
@@ -3214,7 +3214,7 @@
       "daily": 1.0,
       "rate": 84.5,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1094412",
@@ -3230,7 +3230,7 @@
       "daily": -1.0,
       "rate": 86.1,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88307",
@@ -3246,7 +3246,7 @@
       "daily": 1.0,
       "rate": 80.7,
       "completeRate": 94.7,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1092267",
@@ -3262,7 +3262,7 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87673",
@@ -3278,7 +3278,7 @@
       "daily": 0.0,
       "rate": 81.2,
       "completeRate": 100.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1094419",
@@ -3294,7 +3294,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304767",
@@ -3310,7 +3310,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304773",
@@ -3326,7 +3326,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87588",
@@ -3342,7 +3342,7 @@
       "daily": 0.0,
       "rate": 78.4,
       "completeRate": 97.0,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87870",
@@ -3358,7 +3358,23 @@
       "daily": 0.0,
       "rate": 76.3,
       "completeRate": 98.0,
-      "perf": "A"
+      "perf": ""
+    },
+    {
+      "ctid": "1304735",
+      "name": "徐晓悦",
+      "group": "牟春宇",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 404.0,
+      "xubao": 391.0,
+      "target": 392.23998535000004,
+      "gap": 1.24,
+      "daily": 1.0,
+      "rate": 96.8,
+      "completeRate": 99.7,
+      "perf": ""
     },
     {
       "ctid": "88175",
@@ -3374,7 +3390,7 @@
       "daily": 0.0,
       "rate": 96.5,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304766",
@@ -3390,7 +3406,7 @@
       "daily": 0.0,
       "rate": 79.1,
       "completeRate": 97.5,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1093998",
@@ -3406,23 +3422,7 @@
       "daily": 1.0,
       "rate": 87.2,
       "completeRate": 99.2,
-      "perf": "C"
-    },
-    {
-      "ctid": "1304735",
-      "name": "徐晓悦",
-      "group": "牟春宇",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 404.0,
-      "xubao": 390.0,
-      "target": 392.23998535000004,
-      "gap": 2.24,
-      "daily": 0.0,
-      "rate": 96.5,
-      "completeRate": 99.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096163",
@@ -3438,7 +3438,7 @@
       "daily": -1.0,
       "rate": 82.9,
       "completeRate": 97.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87782",
@@ -3454,7 +3454,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1094561",
@@ -3464,13 +3464,13 @@
         "英语"
       ],
       "inclass": 447.0,
-      "xubao": 385.0,
-      "target": 382.06027786300007,
-      "gap": -2.94,
-      "daily": 0.0,
-      "rate": 86.1,
-      "completeRate": 100.8,
-      "perf": "S"
+      "xubao": 386.0,
+      "target": 382.060277863,
+      "gap": -3.94,
+      "daily": 1.0,
+      "rate": 86.4,
+      "completeRate": 101.0,
+      "perf": ""
     },
     {
       "ctid": "1093862",
@@ -3486,7 +3486,7 @@
       "daily": 1.0,
       "rate": 85.2,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "87966",
@@ -3502,7 +3502,7 @@
       "daily": 0.0,
       "rate": 97.0,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1093852",
@@ -3518,7 +3518,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 100.1,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1095250",
@@ -3534,7 +3534,7 @@
       "daily": 0.0,
       "rate": 83.0,
       "completeRate": 96.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87741",
@@ -3550,7 +3550,7 @@
       "daily": 0.0,
       "rate": 96.2,
       "completeRate": 99.0,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1304969",
@@ -3566,7 +3566,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300030",
@@ -3582,7 +3582,7 @@
       "daily": 0.0,
       "rate": 76.9,
       "completeRate": 97.9,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87850",
@@ -3598,7 +3598,7 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 100.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1093863",
@@ -3614,7 +3614,7 @@
       "daily": 2.0,
       "rate": 79.4,
       "completeRate": 98.1,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1092397",
@@ -3630,7 +3630,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87772",
@@ -3641,12 +3641,12 @@
       ],
       "inclass": 523.0,
       "xubao": 368.0,
-      "target": 372.22638127700003,
+      "target": 372.226381277,
       "gap": 4.23,
       "daily": 0.0,
       "rate": 70.4,
       "completeRate": 98.9,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87837",
@@ -3662,7 +3662,7 @@
       "daily": 0.0,
       "rate": 82.5,
       "completeRate": 96.4,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "87895",
@@ -3678,7 +3678,7 @@
       "daily": 0.0,
       "rate": 76.6,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87641",
@@ -3694,7 +3694,7 @@
       "daily": 1.0,
       "rate": 79.6,
       "completeRate": 96.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1096172",
@@ -3710,23 +3710,7 @@
       "daily": -1.0,
       "rate": 97.3,
       "completeRate": 99.6,
-      "perf": "A"
-    },
-    {
-      "ctid": "88138",
-      "name": "于均上",
-      "group": "郑欣悦",
-      "subjects": [
-        "道德与法治"
-      ],
-      "inclass": 373.0,
-      "xubao": 361.0,
-      "target": 361.082465026,
-      "gap": 0.08,
-      "daily": 0.0,
-      "rate": 96.8,
-      "completeRate": 100.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1089509",
@@ -3742,7 +3726,23 @@
       "daily": 0.0,
       "rate": 81.3,
       "completeRate": 96.6,
-      "perf": "C"
+      "perf": ""
+    },
+    {
+      "ctid": "88138",
+      "name": "于均上",
+      "group": "郑欣悦",
+      "subjects": [
+        "道德与法治"
+      ],
+      "inclass": 373.0,
+      "xubao": 360.0,
+      "target": 360.082465026,
+      "gap": 0.08,
+      "daily": -1.0,
+      "rate": 96.5,
+      "completeRate": 100.0,
+      "perf": ""
     },
     {
       "ctid": "87733",
@@ -3758,7 +3758,7 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300014",
@@ -3769,12 +3769,12 @@
       ],
       "inclass": 469.0,
       "xubao": 357.0,
-      "target": 372.330676976,
+      "target": 372.33067697599995,
       "gap": 15.33,
       "daily": 1.0,
       "rate": 76.1,
       "completeRate": 95.9,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1300230",
@@ -3790,7 +3790,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87865",
@@ -3806,7 +3806,7 @@
       "daily": -1.0,
       "rate": 95.9,
       "completeRate": 99.6,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87803",
@@ -3822,7 +3822,7 @@
       "daily": 0.0,
       "rate": 81.9,
       "completeRate": 97.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87948",
@@ -3833,12 +3833,12 @@
       ],
       "inclass": 434.0,
       "xubao": 353.0,
-      "target": 339.2796792900003,
+      "target": 339.2796792900002,
       "gap": -13.72,
       "daily": 0.0,
       "rate": 81.3,
       "completeRate": 104.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304770",
@@ -3854,7 +3854,7 @@
       "daily": 0.0,
       "rate": 75.3,
       "completeRate": 92.6,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1306511",
@@ -3870,7 +3870,7 @@
       "daily": 0.0,
       "rate": 69.2,
       "completeRate": 89.6,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "88366",
@@ -3886,7 +3886,7 @@
       "daily": 0.0,
       "rate": 77.0,
       "completeRate": 94.8,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87848",
@@ -3902,7 +3902,7 @@
       "daily": 1.0,
       "rate": 89.0,
       "completeRate": 100.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304968",
@@ -3918,7 +3918,7 @@
       "daily": 0.0,
       "rate": 79.0,
       "completeRate": 97.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307400",
@@ -3934,7 +3934,7 @@
       "daily": 0.0,
       "rate": 98.6,
       "completeRate": 100.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092250",
@@ -3950,7 +3950,7 @@
       "daily": 0.0,
       "rate": 78.4,
       "completeRate": 100.2,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "87943",
@@ -3966,7 +3966,7 @@
       "daily": 0.0,
       "rate": 79.6,
       "completeRate": 95.2,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1304733",
@@ -3982,7 +3982,7 @@
       "daily": 0.0,
       "rate": 71.8,
       "completeRate": 102.0,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1092251",
@@ -3998,7 +3998,7 @@
       "daily": 0.0,
       "rate": 74.3,
       "completeRate": 96.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87853",
@@ -4014,7 +4014,7 @@
       "daily": 1.0,
       "rate": 75.6,
       "completeRate": 99.0,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304774",
@@ -4030,7 +4030,7 @@
       "daily": 0.0,
       "rate": 79.2,
       "completeRate": 96.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87836",
@@ -4046,7 +4046,7 @@
       "daily": 0.0,
       "rate": 75.7,
       "completeRate": 94.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87448",
@@ -4057,12 +4057,12 @@
       ],
       "inclass": 385.0,
       "xubao": 328.0,
-      "target": 339.004675305,
+      "target": 339.00467530500003,
       "gap": 11.0,
       "daily": 0.0,
       "rate": 85.2,
       "completeRate": 96.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88348",
@@ -4078,7 +4078,7 @@
       "daily": 1.0,
       "rate": 76.1,
       "completeRate": 93.9,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1089397",
@@ -4094,7 +4094,7 @@
       "daily": 0.0,
       "rate": 78.8,
       "completeRate": 96.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1300024",
@@ -4110,7 +4110,7 @@
       "daily": 0.0,
       "rate": 75.9,
       "completeRate": 93.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "88210",
@@ -4126,7 +4126,7 @@
       "daily": 1.0,
       "rate": 67.5,
       "completeRate": 96.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1301920",
@@ -4142,7 +4142,7 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 99.1,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1307288",
@@ -4158,7 +4158,7 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1304967",
@@ -4174,7 +4174,7 @@
       "daily": 0.0,
       "rate": 99.4,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "87791",
@@ -4190,7 +4190,7 @@
       "daily": 0.0,
       "rate": 83.8,
       "completeRate": 97.8,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1094414",
@@ -4206,7 +4206,7 @@
       "daily": 0.0,
       "rate": 79.7,
       "completeRate": 97.6,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1307607",
@@ -4222,7 +4222,7 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307120",
@@ -4238,7 +4238,7 @@
       "daily": 0.0,
       "rate": 77.4,
       "completeRate": 95.5,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87874",
@@ -4254,7 +4254,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 105.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1300224",
@@ -4270,7 +4270,7 @@
       "daily": 0.0,
       "rate": 78.1,
       "completeRate": 94.2,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1096161",
@@ -4281,12 +4281,12 @@
       ],
       "inclass": 324.0,
       "xubao": 311.0,
-      "target": 309.391236605,
+      "target": 309.39123660499996,
       "gap": -1.61,
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 100.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307117",
@@ -4302,7 +4302,7 @@
       "daily": 0.0,
       "rate": 93.1,
       "completeRate": 98.7,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1304971",
@@ -4318,7 +4318,7 @@
       "daily": 0.0,
       "rate": 74.5,
       "completeRate": 93.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1095955",
@@ -4334,7 +4334,7 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87830",
@@ -4350,7 +4350,7 @@
       "daily": 0.0,
       "rate": 69.1,
       "completeRate": 93.4,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1091188",
@@ -4366,7 +4366,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 101.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306990",
@@ -4382,7 +4382,7 @@
       "daily": 0.0,
       "rate": 91.6,
       "completeRate": 98.2,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1306972",
@@ -4398,7 +4398,7 @@
       "daily": 0.0,
       "rate": 91.3,
       "completeRate": 99.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304970",
@@ -4414,7 +4414,7 @@
       "daily": 0.0,
       "rate": 71.3,
       "completeRate": 96.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "88343",
@@ -4430,7 +4430,7 @@
       "daily": 0.0,
       "rate": 82.4,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1092253",
@@ -4446,7 +4446,7 @@
       "daily": 0.0,
       "rate": 93.2,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1309058",
@@ -4462,7 +4462,7 @@
       "daily": 0.0,
       "rate": 93.2,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1306505",
@@ -4478,7 +4478,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 100.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87757",
@@ -4494,7 +4494,7 @@
       "daily": 0.0,
       "rate": 87.9,
       "completeRate": 97.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87864",
@@ -4510,7 +4510,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87926",
@@ -4526,7 +4526,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1309054",
@@ -4542,7 +4542,7 @@
       "daily": -1.0,
       "rate": 93.3,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1300027",
@@ -4558,7 +4558,23 @@
       "daily": 0.0,
       "rate": 72.9,
       "completeRate": 103.4,
-      "perf": "B"
+      "perf": ""
+    },
+    {
+      "ctid": "1304765",
+      "name": "姜薏君",
+      "group": "牟春宇",
+      "subjects": [
+        "物理"
+      ],
+      "inclass": 316.0,
+      "xubao": 293.0,
+      "target": 296.4820364630001,
+      "gap": 3.48,
+      "daily": 0.0,
+      "rate": 92.7,
+      "completeRate": 98.8,
+      "perf": ""
     },
     {
       "ctid": "1092261",
@@ -4574,23 +4590,7 @@
       "daily": 0.0,
       "rate": 89.8,
       "completeRate": 99.6,
-      "perf": "B"
-    },
-    {
-      "ctid": "1304765",
-      "name": "姜薏君",
-      "group": "牟春宇",
-      "subjects": [
-        "物理"
-      ],
-      "inclass": 316.0,
-      "xubao": 292.0,
-      "target": 296.4820364630001,
-      "gap": 4.48,
-      "daily": -1.0,
-      "rate": 92.4,
-      "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306506",
@@ -4606,7 +4606,7 @@
       "daily": 0.0,
       "rate": 68.4,
       "completeRate": 88.6,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87907",
@@ -4622,7 +4622,7 @@
       "daily": 0.0,
       "rate": 83.4,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306509",
@@ -4638,7 +4638,7 @@
       "daily": 0.0,
       "rate": 91.5,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1094691",
@@ -4654,7 +4654,7 @@
       "daily": 0.0,
       "rate": 90.6,
       "completeRate": 96.1,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307293",
@@ -4670,7 +4670,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306448",
@@ -4686,7 +4686,7 @@
       "daily": 0.0,
       "rate": 88.5,
       "completeRate": 97.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1309056",
@@ -4702,7 +4702,7 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 96.3,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "87734",
@@ -4718,7 +4718,7 @@
       "daily": 0.0,
       "rate": 87.1,
       "completeRate": 100.3,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096284",
@@ -4734,7 +4734,7 @@
       "daily": 0.0,
       "rate": 84.0,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1306980",
@@ -4750,7 +4750,7 @@
       "daily": 0.0,
       "rate": 83.3,
       "completeRate": 98.8,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1306976",
@@ -4766,7 +4766,7 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1089398",
@@ -4782,7 +4782,7 @@
       "daily": -1.0,
       "rate": 80.7,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1304775",
@@ -4792,13 +4792,13 @@
         "物理"
       ],
       "inclass": 313.0,
-      "xubao": 259.0,
-      "target": 259.3585278460001,
+      "xubao": 258.0,
+      "target": 258.3585278460001,
       "gap": 0.36,
-      "daily": 1.0,
-      "rate": 82.7,
+      "daily": 0.0,
+      "rate": 82.4,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096165",
@@ -4814,7 +4814,7 @@
       "daily": 0.0,
       "rate": 81.5,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1309055",
@@ -4830,7 +4830,7 @@
       "daily": 0.0,
       "rate": 79.9,
       "completeRate": 97.0,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "87967",
@@ -4846,7 +4846,7 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1309146",
@@ -4862,7 +4862,7 @@
       "daily": 0.0,
       "rate": 77.7,
       "completeRate": 95.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1096283",
@@ -4878,7 +4878,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1309147",
@@ -4894,7 +4894,7 @@
       "daily": 0.0,
       "rate": 78.0,
       "completeRate": 99.2,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1309149",
@@ -4910,7 +4910,7 @@
       "daily": 1.0,
       "rate": 76.0,
       "completeRate": 94.6,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1309057",
@@ -4926,7 +4926,7 @@
       "daily": 0.0,
       "rate": 70.4,
       "completeRate": 95.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1306974",
@@ -4942,7 +4942,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.4,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1306988",
@@ -4958,7 +4958,7 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307606",
@@ -4974,7 +4974,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 98.3,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "1096042",
@@ -4990,7 +4990,7 @@
       "daily": 0.0,
       "rate": 97.7,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "88039",
@@ -5006,7 +5006,7 @@
       "daily": -1.0,
       "rate": 96.3,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1307286",
@@ -5022,7 +5022,7 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.5,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "1307399",
@@ -5038,7 +5038,7 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.9,
-      "perf": "C"
+      "perf": ""
     },
     {
       "ctid": "88249",
@@ -5054,7 +5054,7 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": ""
     },
     {
       "ctid": "1306979",
@@ -5070,7 +5070,7 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1307930",
@@ -5086,7 +5086,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": ""
     },
     {
       "ctid": "1096046",
@@ -5102,7 +5102,7 @@
       "daily": 0.0,
       "rate": 77.7,
       "completeRate": 96.2,
-      "perf": "D"
+      "perf": ""
     },
     {
       "ctid": "87827",
@@ -5112,13 +5112,13 @@
         "数学"
       ],
       "inclass": 229.0,
-      "xubao": 193.0,
-      "target": 196.11627908200003,
-      "gap": 3.12,
-      "daily": 0.0,
-      "rate": 84.3,
-      "completeRate": 98.4,
-      "perf": "A"
+      "xubao": 194.0,
+      "target": 196.11627908200006,
+      "gap": 2.12,
+      "daily": 1.0,
+      "rate": 84.7,
+      "completeRate": 98.9,
+      "perf": ""
     },
     {
       "ctid": "1309148",
@@ -5134,7 +5134,7 @@
       "daily": 0.0,
       "rate": 81.6,
       "completeRate": 94.9,
-      "perf": "B"
+      "perf": ""
     },
     {
       "ctid": "1306512",
@@ -5150,7 +5150,7 @@
       "daily": 0.0,
       "rate": 77.0,
       "completeRate": 95.3,
-      "perf": "C"
+      "perf": ""
     }
   ]
 }
