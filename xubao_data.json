@@ -238,7 +238,7 @@
       "daily": -1.0,
       "rate": 93.9,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88298",
@@ -254,7 +254,7 @@
       "daily": 0.0,
       "rate": 93.0,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87835",
@@ -270,7 +270,7 @@
       "daily": -1.0,
       "rate": 88.0,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092257",
@@ -286,7 +286,7 @@
       "daily": -1.0,
       "rate": 95.3,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87737",
@@ -302,7 +302,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 103.4,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1091010",
@@ -318,7 +318,7 @@
       "daily": 0.0,
       "rate": 98.3,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1093008",
@@ -334,7 +334,7 @@
       "daily": 0.0,
       "rate": 97.2,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88206",
@@ -350,7 +350,7 @@
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1093184",
@@ -366,7 +366,7 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306982",
@@ -382,7 +382,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1093853",
@@ -398,7 +398,7 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88172",
@@ -414,7 +414,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87752",
@@ -430,7 +430,7 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 101.2,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "88347",
@@ -446,7 +446,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092255",
@@ -462,7 +462,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094422",
@@ -478,7 +478,7 @@
       "daily": -1.0,
       "rate": 97.4,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1300016",
@@ -494,7 +494,7 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306516",
@@ -510,7 +510,7 @@
       "daily": -1.0,
       "rate": 96.0,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092392",
@@ -526,7 +526,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300031",
@@ -542,7 +542,7 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1092254",
@@ -558,7 +558,7 @@
       "daily": 0.0,
       "rate": 94.5,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1093854",
@@ -574,7 +574,7 @@
       "daily": 0.0,
       "rate": 95.1,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1301921",
@@ -590,7 +590,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1095953",
@@ -606,7 +606,7 @@
       "daily": -1.0,
       "rate": 96.8,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88308",
@@ -622,7 +622,7 @@
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 101.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1095951",
@@ -638,7 +638,7 @@
       "daily": 0.0,
       "rate": 95.6,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87736",
@@ -654,7 +654,7 @@
       "daily": 0.0,
       "rate": 94.1,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1300018",
@@ -670,7 +670,7 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1091008",
@@ -686,7 +686,7 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 100.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096171",
@@ -702,7 +702,7 @@
       "daily": 0.0,
       "rate": 95.1,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1094417",
@@ -718,7 +718,7 @@
       "daily": 0.0,
       "rate": 95.7,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1089394",
@@ -734,7 +734,7 @@
       "daily": -1.0,
       "rate": 92.0,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307471",
@@ -750,7 +750,7 @@
       "daily": -1.0,
       "rate": 94.9,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "88111",
@@ -766,7 +766,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1094563",
@@ -782,7 +782,7 @@
       "daily": 1.0,
       "rate": 93.4,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1096173",
@@ -798,7 +798,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1301690",
@@ -814,7 +814,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306451",
@@ -830,7 +830,7 @@
       "daily": -1.0,
       "rate": 92.1,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094555",
@@ -846,7 +846,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87942",
@@ -862,7 +862,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092260",
@@ -878,7 +878,7 @@
       "daily": 1.0,
       "rate": 92.1,
       "completeRate": 97.4,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87538",
@@ -894,7 +894,7 @@
       "daily": 0.0,
       "rate": 90.5,
       "completeRate": 101.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1091007",
@@ -910,7 +910,7 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1307287",
@@ -926,7 +926,7 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1301689",
@@ -942,7 +942,7 @@
       "daily": 0.0,
       "rate": 91.7,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092428",
@@ -958,7 +958,7 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87906",
@@ -974,7 +974,7 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306525",
@@ -990,7 +990,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1094564",
@@ -1006,7 +1006,7 @@
       "daily": 0.0,
       "rate": 93.3,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87781",
@@ -1022,7 +1022,7 @@
       "daily": 2.0,
       "rate": 89.4,
       "completeRate": 102.3,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1306520",
@@ -1038,7 +1038,7 @@
       "daily": 0.0,
       "rate": 90.6,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092394",
@@ -1054,7 +1054,7 @@
       "daily": -1.0,
       "rate": 97.6,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092393",
@@ -1070,7 +1070,7 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1093856",
@@ -1086,7 +1086,7 @@
       "daily": 0.0,
       "rate": 92.1,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87872",
@@ -1102,7 +1102,7 @@
       "daily": 0.0,
       "rate": 90.2,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306986",
@@ -1118,7 +1118,7 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096045",
@@ -1134,7 +1134,7 @@
       "daily": 1.0,
       "rate": 90.6,
       "completeRate": 97.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87753",
@@ -1150,7 +1150,7 @@
       "daily": -1.0,
       "rate": 91.1,
       "completeRate": 98.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300019",
@@ -1166,7 +1166,7 @@
       "daily": -1.0,
       "rate": 91.6,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87854",
@@ -1182,7 +1182,7 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096290",
@@ -1198,7 +1198,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 97.4,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87780",
@@ -1214,7 +1214,7 @@
       "daily": 1.0,
       "rate": 90.0,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87793",
@@ -1230,7 +1230,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300022",
@@ -1246,7 +1246,7 @@
       "daily": 0.0,
       "rate": 90.9,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1302749",
@@ -1262,7 +1262,7 @@
       "daily": 0.0,
       "rate": 94.5,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1093010",
@@ -1278,7 +1278,7 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092266",
@@ -1294,7 +1294,7 @@
       "daily": 0.0,
       "rate": 88.4,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1306983",
@@ -1310,7 +1310,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306452",
@@ -1326,7 +1326,7 @@
       "daily": 0.0,
       "rate": 90.1,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307289",
@@ -1342,7 +1342,7 @@
       "daily": -1.0,
       "rate": 91.1,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1306449",
@@ -1358,7 +1358,7 @@
       "daily": 0.0,
       "rate": 90.0,
       "completeRate": 98.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300015",
@@ -1374,7 +1374,7 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1096166",
@@ -1390,7 +1390,7 @@
       "daily": -1.0,
       "rate": 86.7,
       "completeRate": 98.0,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092259",
@@ -1406,7 +1406,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87851",
@@ -1422,7 +1422,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1092252",
@@ -1438,7 +1438,7 @@
       "daily": 0.0,
       "rate": 91.7,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87787",
@@ -1454,7 +1454,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88154",
@@ -1470,7 +1470,7 @@
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87789",
@@ -1486,7 +1486,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1306981",
@@ -1502,7 +1502,7 @@
       "daily": 0.0,
       "rate": 88.6,
       "completeRate": 98.6,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1096169",
@@ -1518,7 +1518,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1307290",
@@ -1534,7 +1534,7 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092584",
@@ -1550,7 +1550,7 @@
       "daily": 1.0,
       "rate": 87.8,
       "completeRate": 95.7,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1306519",
@@ -1566,7 +1566,7 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307291",
@@ -1582,7 +1582,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1096162",
@@ -1598,7 +1598,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1089396",
@@ -1614,7 +1614,7 @@
       "daily": 0.0,
       "rate": 86.6,
       "completeRate": 97.1,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1093009",
@@ -1630,7 +1630,7 @@
       "daily": 1.0,
       "rate": 87.9,
       "completeRate": 96.3,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1089510",
@@ -1646,7 +1646,7 @@
       "daily": -1.0,
       "rate": 89.3,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87701",
@@ -1662,7 +1662,7 @@
       "daily": 0.0,
       "rate": 86.5,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87700",
@@ -1678,7 +1678,7 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87771",
@@ -1694,7 +1694,7 @@
       "daily": 0.0,
       "rate": 85.4,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092390",
@@ -1710,7 +1710,7 @@
       "daily": -1.0,
       "rate": 87.2,
       "completeRate": 101.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306975",
@@ -1726,7 +1726,7 @@
       "daily": 0.0,
       "rate": 86.9,
       "completeRate": 97.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1301704",
@@ -1742,7 +1742,7 @@
       "daily": -1.0,
       "rate": 90.7,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1093860",
@@ -1758,7 +1758,7 @@
       "daily": 0.0,
       "rate": 85.7,
       "completeRate": 101.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1091009",
@@ -1774,7 +1774,7 @@
       "daily": 0.0,
       "rate": 88.4,
       "completeRate": 98.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1095956",
@@ -1790,7 +1790,7 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87956",
@@ -1806,7 +1806,7 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1089400",
@@ -1822,7 +1822,7 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 97.3,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87839",
@@ -1838,7 +1838,7 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 102.6,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1096167",
@@ -1854,7 +1854,7 @@
       "daily": -1.0,
       "rate": 95.0,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88224",
@@ -1870,7 +1870,7 @@
       "daily": 0.0,
       "rate": 86.2,
       "completeRate": 105.3,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1302752",
@@ -1886,7 +1886,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094554",
@@ -1902,7 +1902,7 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1096047",
@@ -1918,7 +1918,7 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88100",
@@ -1934,7 +1934,7 @@
       "daily": -1.0,
       "rate": 88.0,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87792",
@@ -1950,7 +1950,7 @@
       "daily": -2.0,
       "rate": 81.2,
       "completeRate": 98.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304771",
@@ -1966,7 +1966,7 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87893",
@@ -1982,7 +1982,7 @@
       "daily": 0.0,
       "rate": 98.8,
       "completeRate": 100.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1095947",
@@ -1998,7 +1998,7 @@
       "daily": -1.0,
       "rate": 89.7,
       "completeRate": 98.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88153",
@@ -2014,7 +2014,7 @@
       "daily": 1.0,
       "rate": 88.2,
       "completeRate": 101.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1304964",
@@ -2030,7 +2030,7 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092262",
@@ -2046,7 +2046,7 @@
       "daily": 0.0,
       "rate": 83.3,
       "completeRate": 96.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1092551",
@@ -2062,7 +2062,7 @@
       "daily": -2.0,
       "rate": 96.2,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1096288",
@@ -2078,7 +2078,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 97.4,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1300026",
@@ -2094,7 +2094,7 @@
       "daily": 0.0,
       "rate": 83.5,
       "completeRate": 101.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1301354",
@@ -2110,7 +2110,7 @@
       "daily": -1.0,
       "rate": 83.5,
       "completeRate": 96.0,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1093851",
@@ -2126,7 +2126,7 @@
       "daily": 0.0,
       "rate": 93.9,
       "completeRate": 98.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87652",
@@ -2142,7 +2142,7 @@
       "daily": 0.0,
       "rate": 85.4,
       "completeRate": 97.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306973",
@@ -2158,7 +2158,7 @@
       "daily": -1.0,
       "rate": 83.1,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304730",
@@ -2174,7 +2174,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300025",
@@ -2190,7 +2190,7 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 98.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304731",
@@ -2206,7 +2206,7 @@
       "daily": -1.0,
       "rate": 94.0,
       "completeRate": 97.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096286",
@@ -2222,7 +2222,7 @@
       "daily": 0.0,
       "rate": 90.4,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87738",
@@ -2238,7 +2238,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87826",
@@ -2254,7 +2254,7 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306524",
@@ -2270,7 +2270,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1094411",
@@ -2286,7 +2286,7 @@
       "daily": 0.0,
       "rate": 89.2,
       "completeRate": 98.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092391",
@@ -2302,7 +2302,7 @@
       "daily": 0.0,
       "rate": 87.5,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307472",
@@ -2318,7 +2318,7 @@
       "daily": 0.0,
       "rate": 85.9,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1302751",
@@ -2334,7 +2334,7 @@
       "daily": 1.0,
       "rate": 85.4,
       "completeRate": 97.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87957",
@@ -2350,7 +2350,7 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 97.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1300226",
@@ -2366,7 +2366,7 @@
       "daily": -1.0,
       "rate": 96.9,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87476",
@@ -2382,7 +2382,7 @@
       "daily": 1.0,
       "rate": 93.2,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306987",
@@ -2398,7 +2398,7 @@
       "daily": 0.0,
       "rate": 84.4,
       "completeRate": 95.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306523",
@@ -2414,7 +2414,7 @@
       "daily": 0.0,
       "rate": 82.7,
       "completeRate": 97.0,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87940",
@@ -2430,7 +2430,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87779",
@@ -2446,7 +2446,7 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 100.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88135",
@@ -2462,7 +2462,7 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1301829",
@@ -2478,7 +2478,7 @@
       "daily": 0.0,
       "rate": 87.7,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1089399",
@@ -2494,7 +2494,7 @@
       "daily": -1.0,
       "rate": 96.8,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1304728",
@@ -2510,7 +2510,7 @@
       "daily": -1.0,
       "rate": 94.2,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1300020",
@@ -2526,7 +2526,7 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88310",
@@ -2542,7 +2542,7 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 98.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304962",
@@ -2558,7 +2558,7 @@
       "daily": -1.0,
       "rate": 95.6,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1307927",
@@ -2574,7 +2574,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306513",
@@ -2590,7 +2590,7 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 101.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1092389",
@@ -2606,7 +2606,7 @@
       "daily": 0.0,
       "rate": 90.7,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094421",
@@ -2622,7 +2622,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1304732",
@@ -2638,7 +2638,7 @@
       "daily": 0.0,
       "rate": 97.4,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1089964",
@@ -2654,7 +2654,7 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 101.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092249",
@@ -2670,7 +2670,7 @@
       "daily": 0.0,
       "rate": 83.6,
       "completeRate": 98.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88152",
@@ -2686,7 +2686,7 @@
       "daily": 0.0,
       "rate": 96.1,
       "completeRate": 98.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1093864",
@@ -2702,7 +2702,7 @@
       "daily": 1.0,
       "rate": 84.8,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1304729",
@@ -2718,7 +2718,7 @@
       "daily": 0.0,
       "rate": 83.1,
       "completeRate": 101.3,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87947",
@@ -2734,7 +2734,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87742",
@@ -2750,7 +2750,7 @@
       "daily": 0.0,
       "rate": 83.4,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304965",
@@ -2766,7 +2766,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096041",
@@ -2782,7 +2782,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87941",
@@ -2798,7 +2798,7 @@
       "daily": 0.0,
       "rate": 93.3,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1096285",
@@ -2814,7 +2814,7 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1300229",
@@ -2830,7 +2830,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1095950",
@@ -2846,7 +2846,7 @@
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "88335",
@@ -2862,7 +2862,7 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88136",
@@ -2878,7 +2878,7 @@
       "daily": 1.0,
       "rate": 92.6,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096170",
@@ -2894,7 +2894,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 99.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88211",
@@ -2910,7 +2910,7 @@
       "daily": 0.0,
       "rate": 93.6,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1089395",
@@ -2926,7 +2926,7 @@
       "daily": -2.0,
       "rate": 97.0,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1094415",
@@ -2942,7 +2942,7 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1096043",
@@ -2958,7 +2958,7 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1304768",
@@ -2974,7 +2974,7 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88150",
@@ -2990,7 +2990,7 @@
       "daily": 0.0,
       "rate": 84.3,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "87669",
@@ -3006,7 +3006,7 @@
       "daily": 0.0,
       "rate": 88.9,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1093214",
@@ -3022,7 +3022,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "87944",
@@ -3038,7 +3038,7 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306989",
@@ -3054,7 +3054,7 @@
       "daily": 0.0,
       "rate": 85.5,
       "completeRate": 100.8,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304963",
@@ -3070,7 +3070,7 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "88291",
@@ -3086,7 +3086,7 @@
       "daily": 0.0,
       "rate": 92.8,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1093857",
@@ -3102,7 +3102,7 @@
       "daily": 0.0,
       "rate": 89.3,
       "completeRate": 101.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094000",
@@ -3118,7 +3118,7 @@
       "daily": 1.0,
       "rate": 89.8,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092265",
@@ -3134,7 +3134,7 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 100.1,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88299",
@@ -3150,7 +3150,7 @@
       "daily": -1.0,
       "rate": 97.1,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1089392",
@@ -3166,7 +3166,7 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 98.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88110",
@@ -3182,7 +3182,7 @@
       "daily": 0.0,
       "rate": 97.8,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87447",
@@ -3198,7 +3198,7 @@
       "daily": 0.0,
       "rate": 80.2,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1095948",
@@ -3214,7 +3214,7 @@
       "daily": 1.0,
       "rate": 84.5,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1094412",
@@ -3230,7 +3230,7 @@
       "daily": -1.0,
       "rate": 86.1,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88307",
@@ -3246,7 +3246,7 @@
       "daily": 1.0,
       "rate": 80.7,
       "completeRate": 94.7,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1092267",
@@ -3262,7 +3262,7 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87673",
@@ -3278,7 +3278,7 @@
       "daily": 0.0,
       "rate": 81.2,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1094419",
@@ -3294,7 +3294,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304767",
@@ -3310,7 +3310,7 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304773",
@@ -3326,7 +3326,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87588",
@@ -3342,7 +3342,7 @@
       "daily": 0.0,
       "rate": 78.4,
       "completeRate": 97.0,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87870",
@@ -3358,7 +3358,7 @@
       "daily": 0.0,
       "rate": 76.3,
       "completeRate": 98.0,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1304735",
@@ -3374,7 +3374,7 @@
       "daily": 1.0,
       "rate": 96.8,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88175",
@@ -3390,7 +3390,7 @@
       "daily": 0.0,
       "rate": 96.5,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304766",
@@ -3406,7 +3406,7 @@
       "daily": 0.0,
       "rate": 79.1,
       "completeRate": 97.5,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1093998",
@@ -3422,7 +3422,7 @@
       "daily": 1.0,
       "rate": 87.2,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1096163",
@@ -3438,7 +3438,7 @@
       "daily": -1.0,
       "rate": 82.9,
       "completeRate": 97.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87782",
@@ -3454,7 +3454,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1094561",
@@ -3470,7 +3470,7 @@
       "daily": 1.0,
       "rate": 86.4,
       "completeRate": 101.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1093862",
@@ -3486,7 +3486,7 @@
       "daily": 1.0,
       "rate": 85.2,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "87966",
@@ -3502,7 +3502,7 @@
       "daily": 0.0,
       "rate": 97.0,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1093852",
@@ -3518,7 +3518,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 100.1,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1095250",
@@ -3534,7 +3534,7 @@
       "daily": 0.0,
       "rate": 83.0,
       "completeRate": 96.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87741",
@@ -3550,7 +3550,7 @@
       "daily": 0.0,
       "rate": 96.2,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1304969",
@@ -3566,7 +3566,7 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1300030",
@@ -3582,7 +3582,7 @@
       "daily": 0.0,
       "rate": 76.9,
       "completeRate": 97.9,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87850",
@@ -3598,7 +3598,7 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1093863",
@@ -3614,7 +3614,7 @@
       "daily": 2.0,
       "rate": 79.4,
       "completeRate": 98.1,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1092397",
@@ -3630,7 +3630,7 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87772",
@@ -3646,7 +3646,7 @@
       "daily": 0.0,
       "rate": 70.4,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87837",
@@ -3662,7 +3662,7 @@
       "daily": 0.0,
       "rate": 82.5,
       "completeRate": 96.4,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "87895",
@@ -3678,7 +3678,7 @@
       "daily": 0.0,
       "rate": 76.6,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87641",
@@ -3694,7 +3694,7 @@
       "daily": 1.0,
       "rate": 79.6,
       "completeRate": 96.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1096172",
@@ -3710,7 +3710,7 @@
       "daily": -1.0,
       "rate": 97.3,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1089509",
@@ -3726,7 +3726,7 @@
       "daily": 0.0,
       "rate": 81.3,
       "completeRate": 96.6,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "88138",
@@ -3742,7 +3742,7 @@
       "daily": -1.0,
       "rate": 96.5,
       "completeRate": 100.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87733",
@@ -3758,7 +3758,7 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 99.4,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300014",
@@ -3774,7 +3774,7 @@
       "daily": 1.0,
       "rate": 76.1,
       "completeRate": 95.9,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1300230",
@@ -3790,7 +3790,7 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 100.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87865",
@@ -3806,7 +3806,7 @@
       "daily": -1.0,
       "rate": 95.9,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87803",
@@ -3822,7 +3822,7 @@
       "daily": 0.0,
       "rate": 81.9,
       "completeRate": 97.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87948",
@@ -3838,7 +3838,7 @@
       "daily": 0.0,
       "rate": 81.3,
       "completeRate": 104.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304770",
@@ -3854,7 +3854,7 @@
       "daily": 0.0,
       "rate": 75.3,
       "completeRate": 92.6,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1306511",
@@ -3870,7 +3870,7 @@
       "daily": 0.0,
       "rate": 69.2,
       "completeRate": 89.6,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "88366",
@@ -3886,7 +3886,7 @@
       "daily": 0.0,
       "rate": 77.0,
       "completeRate": 94.8,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87848",
@@ -3902,7 +3902,7 @@
       "daily": 1.0,
       "rate": 89.0,
       "completeRate": 100.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304968",
@@ -3918,7 +3918,7 @@
       "daily": 0.0,
       "rate": 79.0,
       "completeRate": 97.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307400",
@@ -3934,7 +3934,7 @@
       "daily": 0.0,
       "rate": 98.6,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092250",
@@ -3950,7 +3950,7 @@
       "daily": 0.0,
       "rate": 78.4,
       "completeRate": 100.2,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "87943",
@@ -3966,7 +3966,7 @@
       "daily": 0.0,
       "rate": 79.6,
       "completeRate": 95.2,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1304733",
@@ -3982,7 +3982,7 @@
       "daily": 0.0,
       "rate": 71.8,
       "completeRate": 102.0,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1092251",
@@ -3998,7 +3998,7 @@
       "daily": 0.0,
       "rate": 74.3,
       "completeRate": 96.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87853",
@@ -4014,7 +4014,7 @@
       "daily": 1.0,
       "rate": 75.6,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304774",
@@ -4030,7 +4030,7 @@
       "daily": 0.0,
       "rate": 79.2,
       "completeRate": 96.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87836",
@@ -4046,7 +4046,7 @@
       "daily": 0.0,
       "rate": 75.7,
       "completeRate": 94.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87448",
@@ -4062,7 +4062,7 @@
       "daily": 0.0,
       "rate": 85.2,
       "completeRate": 96.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88348",
@@ -4078,7 +4078,7 @@
       "daily": 1.0,
       "rate": 76.1,
       "completeRate": 93.9,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1089397",
@@ -4094,7 +4094,7 @@
       "daily": 0.0,
       "rate": 78.8,
       "completeRate": 96.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1300024",
@@ -4110,7 +4110,7 @@
       "daily": 0.0,
       "rate": 75.9,
       "completeRate": 93.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "88210",
@@ -4126,7 +4126,7 @@
       "daily": 1.0,
       "rate": 67.5,
       "completeRate": 96.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1301920",
@@ -4142,7 +4142,7 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 99.1,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1307288",
@@ -4158,7 +4158,7 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1304967",
@@ -4174,7 +4174,7 @@
       "daily": 0.0,
       "rate": 99.4,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "87791",
@@ -4190,7 +4190,7 @@
       "daily": 0.0,
       "rate": 83.8,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1094414",
@@ -4206,7 +4206,7 @@
       "daily": 0.0,
       "rate": 79.7,
       "completeRate": 97.6,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1307607",
@@ -4222,7 +4222,7 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307120",
@@ -4238,7 +4238,7 @@
       "daily": 0.0,
       "rate": 77.4,
       "completeRate": 95.5,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87874",
@@ -4254,7 +4254,7 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 105.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1300224",
@@ -4270,7 +4270,7 @@
       "daily": 0.0,
       "rate": 78.1,
       "completeRate": 94.2,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1096161",
@@ -4286,7 +4286,7 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 100.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307117",
@@ -4302,7 +4302,7 @@
       "daily": 0.0,
       "rate": 93.1,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1304971",
@@ -4318,7 +4318,7 @@
       "daily": 0.0,
       "rate": 74.5,
       "completeRate": 93.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1095955",
@@ -4334,7 +4334,7 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 98.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87830",
@@ -4350,7 +4350,7 @@
       "daily": 0.0,
       "rate": 69.1,
       "completeRate": 93.4,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1091188",
@@ -4366,7 +4366,7 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 101.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306990",
@@ -4382,7 +4382,7 @@
       "daily": 0.0,
       "rate": 91.6,
       "completeRate": 98.2,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1306972",
@@ -4398,7 +4398,7 @@
       "daily": 0.0,
       "rate": 91.3,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304970",
@@ -4414,7 +4414,7 @@
       "daily": 0.0,
       "rate": 71.3,
       "completeRate": 96.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "88343",
@@ -4430,7 +4430,7 @@
       "daily": 0.0,
       "rate": 82.4,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092253",
@@ -4446,7 +4446,7 @@
       "daily": 0.0,
       "rate": 93.2,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1309058",
@@ -4462,7 +4462,7 @@
       "daily": 0.0,
       "rate": 93.2,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1306505",
@@ -4478,7 +4478,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 100.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87757",
@@ -4494,7 +4494,7 @@
       "daily": 0.0,
       "rate": 87.9,
       "completeRate": 97.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87864",
@@ -4510,7 +4510,7 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87926",
@@ -4526,7 +4526,7 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1309054",
@@ -4542,7 +4542,7 @@
       "daily": -1.0,
       "rate": 93.3,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1300027",
@@ -4558,7 +4558,7 @@
       "daily": 0.0,
       "rate": 72.9,
       "completeRate": 103.4,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304765",
@@ -4574,7 +4574,7 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1092261",
@@ -4590,7 +4590,7 @@
       "daily": 0.0,
       "rate": 89.8,
       "completeRate": 99.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306506",
@@ -4606,7 +4606,7 @@
       "daily": 0.0,
       "rate": 68.4,
       "completeRate": 88.6,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87907",
@@ -4622,7 +4622,7 @@
       "daily": 0.0,
       "rate": 83.4,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306509",
@@ -4638,7 +4638,7 @@
       "daily": 0.0,
       "rate": 91.5,
       "completeRate": 99.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1094691",
@@ -4654,7 +4654,7 @@
       "daily": 0.0,
       "rate": 90.6,
       "completeRate": 96.1,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307293",
@@ -4670,7 +4670,7 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306448",
@@ -4686,7 +4686,7 @@
       "daily": 0.0,
       "rate": 88.5,
       "completeRate": 97.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1309056",
@@ -4702,7 +4702,7 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 96.3,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "87734",
@@ -4718,7 +4718,7 @@
       "daily": 0.0,
       "rate": 87.1,
       "completeRate": 100.3,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096284",
@@ -4734,7 +4734,7 @@
       "daily": 0.0,
       "rate": 84.0,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1306980",
@@ -4750,7 +4750,7 @@
       "daily": 0.0,
       "rate": 83.3,
       "completeRate": 98.8,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1306976",
@@ -4766,7 +4766,7 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1089398",
@@ -4782,7 +4782,7 @@
       "daily": -1.0,
       "rate": 80.7,
       "completeRate": 97.8,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1304775",
@@ -4798,7 +4798,7 @@
       "daily": 0.0,
       "rate": 82.4,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096165",
@@ -4814,7 +4814,7 @@
       "daily": 0.0,
       "rate": 81.5,
       "completeRate": 98.6,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1309055",
@@ -4830,7 +4830,7 @@
       "daily": 0.0,
       "rate": 79.9,
       "completeRate": 97.0,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "87967",
@@ -4846,7 +4846,7 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1309146",
@@ -4862,7 +4862,7 @@
       "daily": 0.0,
       "rate": 77.7,
       "completeRate": 95.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1096283",
@@ -4878,7 +4878,7 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1309147",
@@ -4894,7 +4894,7 @@
       "daily": 0.0,
       "rate": 78.0,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1309149",
@@ -4910,7 +4910,7 @@
       "daily": 1.0,
       "rate": 76.0,
       "completeRate": 94.6,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1309057",
@@ -4926,7 +4926,7 @@
       "daily": 0.0,
       "rate": 70.4,
       "completeRate": 95.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1306974",
@@ -4942,7 +4942,7 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.4,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1306988",
@@ -4958,7 +4958,7 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 98.5,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307606",
@@ -4974,7 +4974,7 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 98.3,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "1096042",
@@ -4990,7 +4990,7 @@
       "daily": 0.0,
       "rate": 97.7,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "88039",
@@ -5006,7 +5006,7 @@
       "daily": -1.0,
       "rate": 96.3,
       "completeRate": 99.7,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1307286",
@@ -5022,7 +5022,7 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.5,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "1307399",
@@ -5038,7 +5038,7 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.9,
-      "perf": ""
+      "perf": "C"
     },
     {
       "ctid": "88249",
@@ -5054,7 +5054,7 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 100.7,
-      "perf": ""
+      "perf": "S"
     },
     {
       "ctid": "1306979",
@@ -5070,7 +5070,7 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 98.7,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1307930",
@@ -5086,7 +5086,7 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1096046",
@@ -5102,7 +5102,7 @@
       "daily": 0.0,
       "rate": 77.7,
       "completeRate": 96.2,
-      "perf": ""
+      "perf": "D"
     },
     {
       "ctid": "87827",
@@ -5118,7 +5118,7 @@
       "daily": 1.0,
       "rate": 84.7,
       "completeRate": 98.9,
-      "perf": ""
+      "perf": "A"
     },
     {
       "ctid": "1309148",
@@ -5134,7 +5134,7 @@
       "daily": 0.0,
       "rate": 81.6,
       "completeRate": 94.9,
-      "perf": ""
+      "perf": "B"
     },
     {
       "ctid": "1306512",
@@ -5150,7 +5150,7 @@
       "daily": 0.0,
       "rate": 77.0,
       "completeRate": 95.3,
-      "perf": ""
+      "perf": "C"
     }
   ]
 }
