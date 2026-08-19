@@ -429,15 +429,10 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
         }
         if (c.key === 'rate') { html += '<td>' + val.toFixed(1) + '%</td>'; return; }
         if (c.key === 'perf') {
-          var p = val && val.rank ? val : {};
-          var rank = p.rank || '--';
-          var coeff = p.coeff || '--';
-          var group = p.group || '';
-          var change = p.change || '';
-          var score = p.score || '';
-          var changeStr = change ? (Number(change) > 0 ? '+' + change : change) : '';
-          var tooltip = group + (score ? ' | ' + score : '') + (changeStr ? ' | ' + changeStr : '');
-          html += '<td title="' + tooltip + '"><span style="font-weight:600;font-size:13px;">' + rank + '</span><span style="font-size:11px;color:#888;margin-left:4px;">×' + coeff + '</span></td>'; return;
+          var grade = val || '--';
+          var perfColor = { S:'#15803d', A:'#4ade80', B:'#ea580c', C:'#facc15', D:'#ef4444' };
+          var color = perfColor[grade] || '#6b7280';
+          html += '<td><span style="display:inline-block;min-width:22px;padding:2px 8px;border-radius:8px;font-weight:700;font-size:13px;background:' + color + ';color:#fff;line-height:1.4;">' + grade + '</span></td>'; return;
         }
         if (c.numeric) { html += '<td>' + fmt(val) + '</td>'; return; }
         html += '<td>' + val + '</td>';
