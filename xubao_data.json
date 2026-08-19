@@ -238,7 +238,13 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": {
+        "rank": "57.14",
+        "change": "28.57",
+        "coeff": "1.0",
+        "group": "常规-初中生物",
+        "score": "57.14% / 854"
+      }
     },
     {
       "ctid": "88298",
@@ -254,7 +260,13 @@
       "daily": 0.0,
       "rate": 93.0,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": {
+        "rank": "71.43",
+        "change": "14.28",
+        "coeff": "0.99",
+        "group": "常规-初中生物",
+        "score": "71.43% / 916"
+      }
     },
     {
       "ctid": "87835",
@@ -270,7 +282,13 @@
       "daily": 0.0,
       "rate": 88.2,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "28.57",
+        "change": "14.29",
+        "coeff": "1.05",
+        "group": "常规-初中生物",
+        "score": "28.57% / 865"
+      }
     },
     {
       "ctid": "1092257",
@@ -286,7 +304,13 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": {
+        "rank": "85.71",
+        "change": "14.28",
+        "coeff": "0.98",
+        "group": "常规-初中生物",
+        "score": "85.71% / 831"
+      }
     },
     {
       "ctid": "87737",
@@ -302,7 +326,13 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 103.4,
-      "perf": "S"
+      "perf": {
+        "rank": "0.95",
+        "change": "28.86",
+        "coeff": "1.13",
+        "group": "常规-初一数学",
+        "score": "0.95% / 732"
+      }
     },
     {
       "ctid": "1091010",
@@ -318,7 +348,13 @@
       "daily": 0.0,
       "rate": 98.3,
       "completeRate": 99.7,
-      "perf": "S"
+      "perf": {
+        "rank": "5.15",
+        "change": "15.29",
+        "coeff": "1.05",
+        "group": "常规-初二数学",
+        "score": "5.15% / 659"
+      }
     },
     {
       "ctid": "88206",
@@ -334,7 +370,13 @@
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": {
+        "rank": "31.4",
+        "change": "3.48",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "31.4% / 730"
+      }
     },
     {
       "ctid": "1093008",
@@ -350,7 +392,13 @@
       "daily": 0.0,
       "rate": 97.2,
       "completeRate": 99.9,
-      "perf": "A"
+      "perf": {
+        "rank": "26.74",
+        "change": "41.86",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "26.74% / 679"
+      }
     },
     {
       "ctid": "1093184",
@@ -366,7 +414,13 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": {
+        "rank": "31.25",
+        "change": "4.69",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "31.25% / 700"
+      }
     },
     {
       "ctid": "1093853",
@@ -382,7 +436,13 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 100.7,
-      "perf": "A"
+      "perf": {
+        "rank": "23.53",
+        "change": "0.56",
+        "coeff": "1.03",
+        "group": "常规-初二数学",
+        "score": "23.53% / 709"
+      }
     },
     {
       "ctid": "1306982",
@@ -398,7 +458,13 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 100.2,
-      "perf": "B"
+      "perf": {
+        "rank": "52.94",
+        "change": "22.97",
+        "coeff": "1.0",
+        "group": "常规-初二数学",
+        "score": "52.94% / 725"
+      }
     },
     {
       "ctid": "88172",
@@ -414,7 +480,13 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.1,
-      "perf": "B"
+      "perf": {
+        "rank": "52.33",
+        "change": "12.8",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "52.33% / 685"
+      }
     },
     {
       "ctid": "87752",
@@ -430,7 +502,13 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 101.2,
-      "perf": "S"
+      "perf": {
+        "rank": "8.7",
+        "change": "4.98",
+        "coeff": "1.07",
+        "group": "常规-初三物理",
+        "score": "8.7% / 679"
+      }
     },
     {
       "ctid": "88347",
@@ -446,7 +524,13 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "29.09",
+        "change": "26.98",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "29.09% / 699"
+      }
     },
     {
       "ctid": "1092255",
@@ -462,7 +546,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": {
+        "rank": "25.0",
+        "change": "0.0",
+        "coeff": "1.03",
+        "group": "常规-初中地理",
+        "score": "25% / 705"
+      }
     },
     {
       "ctid": "1094422",
@@ -478,7 +568,13 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "60.94",
+        "change": "38.28",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "60.94% / 706"
+      }
     },
     {
       "ctid": "1300016",
@@ -494,7 +590,13 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 100.4,
-      "perf": "A"
+      "perf": {
+        "rank": "22.06",
+        "change": "24.66",
+        "coeff": "1.03",
+        "group": "常规-初二数学",
+        "score": "22.06% / 675"
+      }
     },
     {
       "ctid": "1306516",
@@ -510,7 +612,13 @@
       "daily": 0.0,
       "rate": 96.2,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "68.75",
+        "change": "28.91",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "68.75% / 724"
+      }
     },
     {
       "ctid": "1092392",
@@ -526,7 +634,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.2,
-      "perf": "A"
+      "perf": {
+        "rank": "40.95",
+        "change": "24.43",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "40.95% / 718"
+      }
     },
     {
       "ctid": "1300031",
@@ -542,7 +656,13 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 100.5,
-      "perf": "S"
+      "perf": {
+        "rank": "12.5",
+        "change": "0.0",
+        "coeff": "1.05",
+        "group": "常规-初中政治",
+        "score": "12.5% / 717"
+      }
     },
     {
       "ctid": "1093854",
@@ -558,7 +678,13 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 100.5,
-      "perf": "B"
+      "perf": {
+        "rank": "52.21",
+        "change": "37.61",
+        "coeff": "1.0",
+        "group": "常规-初二数学",
+        "score": "52.21% / 783"
+      }
     },
     {
       "ctid": "1092254",
@@ -574,7 +700,13 @@
       "daily": 0.0,
       "rate": 94.5,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": {
+        "rank": "50.0",
+        "change": "12.5",
+        "coeff": "1.0",
+        "group": "常规-初中地理",
+        "score": "50% / 740"
+      }
     },
     {
       "ctid": "1301921",
@@ -590,7 +722,13 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": {
+        "rank": "43.02",
+        "change": "31.39",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "43.02% / 767"
+      }
     },
     {
       "ctid": "1095953",
@@ -606,7 +744,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": {
+        "rank": "56.25",
+        "change": "17.97",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "56.25% / 686"
+      }
     },
     {
       "ctid": "88308",
@@ -622,7 +766,13 @@
       "daily": 0.0,
       "rate": 98.4,
       "completeRate": 101.0,
-      "perf": "B"
+      "perf": {
+        "rank": "58.82",
+        "change": "22.93",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "58.82% / 706"
+      }
     },
     {
       "ctid": "1095951",
@@ -638,7 +788,13 @@
       "daily": 0.0,
       "rate": 95.6,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "46.32",
+        "change": "25.21",
+        "coeff": "1.01",
+        "group": "常规-初二数学",
+        "score": "46.32% / 774"
+      }
     },
     {
       "ctid": "87736",
@@ -654,7 +810,13 @@
       "daily": 0.0,
       "rate": 94.1,
       "completeRate": 99.0,
-      "perf": "C"
+      "perf": {
+        "rank": "86.76",
+        "change": "32.02",
+        "coeff": "0.96",
+        "group": "常规-初二数学",
+        "score": "86.76% / 742"
+      }
     },
     {
       "ctid": "1300018",
@@ -670,7 +832,13 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "40.7",
+        "change": "36.05",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "40.7% / 760"
+      }
     },
     {
       "ctid": "1091008",
@@ -686,7 +854,13 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": {
+        "rank": "62.5",
+        "change": "0.27",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "62.5% / 707"
+      }
     },
     {
       "ctid": "1096171",
@@ -702,7 +876,13 @@
       "daily": 0.0,
       "rate": 95.1,
       "completeRate": 98.8,
-      "perf": "C"
+      "perf": {
+        "rank": "90.44",
+        "change": "12.34",
+        "coeff": "0.95",
+        "group": "常规-初二数学",
+        "score": "90.44% / 749"
+      }
     },
     {
       "ctid": "1094417",
@@ -718,7 +898,13 @@
       "daily": 1.0,
       "rate": 95.9,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": {
+        "rank": "8.09",
+        "change": "71.47",
+        "coeff": "1.05",
+        "group": "常规-初二数学",
+        "score": "8.09% / 677"
+      }
     },
     {
       "ctid": "1089394",
@@ -734,7 +920,13 @@
       "daily": 0.0,
       "rate": 92.2,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "62.5",
+        "change": "12.5",
+        "coeff": "1.0",
+        "group": "常规-初中地理",
+        "score": "62.5% / 708"
+      }
     },
     {
       "ctid": "1307471",
@@ -750,7 +942,13 @@
       "daily": -2.0,
       "rate": 94.7,
       "completeRate": 99.5,
-      "perf": "C"
+      "perf": {
+        "rank": "88.37",
+        "change": "65.11",
+        "coeff": "0.96",
+        "group": "常规-初三数学",
+        "score": "88.37% / 780"
+      }
     },
     {
       "ctid": "1096173",
@@ -766,7 +964,13 @@
       "daily": 1.0,
       "rate": 95.0,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "15.12",
+        "change": "66.28",
+        "coeff": "1.03",
+        "group": "常规-初三数学",
+        "score": "15.12% / 717"
+      }
     },
     {
       "ctid": "88111",
@@ -782,7 +986,13 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 100.3,
-      "perf": "S"
+      "perf": {
+        "rank": "5.81",
+        "change": "1.17",
+        "coeff": "1.05",
+        "group": "常规-初三数学",
+        "score": "5.81% / 689"
+      }
     },
     {
       "ctid": "1306451",
@@ -798,7 +1008,13 @@
       "daily": 0.0,
       "rate": 92.4,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": {
+        "rank": "38.28",
+        "change": "17.97",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "38.28% / 700"
+      }
     },
     {
       "ctid": "1094563",
@@ -814,7 +1030,13 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": {
+        "rank": "29.52",
+        "change": "3.56",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "29.52% / 669"
+      }
     },
     {
       "ctid": "1301690",
@@ -830,7 +1052,13 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "32.56",
+        "change": "30.23",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "32.56% / 750"
+      }
     },
     {
       "ctid": "1094555",
@@ -846,7 +1074,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": {
+        "rank": "53.68",
+        "change": "20.04",
+        "coeff": "1.0",
+        "group": "常规-初二数学",
+        "score": "53.68% / 786"
+      }
     },
     {
       "ctid": "1092260",
@@ -862,7 +1096,13 @@
       "daily": 0.0,
       "rate": 92.2,
       "completeRate": 97.6,
-      "perf": "D"
+      "perf": {
+        "rank": "94.12",
+        "change": "75.14",
+        "coeff": "0.94",
+        "group": "常规-初二数学",
+        "score": "94.12% / 748"
+      }
     },
     {
       "ctid": "87942",
@@ -878,7 +1118,13 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 98.9,
-      "perf": "A"
+      "perf": {
+        "rank": "33.64",
+        "change": "14.02",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "33.64% / 724"
+      }
     },
     {
       "ctid": "87538",
@@ -894,7 +1140,13 @@
       "daily": 0.0,
       "rate": 90.5,
       "completeRate": 101.9,
-      "perf": "A"
+      "perf": {
+        "rank": "20.31",
+        "change": "47.66",
+        "coeff": "1.04",
+        "group": "常规-初中英语",
+        "score": "20.31% / 659"
+      }
     },
     {
       "ctid": "1307287",
@@ -910,7 +1162,13 @@
       "daily": 0.0,
       "rate": 97.8,
       "completeRate": 100.6,
-      "perf": "S"
+      "perf": {
+        "rank": "11.76",
+        "change": "22.55",
+        "coeff": "1.04",
+        "group": "常规-初二数学",
+        "score": "11.76% / 673"
+      }
     },
     {
       "ctid": "1091007",
@@ -926,7 +1184,13 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": {
+        "rank": "34.88",
+        "change": "16.28",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "34.88% / 684"
+      }
     },
     {
       "ctid": "1301689",
@@ -942,7 +1206,13 @@
       "daily": 0.0,
       "rate": 91.7,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "58.09",
+        "change": "11.98",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "58.09% / 726"
+      }
     },
     {
       "ctid": "1092428",
@@ -958,7 +1228,13 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": {
+        "rank": "65.44",
+        "change": "42.08",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "65.44% / 710"
+      }
     },
     {
       "ctid": "87906",
@@ -974,7 +1250,13 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": {
+        "rank": "44.44",
+        "change": "11.12",
+        "coeff": "1.0",
+        "group": "常规-初中历史",
+        "score": "44.44% / 718"
+      }
     },
     {
       "ctid": "87781",
@@ -990,7 +1272,13 @@
       "daily": 0.0,
       "rate": 89.5,
       "completeRate": 102.5,
-      "perf": "S"
+      "perf": {
+        "rank": "7.03",
+        "change": "17.97",
+        "coeff": "1.06",
+        "group": "常规-初中英语",
+        "score": "7.03% / 774"
+      }
     },
     {
       "ctid": "1306525",
@@ -1006,7 +1294,13 @@
       "daily": -1.0,
       "rate": 96.7,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": {
+        "rank": "67.97",
+        "change": "26.56",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "67.97% / 684"
+      }
     },
     {
       "ctid": "1094564",
@@ -1022,7 +1316,13 @@
       "daily": 0.0,
       "rate": 93.1,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": {
+        "rank": "44.19",
+        "change": "39.53",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "44.19% / 718"
+      }
     },
     {
       "ctid": "1306520",
@@ -1038,7 +1338,13 @@
       "daily": 1.0,
       "rate": 90.7,
       "completeRate": 99.8,
-      "perf": "A"
+      "perf": {
+        "rank": "35.16",
+        "change": "24.22",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "35.16% / 709"
+      }
     },
     {
       "ctid": "1092393",
@@ -1054,7 +1360,13 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 100.4,
-      "perf": "S"
+      "perf": {
+        "rank": "10.29",
+        "change": "32.05",
+        "coeff": "1.04",
+        "group": "常规-初二数学",
+        "score": "10.29% / 665"
+      }
     },
     {
       "ctid": "1092394",
@@ -1070,7 +1382,13 @@
       "daily": -1.0,
       "rate": 97.6,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": {
+        "rank": "76.47",
+        "change": "18.81",
+        "coeff": "0.98",
+        "group": "常规-初二数学",
+        "score": "76.47% / 702"
+      }
     },
     {
       "ctid": "1093856",
@@ -1086,7 +1404,13 @@
       "daily": 0.0,
       "rate": 92.1,
       "completeRate": 100.3,
-      "perf": "B"
+      "perf": {
+        "rank": "59.05",
+        "change": "29.41",
+        "coeff": "1.0",
+        "group": "常规-初一数学",
+        "score": "59.05% / 728"
+      }
     },
     {
       "ctid": "87872",
@@ -1102,7 +1426,13 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "37.14",
+        "change": "33.05",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "37.14% / 743"
+      }
     },
     {
       "ctid": "1306986",
@@ -1118,7 +1448,13 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 100.4,
-      "perf": "B"
+      "perf": {
+        "rank": "66.18",
+        "change": "19.22",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "66.18% / 681"
+      }
     },
     {
       "ctid": "1096045",
@@ -1134,7 +1470,13 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 97.1,
-      "perf": "B"
+      "perf": {
+        "rank": "81.9",
+        "change": "31.9",
+        "coeff": "0.98",
+        "group": "常规-初一数学",
+        "score": "81.9% / 668"
+      }
     },
     {
       "ctid": "1300019",
@@ -1150,7 +1492,13 @@
       "daily": -1.0,
       "rate": 91.7,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": {
+        "rank": "40.0",
+        "change": "21.73",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "40% / 711"
+      }
     },
     {
       "ctid": "1096290",
@@ -1166,7 +1514,13 @@
       "daily": 0.0,
       "rate": 91.4,
       "completeRate": 97.5,
-      "perf": "C"
+      "perf": {
+        "rank": "85.29",
+        "change": "62.66",
+        "coeff": "0.97",
+        "group": "常规-初二数学",
+        "score": "85.29% / 734"
+      }
     },
     {
       "ctid": "87854",
@@ -1182,7 +1536,13 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": {
+        "rank": "67.62",
+        "change": "61.85",
+        "coeff": "0.99",
+        "group": "常规-初一数学",
+        "score": "67.62% / 698"
+      }
     },
     {
       "ctid": "1302749",
@@ -1198,7 +1558,13 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 99.2,
-      "perf": "S"
+      "perf": {
+        "rank": "1.16",
+        "change": "45.35",
+        "coeff": "1.06",
+        "group": "常规-初三数学",
+        "score": "1.16% / 689"
+      }
     },
     {
       "ctid": "87780",
@@ -1214,7 +1580,13 @@
       "daily": 0.0,
       "rate": 90.0,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": {
+        "rank": "76.19",
+        "change": "68.5",
+        "coeff": "0.98",
+        "group": "常规-初一数学",
+        "score": "76.19% / 727"
+      }
     },
     {
       "ctid": "87753",
@@ -1230,7 +1602,13 @@
       "daily": -1.0,
       "rate": 91.1,
       "completeRate": 98.2,
-      "perf": "A"
+      "perf": {
+        "rank": "22.22",
+        "change": "11.11",
+        "coeff": "1.01",
+        "group": "常规-初中历史",
+        "score": "22.22% / 688"
+      }
     },
     {
       "ctid": "87793",
@@ -1246,7 +1624,13 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": {
+        "rank": "35.24",
+        "change": "7.07",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "35.24% / 702"
+      }
     },
     {
       "ctid": "1300022",
@@ -1262,7 +1646,13 @@
       "daily": 0.0,
       "rate": 90.9,
       "completeRate": 97.8,
-      "perf": "C"
+      "perf": {
+        "rank": "88.57",
+        "change": "21.26",
+        "coeff": "0.96",
+        "group": "常规-初一数学",
+        "score": "88.57% / 749"
+      }
     },
     {
       "ctid": "1093010",
@@ -1278,7 +1668,13 @@
       "daily": 0.0,
       "rate": 95.6,
       "completeRate": 99.9,
-      "perf": "A"
+      "perf": {
+        "rank": "36.03",
+        "change": "22.16",
+        "coeff": "1.02",
+        "group": "常规-初二数学",
+        "score": "36.03% / 672"
+      }
     },
     {
       "ctid": "1092266",
@@ -1294,7 +1690,13 @@
       "daily": 0.0,
       "rate": 88.4,
       "completeRate": 98.8,
-      "perf": "S"
+      "perf": {
+        "rank": "11.11",
+        "change": "11.11",
+        "coeff": "1.05",
+        "group": "常规-初中历史",
+        "score": "11.11% / 706"
+      }
     },
     {
       "ctid": "1306983",
@@ -1310,7 +1712,13 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": {
+        "rank": "84.38",
+        "change": "71.1",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "84.38% / 693"
+      }
     },
     {
       "ctid": "1306452",
@@ -1326,7 +1734,13 @@
       "daily": 0.0,
       "rate": 90.1,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "70.31",
+        "change": "15.62",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "70.31% / 714"
+      }
     },
     {
       "ctid": "1306449",
@@ -1342,7 +1756,13 @@
       "daily": 0.0,
       "rate": 90.2,
       "completeRate": 98.4,
-      "perf": "A"
+      "perf": {
+        "rank": "32.81",
+        "change": "18.75",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "32.81% / 704"
+      }
     },
     {
       "ctid": "1307289",
@@ -1358,7 +1778,13 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 99.7,
-      "perf": "D"
+      "perf": {
+        "rank": "95.24",
+        "change": "4.86",
+        "coeff": "0.93",
+        "group": "常规-初一数学",
+        "score": "95.24% / 747"
+      }
     },
     {
       "ctid": "1300015",
@@ -1374,7 +1800,13 @@
       "daily": 0.0,
       "rate": 90.9,
       "completeRate": 100.8,
-      "perf": "A"
+      "perf": {
+        "rank": "17.14",
+        "change": "47.28",
+        "coeff": "1.04",
+        "group": "常规-初一数学",
+        "score": "17.14% / 706"
+      }
     },
     {
       "ctid": "1092259",
@@ -1390,7 +1822,13 @@
       "daily": 0.0,
       "rate": 88.8,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": {
+        "rank": "45.71",
+        "change": "2.37",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "45.71% / 563"
+      }
     },
     {
       "ctid": "1096166",
@@ -1406,7 +1844,13 @@
       "daily": 0.0,
       "rate": 86.9,
       "completeRate": 98.0,
-      "perf": "A"
+      "perf": {
+        "rank": "25.0",
+        "change": "12.5",
+        "coeff": "1.04",
+        "group": "常规-初中政治",
+        "score": "25% / 725"
+      }
     },
     {
       "ctid": "1092252",
@@ -1422,7 +1866,13 @@
       "daily": 0.0,
       "rate": 91.9,
       "completeRate": 100.9,
-      "perf": "C"
+      "perf": {
+        "rank": "86.67",
+        "change": "18.4",
+        "coeff": "0.97",
+        "group": "常规-初一数学",
+        "score": "86.67% / 721"
+      }
     },
     {
       "ctid": "87787",
@@ -1438,7 +1888,13 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "63.81",
+        "change": "50.35",
+        "coeff": "0.99",
+        "group": "常规-初一数学",
+        "score": "63.81% / 681"
+      }
     },
     {
       "ctid": "87851",
@@ -1454,7 +1910,13 @@
       "daily": 0.0,
       "rate": 88.6,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": {
+        "rank": "7.62",
+        "change": "88.53",
+        "coeff": "1.06",
+        "group": "常规-初一数学",
+        "score": "7.62% / 689"
+      }
     },
     {
       "ctid": "1307290",
@@ -1470,7 +1932,13 @@
       "daily": 2.0,
       "rate": 90.7,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "62.86",
+        "change": "50.36",
+        "coeff": "0.99",
+        "group": "常规-初一数学",
+        "score": "62.86% / 690"
+      }
     },
     {
       "ctid": "88154",
@@ -1486,7 +1954,13 @@
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "20.0",
+        "change": "37.69",
+        "coeff": "1.03",
+        "group": "常规-初一数学",
+        "score": "20% / 503"
+      }
     },
     {
       "ctid": "87789",
@@ -1502,7 +1976,13 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.0,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "12.5",
+        "coeff": "0.96",
+        "group": "常规-初中地理",
+        "score": "100% / 684"
+      }
     },
     {
       "ctid": "1306981",
@@ -1518,7 +1998,13 @@
       "daily": 0.0,
       "rate": 88.8,
       "completeRate": 98.8,
-      "perf": "S"
+      "perf": {
+        "rank": "14.06",
+        "change": "33.6",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "14.06% / 697"
+      }
     },
     {
       "ctid": "1096169",
@@ -1534,7 +2020,13 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": {
+        "rank": "88.28",
+        "change": "35.16",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "88.28% / 663"
+      }
     },
     {
       "ctid": "1092584",
@@ -1550,7 +2042,13 @@
       "daily": 0.0,
       "rate": 87.8,
       "completeRate": 95.7,
-      "perf": "C"
+      "perf": {
+        "rank": "91.43",
+        "change": "2.01",
+        "coeff": "0.95",
+        "group": "常规-初一数学",
+        "score": "91.43% / 748"
+      }
     },
     {
       "ctid": "1306519",
@@ -1566,7 +2064,13 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "61.72",
+        "change": "15.63",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "61.72% / 734"
+      }
     },
     {
       "ctid": "1307291",
@@ -1582,7 +2086,13 @@
       "daily": 0.0,
       "rate": 88.7,
       "completeRate": 98.9,
-      "perf": "S"
+      "perf": {
+        "rank": "16.19",
+        "change": "24.19",
+        "coeff": "1.04",
+        "group": "常规-初一数学",
+        "score": "16.19% / 708"
+      }
     },
     {
       "ctid": "1096162",
@@ -1598,7 +2108,13 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 99.3,
-      "perf": "S"
+      "perf": {
+        "rank": "3.49",
+        "change": "53.49",
+        "coeff": "1.05",
+        "group": "常规-初三数学",
+        "score": "3.49% / 710"
+      }
     },
     {
       "ctid": "1089510",
@@ -1614,7 +2130,13 @@
       "daily": 0.0,
       "rate": 89.6,
       "completeRate": 100.7,
-      "perf": "A"
+      "perf": {
+        "rank": "46.88",
+        "change": "17.97",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "46.88% / 700"
+      }
     },
     {
       "ctid": "1089396",
@@ -1630,7 +2152,13 @@
       "daily": 0.0,
       "rate": 86.8,
       "completeRate": 97.2,
-      "perf": "C"
+      "perf": {
+        "rank": "92.38",
+        "change": "5.7",
+        "coeff": "0.95",
+        "group": "常规-初一数学",
+        "score": "92.38% / 721"
+      }
     },
     {
       "ctid": "1093009",
@@ -1646,7 +2174,13 @@
       "daily": 0.0,
       "rate": 87.9,
       "completeRate": 96.3,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "2.33",
+        "coeff": "0.9",
+        "group": "常规-初三数学",
+        "score": "100% / 731"
+      }
     },
     {
       "ctid": "87701",
@@ -1662,7 +2196,13 @@
       "daily": 0.0,
       "rate": 86.6,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "74.22",
+        "change": "7.03",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "74.22% / 730"
+      }
     },
     {
       "ctid": "87700",
@@ -1678,7 +2218,13 @@
       "daily": 0.0,
       "rate": 95.2,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "61.9",
+        "change": "28.25",
+        "coeff": "0.99",
+        "group": "常规-初一数学",
+        "score": "61.9% / 614"
+      }
     },
     {
       "ctid": "87771",
@@ -1694,7 +2240,13 @@
       "daily": 0.0,
       "rate": 85.6,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": {
+        "rank": "78.91",
+        "change": "54.69",
+        "coeff": "0.97",
+        "group": "常规-初中英语",
+        "score": "78.91% / 756"
+      }
     },
     {
       "ctid": "1093860",
@@ -1710,7 +2262,13 @@
       "daily": 0.0,
       "rate": 86.0,
       "completeRate": 102.1,
-      "perf": "A"
+      "perf": {
+        "rank": "24.22",
+        "change": "60.94",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "24.22% / 744"
+      }
     },
     {
       "ctid": "1092390",
@@ -1726,7 +2284,13 @@
       "daily": 0.0,
       "rate": 87.3,
       "completeRate": 101.5,
-      "perf": "A"
+      "perf": {
+        "rank": "19.53",
+        "change": "7.03",
+        "coeff": "1.04",
+        "group": "常规-初中英语",
+        "score": "19.53% / 715"
+      }
     },
     {
       "ctid": "1091009",
@@ -1742,7 +2306,13 @@
       "daily": 0.0,
       "rate": 88.6,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "54.29",
+        "change": "5.33",
+        "coeff": "1.0",
+        "group": "常规-初一数学",
+        "score": "54.29% / 697"
+      }
     },
     {
       "ctid": "1306975",
@@ -1758,7 +2328,13 @@
       "daily": 0.0,
       "rate": 86.9,
       "completeRate": 97.4,
-      "perf": "B"
+      "perf": {
+        "rank": "82.86",
+        "change": "6.9",
+        "coeff": "0.97",
+        "group": "常规-初一数学",
+        "score": "82.86% / 747"
+      }
     },
     {
       "ctid": "1095956",
@@ -1774,7 +2350,13 @@
       "daily": 0.0,
       "rate": 92.7,
       "completeRate": 98.4,
-      "perf": "A"
+      "perf": {
+        "rank": "19.77",
+        "change": "25.58",
+        "coeff": "1.02",
+        "group": "常规-初三数学",
+        "score": "19.77% / 633"
+      }
     },
     {
       "ctid": "1301704",
@@ -1790,7 +2372,13 @@
       "daily": 0.0,
       "rate": 90.7,
       "completeRate": 99.6,
-      "perf": "A"
+      "perf": {
+        "rank": "24.42",
+        "change": "60.46",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "24.42% / 671"
+      }
     },
     {
       "ctid": "1089400",
@@ -1806,7 +2394,13 @@
       "daily": 0.0,
       "rate": 86.5,
       "completeRate": 97.5,
-      "perf": "A"
+      "perf": {
+        "rank": "47.62",
+        "change": "45.65",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "47.62% / 692"
+      }
     },
     {
       "ctid": "87956",
@@ -1822,7 +2416,13 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 100.2,
-      "perf": "S"
+      "perf": {
+        "rank": "5.45",
+        "change": "6.7",
+        "coeff": "1.07",
+        "group": "常规-初二物理",
+        "score": "5.45% / 651"
+      }
     },
     {
       "ctid": "88224",
@@ -1838,7 +2438,13 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 105.6,
-      "perf": "S"
+      "perf": {
+        "rank": "2.17",
+        "change": "0.06",
+        "coeff": "1.1",
+        "group": "常规-初三物理",
+        "score": "2.17% / 691"
+      }
     },
     {
       "ctid": "87839",
@@ -1854,7 +2460,13 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 102.6,
-      "perf": "S"
+      "perf": {
+        "rank": "5.71",
+        "change": "74.1",
+        "coeff": "1.07",
+        "group": "常规-初一数学",
+        "score": "5.71% / 726"
+      }
     },
     {
       "ctid": "88100",
@@ -1870,7 +2482,13 @@
       "daily": 0.0,
       "rate": 88.6,
       "completeRate": 99.0,
-      "perf": "A"
+      "perf": {
+        "rank": "38.1",
+        "change": "29.45",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "38.1% / 470"
+      }
     },
     {
       "ctid": "1302752",
@@ -1886,7 +2504,13 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "37.21",
+        "change": "32.56",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "37.21% / 608"
+      }
     },
     {
       "ctid": "1096167",
@@ -1902,7 +2526,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "77.78",
+        "change": "33.34",
+        "coeff": "0.99",
+        "group": "常规-初中历史",
+        "score": "77.78% / 647"
+      }
     },
     {
       "ctid": "1094554",
@@ -1918,7 +2548,13 @@
       "daily": 0.0,
       "rate": 90.3,
       "completeRate": 97.8,
-      "perf": "D"
+      "perf": {
+        "rank": "97.14",
+        "change": "75.02",
+        "coeff": "0.93",
+        "group": "常规-初一数学",
+        "score": "97.14% / 547"
+      }
     },
     {
       "ctid": "1096047",
@@ -1934,7 +2570,13 @@
       "daily": 0.0,
       "rate": 90.8,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": {
+        "rank": "73.26",
+        "change": "13.95",
+        "coeff": "0.97",
+        "group": "常规-初三数学",
+        "score": "73.26% / 714"
+      }
     },
     {
       "ctid": "87792",
@@ -1950,7 +2592,13 @@
       "daily": 0.0,
       "rate": 81.7,
       "completeRate": 98.2,
-      "perf": "S"
+      "perf": {
+        "rank": "12.5",
+        "change": "87.5",
+        "coeff": "1.07",
+        "group": "常规-初中地理",
+        "score": "12.5% / 728"
+      }
     },
     {
       "ctid": "1304771",
@@ -1966,7 +2614,13 @@
       "daily": 0.0,
       "rate": 93.9,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": {
+        "rank": "84.78",
+        "change": "21.62",
+        "coeff": "0.95",
+        "group": "常规-初三物理",
+        "score": "84.78% / 645"
+      }
     },
     {
       "ctid": "87893",
@@ -1982,7 +2636,13 @@
       "daily": 0.0,
       "rate": 98.8,
       "completeRate": 100.9,
-      "perf": "A"
+      "perf": {
+        "rank": "17.19",
+        "change": "6.25",
+        "coeff": "1.04",
+        "group": "常规-初中英语",
+        "score": "17.19% / 545"
+      }
     },
     {
       "ctid": "1095947",
@@ -1998,7 +2658,13 @@
       "daily": 0.0,
       "rate": 89.9,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "63.64",
+        "change": "16.91",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "63.64% / 723"
+      }
     },
     {
       "ctid": "88153",
@@ -2014,7 +2680,13 @@
       "daily": 0.0,
       "rate": 88.2,
       "completeRate": 101.7,
-      "perf": "A"
+      "perf": {
+        "rank": "21.09",
+        "change": "56.25",
+        "coeff": "1.04",
+        "group": "常规-初中英语",
+        "score": "21.09% / 681"
+      }
     },
     {
       "ctid": "1304964",
@@ -2030,7 +2702,13 @@
       "daily": 0.0,
       "rate": 95.3,
       "completeRate": 99.0,
-      "perf": "A"
+      "perf": {
+        "rank": "32.61",
+        "change": "32.65",
+        "coeff": "1.02",
+        "group": "常规-初三物理",
+        "score": "32.61% / 626"
+      }
     },
     {
       "ctid": "1092262",
@@ -2046,7 +2724,13 @@
       "daily": 0.0,
       "rate": 83.3,
       "completeRate": 96.5,
-      "perf": "C"
+      "perf": {
+        "rank": "55.56",
+        "change": "11.11",
+        "coeff": "0.99",
+        "group": "常规-初中历史",
+        "score": "55.56% / 732"
+      }
     },
     {
       "ctid": "1092551",
@@ -2062,7 +2746,13 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 99.6,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "0.0",
+        "coeff": "0.92",
+        "group": "常规-初中生物",
+        "score": "100% / 681"
+      }
     },
     {
       "ctid": "1300026",
@@ -2078,7 +2768,13 @@
       "daily": 0.0,
       "rate": 84.1,
       "completeRate": 102.2,
-      "perf": "A"
+      "perf": {
+        "rank": "31.82",
+        "change": "32.67",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "31.82% / 751"
+      }
     },
     {
       "ctid": "1096288",
@@ -2094,7 +2790,13 @@
       "daily": 1.0,
       "rate": 84.6,
       "completeRate": 97.6,
-      "perf": "C"
+      "perf": {
+        "rank": "89.84",
+        "change": "85.15",
+        "coeff": "0.95",
+        "group": "常规-初中英语",
+        "score": "89.84% / 716"
+      }
     },
     {
       "ctid": "1301354",
@@ -2110,7 +2812,13 @@
       "daily": 0.0,
       "rate": 83.6,
       "completeRate": 96.0,
-      "perf": "D"
+      "perf": {
+        "rank": "96.19",
+        "change": "56.77",
+        "coeff": "0.93",
+        "group": "常规-初一数学",
+        "score": "96.19% / 797"
+      }
     },
     {
       "ctid": "1093851",
@@ -2126,7 +2834,13 @@
       "daily": 1.0,
       "rate": 94.1,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "81.4",
+        "change": "27.91",
+        "coeff": "0.97",
+        "group": "常规-初三数学",
+        "score": "81.4% / 656"
+      }
     },
     {
       "ctid": "1306973",
@@ -2142,7 +2856,13 @@
       "daily": 1.0,
       "rate": 83.2,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "65.62",
+        "change": "60.15",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "65.62% / 669"
+      }
     },
     {
       "ctid": "87652",
@@ -2158,7 +2878,13 @@
       "daily": 0.0,
       "rate": 85.6,
       "completeRate": 97.6,
-      "perf": "A"
+      "perf": {
+        "rank": "44.53",
+        "change": "25.78",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "44.53% / 665"
+      }
     },
     {
       "ctid": "1300025",
@@ -2174,7 +2900,13 @@
       "daily": 0.0,
       "rate": 89.3,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "76.36",
+        "change": "16.55",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "76.36% / 653"
+      }
     },
     {
       "ctid": "1304730",
@@ -2190,7 +2922,13 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "29.35",
+        "change": "8.3",
+        "coeff": "1.02",
+        "group": "常规-初三物理",
+        "score": "29.35% / 625"
+      }
     },
     {
       "ctid": "87738",
@@ -2206,7 +2944,13 @@
       "daily": 1.0,
       "rate": 93.7,
       "completeRate": 100.0,
-      "perf": "C"
+      "perf": {
+        "rank": "87.5",
+        "change": "0.0",
+        "coeff": "0.97",
+        "group": "常规-初中政治",
+        "score": "87.5% / 676"
+      }
     },
     {
       "ctid": "1304731",
@@ -2222,7 +2966,13 @@
       "daily": 0.0,
       "rate": 94.2,
       "completeRate": 97.9,
-      "perf": "B"
+      "perf": {
+        "rank": "73.91",
+        "change": "25.49",
+        "coeff": "0.97",
+        "group": "常规-初三物理",
+        "score": "73.91% / 625"
+      }
     },
     {
       "ctid": "1096286",
@@ -2238,7 +2988,13 @@
       "daily": 0.0,
       "rate": 90.4,
       "completeRate": 99.6,
-      "perf": "A"
+      "perf": {
+        "rank": "45.35",
+        "change": "48.84",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "45.35% / 629"
+      }
     },
     {
       "ctid": "87826",
@@ -2254,7 +3010,13 @@
       "daily": 0.0,
       "rate": 93.8,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": {
+        "rank": "37.5",
+        "change": "37.5",
+        "coeff": "1.01",
+        "group": "常规-初中地理",
+        "score": "37.5% / 622"
+      }
     },
     {
       "ctid": "1306524",
@@ -2270,7 +3032,13 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": "C"
+      "perf": {
+        "rank": "85.94",
+        "change": "41.41",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "85.94% / 615"
+      }
     },
     {
       "ctid": "1302751",
@@ -2286,7 +3054,13 @@
       "daily": 0.0,
       "rate": 85.7,
       "completeRate": 98.1,
-      "perf": "B"
+      "perf": {
+        "rank": "80.95",
+        "change": "6.91",
+        "coeff": "0.98",
+        "group": "常规-初一数学",
+        "score": "80.95% / 741"
+      }
     },
     {
       "ctid": "1307472",
@@ -2302,7 +3076,13 @@
       "daily": 0.0,
       "rate": 86.1,
       "completeRate": 98.0,
-      "perf": "B"
+      "perf": {
+        "rank": "83.81",
+        "change": "31.89",
+        "coeff": "0.97",
+        "group": "常规-初一数学",
+        "score": "83.81% / 722"
+      }
     },
     {
       "ctid": "87476",
@@ -2318,7 +3098,13 @@
       "daily": 0.0,
       "rate": 93.6,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "55.88",
+        "change": "12.0",
+        "coeff": "1.0",
+        "group": "常规-初二数学",
+        "score": "55.88% / 581"
+      }
     },
     {
       "ctid": "1092391",
@@ -2334,7 +3120,13 @@
       "daily": 0.0,
       "rate": 87.5,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": {
+        "rank": "64.84",
+        "change": "4.69",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "64.84% / 652"
+      }
     },
     {
       "ctid": "1094411",
@@ -2350,7 +3142,13 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "53.33",
+        "change": "32.25",
+        "coeff": "1.0",
+        "group": "常规-初一数学",
+        "score": "53.33% / 645"
+      }
     },
     {
       "ctid": "87957",
@@ -2366,7 +3164,13 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 97.1,
-      "perf": "B"
+      "perf": {
+        "rank": "63.97",
+        "change": "28.0",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "63.97% / 638"
+      }
     },
     {
       "ctid": "1300226",
@@ -2382,7 +3186,13 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 100.6,
-      "perf": "A"
+      "perf": {
+        "rank": "16.3",
+        "change": "10.02",
+        "coeff": "1.04",
+        "group": "常规-初三物理",
+        "score": "16.3% / 572"
+      }
     },
     {
       "ctid": "1306987",
@@ -2398,7 +3208,13 @@
       "daily": 0.0,
       "rate": 84.4,
       "completeRate": 95.7,
-      "perf": "B"
+      "perf": {
+        "rank": "80.88",
+        "change": "15.47",
+        "coeff": "0.97",
+        "group": "常规-初二数学",
+        "score": "80.88% / 703"
+      }
     },
     {
       "ctid": "1306523",
@@ -2414,7 +3230,13 @@
       "daily": 0.0,
       "rate": 82.7,
       "completeRate": 97.2,
-      "perf": "C"
+      "perf": {
+        "rank": "96.88",
+        "change": "39.07",
+        "coeff": "0.93",
+        "group": "常规-初中英语",
+        "score": "96.88% / 785"
+      }
     },
     {
       "ctid": "87940",
@@ -2430,7 +3252,13 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 100.8,
-      "perf": "A"
+      "perf": {
+        "rank": "34.55",
+        "change": "13.99",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "34.55% / 570"
+      }
     },
     {
       "ctid": "87779",
@@ -2446,7 +3274,13 @@
       "daily": 0.0,
       "rate": 91.3,
       "completeRate": 101.1,
-      "perf": "A"
+      "perf": {
+        "rank": "16.41",
+        "change": "47.65",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "16.41% / 587"
+      }
     },
     {
       "ctid": "88135",
@@ -2462,7 +3296,13 @@
       "daily": 0.0,
       "rate": 92.0,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "83.64",
+        "change": "25.7",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "83.64% / 624"
+      }
     },
     {
       "ctid": "1301829",
@@ -2478,7 +3318,13 @@
       "daily": 0.0,
       "rate": 88.1,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": {
+        "rank": "24.76",
+        "change": "2.16",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "24.76% / 618"
+      }
     },
     {
       "ctid": "1089399",
@@ -2494,7 +3340,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.8,
-      "perf": "C"
+      "perf": {
+        "rank": "87.5",
+        "change": "75.0",
+        "coeff": "0.96",
+        "group": "常规-初中地理",
+        "score": "87.5% / 605"
+      }
     },
     {
       "ctid": "1304728",
@@ -2510,7 +3362,13 @@
       "daily": 0.0,
       "rate": 94.4,
       "completeRate": 99.3,
-      "perf": "C"
+      "perf": {
+        "rank": "86.36",
+        "change": "13.46",
+        "coeff": "0.96",
+        "group": "常规-初二物理",
+        "score": "86.36% / 638"
+      }
     },
     {
       "ctid": "1300020",
@@ -2526,7 +3384,13 @@
       "daily": 0.0,
       "rate": 95.4,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "47.67",
+        "change": "9.3",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "47.67% / 612"
+      }
     },
     {
       "ctid": "88310",
@@ -2542,7 +3406,13 @@
       "daily": 0.0,
       "rate": 85.3,
       "completeRate": 98.2,
-      "perf": "B"
+      "perf": {
+        "rank": "60.16",
+        "change": "13.28",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "60.16% / 636"
+      }
     },
     {
       "ctid": "1304962",
@@ -2558,7 +3428,13 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.3,
-      "perf": "C"
+      "perf": {
+        "rank": "92.39",
+        "change": "19.76",
+        "coeff": "0.94",
+        "group": "常规-初三物理",
+        "score": "92.39% / 687"
+      }
     },
     {
       "ctid": "1307927",
@@ -2574,7 +3450,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 100.8,
-      "perf": "B"
+      "perf": {
+        "rank": "68.48",
+        "change": "0.99",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "68.48% / 587"
+      }
     },
     {
       "ctid": "1092389",
@@ -2590,7 +3472,13 @@
       "daily": 0.0,
       "rate": 90.9,
       "completeRate": 100.7,
-      "perf": "A"
+      "perf": {
+        "rank": "26.67",
+        "change": "56.98",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "26.67% / 573"
+      }
     },
     {
       "ctid": "1306513",
@@ -2606,7 +3494,13 @@
       "daily": 0.0,
       "rate": 94.9,
       "completeRate": 101.0,
-      "perf": "S"
+      "perf": {
+        "rank": "1.82",
+        "change": "30.89",
+        "coeff": "1.12",
+        "group": "常规-初二物理",
+        "score": "1.82% / 583"
+      }
     },
     {
       "ctid": "1094421",
@@ -2622,7 +3516,13 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": {
+        "rank": "35.45",
+        "change": "5.67",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "35.45% / 613"
+      }
     },
     {
       "ctid": "1089964",
@@ -2638,7 +3538,13 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 101.7,
-      "perf": "A"
+      "perf": {
+        "rank": "25.78",
+        "change": "39.84",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "25.78% / 618"
+      }
     },
     {
       "ctid": "1092249",
@@ -2654,7 +3560,13 @@
       "daily": 0.0,
       "rate": 83.7,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "42.19",
+        "change": "6.25",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "42.19% / 645"
+      }
     },
     {
       "ctid": "88152",
@@ -2670,7 +3582,13 @@
       "daily": 0.0,
       "rate": 96.1,
       "completeRate": 98.0,
-      "perf": "B"
+      "perf": {
+        "rank": "65.22",
+        "change": "4.17",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "65.22% / 551"
+      }
     },
     {
       "ctid": "1304732",
@@ -2686,7 +3604,13 @@
       "daily": 0.0,
       "rate": 97.4,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "27.34",
+        "change": "2.35",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "27.34% / 582"
+      }
     },
     {
       "ctid": "1093864",
@@ -2702,7 +3626,13 @@
       "daily": 0.0,
       "rate": 84.8,
       "completeRate": 98.5,
-      "perf": "D"
+      "perf": {
+        "rank": "98.44",
+        "change": "35.94",
+        "coeff": "0.92",
+        "group": "常规-初中英语",
+        "score": "98.44% / 821"
+      }
     },
     {
       "ctid": "1304729",
@@ -2718,7 +3648,13 @@
       "daily": 1.0,
       "rate": 83.3,
       "completeRate": 101.6,
-      "perf": "A"
+      "perf": {
+        "rank": "19.57",
+        "change": "13.25",
+        "coeff": "1.04",
+        "group": "常规-初三物理",
+        "score": "19.57% / 599"
+      }
     },
     {
       "ctid": "87742",
@@ -2734,7 +3670,13 @@
       "daily": 0.0,
       "rate": 83.6,
       "completeRate": 98.8,
-      "perf": "S"
+      "perf": {
+        "rank": "13.33",
+        "change": "74.17",
+        "coeff": "1.04",
+        "group": "常规-初一数学",
+        "score": "13.33% / 617"
+      }
     },
     {
       "ctid": "87947",
@@ -2750,7 +3692,13 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": {
+        "rank": "66.36",
+        "change": "8.41",
+        "coeff": "0.98",
+        "group": "常规-初二物理",
+        "score": "66.36% / 576"
+      }
     },
     {
       "ctid": "1304965",
@@ -2766,7 +3714,13 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 99.7,
-      "perf": "B"
+      "perf": {
+        "rank": "60.91",
+        "change": "3.9",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "60.91% / 563"
+      }
     },
     {
       "ctid": "1096041",
@@ -2782,7 +3736,13 @@
       "daily": 0.0,
       "rate": 94.0,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": {
+        "rank": "74.55",
+        "change": "22.21",
+        "coeff": "0.98",
+        "group": "常规-初二物理",
+        "score": "74.55% / 625"
+      }
     },
     {
       "ctid": "87941",
@@ -2798,7 +3758,13 @@
       "daily": 0.0,
       "rate": 93.3,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": {
+        "rank": "41.82",
+        "change": "21.73",
+        "coeff": "1.01",
+        "group": "常规-初二物理",
+        "score": "41.82% / 589"
+      }
     },
     {
       "ctid": "1096285",
@@ -2814,7 +3780,13 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.5,
-      "perf": "B"
+      "perf": {
+        "rank": "88.89",
+        "change": "11.11",
+        "coeff": "0.98",
+        "group": "常规-初中历史",
+        "score": "88.89% / 560"
+      }
     },
     {
       "ctid": "1095950",
@@ -2830,7 +3802,13 @@
       "daily": 0.0,
       "rate": 93.1,
       "completeRate": 99.7,
-      "perf": "C"
+      "perf": {
+        "rank": "88.18",
+        "change": "19.02",
+        "coeff": "0.95",
+        "group": "常规-初二物理",
+        "score": "88.18% / 621"
+      }
     },
     {
       "ctid": "1300229",
@@ -2846,7 +3824,13 @@
       "daily": 0.0,
       "rate": 93.5,
       "completeRate": 99.0,
-      "perf": "A"
+      "perf": {
+        "rank": "26.36",
+        "change": "11.96",
+        "coeff": "1.03",
+        "group": "常规-初二物理",
+        "score": "26.36% / 522"
+      }
     },
     {
       "ctid": "88335",
@@ -2862,7 +3846,13 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": {
+        "rank": "67.39",
+        "change": "35.81",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "67.39% / 611"
+      }
     },
     {
       "ctid": "88136",
@@ -2878,7 +3868,13 @@
       "daily": 0.0,
       "rate": 92.6,
       "completeRate": 100.6,
-      "perf": "B"
+      "perf": {
+        "rank": "47.27",
+        "change": "14.41",
+        "coeff": "1.01",
+        "group": "常规-初二物理",
+        "score": "47.27% / 621"
+      }
     },
     {
       "ctid": "1096170",
@@ -2894,7 +3890,13 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 99.8,
-      "perf": "B"
+      "perf": {
+        "rank": "40.62",
+        "change": "4.69",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "40.62% / 547"
+      }
     },
     {
       "ctid": "88211",
@@ -2910,7 +3912,13 @@
       "daily": 0.0,
       "rate": 93.6,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": {
+        "rank": "60.0",
+        "change": "5.79",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "60% / 575"
+      }
     },
     {
       "ctid": "1094415",
@@ -2926,7 +3934,13 @@
       "daily": 0.0,
       "rate": 94.4,
       "completeRate": 100.2,
-      "perf": "S"
+      "perf": {
+        "rank": "5.88",
+        "change": "68.57",
+        "coeff": "1.05",
+        "group": "常规-初二数学",
+        "score": "5.88% / 575"
+      }
     },
     {
       "ctid": "1089395",
@@ -2942,7 +3956,13 @@
       "daily": -1.0,
       "rate": 97.2,
       "completeRate": 100.2,
-      "perf": "B"
+      "perf": {
+        "rank": "66.67",
+        "change": "22.22",
+        "coeff": "0.99",
+        "group": "常规-初中历史",
+        "score": "66.67% / 555"
+      }
     },
     {
       "ctid": "1096043",
@@ -2958,7 +3978,13 @@
       "daily": 0.0,
       "rate": 97.5,
       "completeRate": 100.0,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "66.67",
+        "coeff": "0.98",
+        "group": "常规-初中历史",
+        "score": "100% / 557"
+      }
     },
     {
       "ctid": "1304768",
@@ -2974,7 +4000,13 @@
       "daily": 0.0,
       "rate": 95.5,
       "completeRate": 98.9,
-      "perf": "B"
+      "perf": {
+        "rank": "56.52",
+        "change": "7.05",
+        "coeff": "0.99",
+        "group": "常规-初三物理",
+        "score": "56.52% / 531"
+      }
     },
     {
       "ctid": "88150",
@@ -2990,7 +4022,13 @@
       "daily": 0.0,
       "rate": 84.3,
       "completeRate": 98.7,
-      "perf": "S"
+      "perf": {
+        "rank": "14.29",
+        "change": "0.0",
+        "coeff": "1.07",
+        "group": "常规-初中生物",
+        "score": "14.29% / 596"
+      }
     },
     {
       "ctid": "87669",
@@ -3006,7 +4044,13 @@
       "daily": 0.0,
       "rate": 88.9,
       "completeRate": 100.3,
-      "perf": "A"
+      "perf": {
+        "rank": "30.91",
+        "change": "16.89",
+        "coeff": "1.02",
+        "group": "常规-初二物理",
+        "score": "30.91% / 539"
+      }
     },
     {
       "ctid": "1093214",
@@ -3022,7 +4066,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.3,
-      "perf": "S"
+      "perf": {
+        "rank": "12.38",
+        "change": "23.2",
+        "coeff": "1.04",
+        "group": "常规-初一数学",
+        "score": "12.38% / 502"
+      }
     },
     {
       "ctid": "87944",
@@ -3038,7 +4088,13 @@
       "daily": 0.0,
       "rate": 93.7,
       "completeRate": 98.1,
-      "perf": "B"
+      "perf": {
+        "rank": "70.65",
+        "change": "12.76",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "70.65% / 523"
+      }
     },
     {
       "ctid": "1306989",
@@ -3054,7 +4110,13 @@
       "daily": 1.0,
       "rate": 85.7,
       "completeRate": 100.8,
-      "perf": "S"
+      "perf": {
+        "rank": "11.72",
+        "change": "59.37",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "11.72% / 588"
+      }
     },
     {
       "ctid": "1304963",
@@ -3070,7 +4132,13 @@
       "daily": 0.0,
       "rate": 96.7,
       "completeRate": 98.9,
-      "perf": "D"
+      "perf": {
+        "rank": "97.27",
+        "change": "26.24",
+        "coeff": "0.91",
+        "group": "常规-初二物理",
+        "score": "97.27% / 572"
+      }
     },
     {
       "ctid": "88291",
@@ -3086,7 +4154,13 @@
       "daily": 0.0,
       "rate": 92.8,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": {
+        "rank": "80.0",
+        "change": "6.17",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "80% / 582"
+      }
     },
     {
       "ctid": "1093857",
@@ -3102,7 +4176,13 @@
       "daily": 0.0,
       "rate": 89.3,
       "completeRate": 101.5,
-      "perf": "A"
+      "perf": {
+        "rank": "34.29",
+        "change": "16.67",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "34.29% / 624"
+      }
     },
     {
       "ctid": "1094000",
@@ -3118,7 +4198,13 @@
       "daily": 0.0,
       "rate": 89.8,
       "completeRate": 100.3,
-      "perf": "A"
+      "perf": {
+        "rank": "23.26",
+        "change": "40.69",
+        "coeff": "1.02",
+        "group": "常规-初三数学",
+        "score": "23.26% / 654"
+      }
     },
     {
       "ctid": "1092265",
@@ -3134,7 +4220,13 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 100.1,
-      "perf": "A"
+      "perf": {
+        "rank": "33.33",
+        "change": "66.67",
+        "coeff": "1.01",
+        "group": "常规-初中历史",
+        "score": "33.33% / 540"
+      }
     },
     {
       "ctid": "88110",
@@ -3150,7 +4242,13 @@
       "daily": 0.0,
       "rate": 98.3,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "50.0",
+        "change": "0.47",
+        "coeff": "1.0",
+        "group": "常规-初二物理",
+        "score": "50% / 484"
+      }
     },
     {
       "ctid": "1089392",
@@ -3166,7 +4264,13 @@
       "daily": 0.0,
       "rate": 91.6,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": {
+        "rank": "75.45",
+        "change": "3.49",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "75.45% / 521"
+      }
     },
     {
       "ctid": "88299",
@@ -3182,7 +4286,13 @@
       "daily": 0.0,
       "rate": 97.6,
       "completeRate": 99.8,
-      "perf": "A"
+      "perf": {
+        "rank": "45.65",
+        "change": "3.54",
+        "coeff": "1.0",
+        "group": "常规-初三物理",
+        "score": "45.65% / 533"
+      }
     },
     {
       "ctid": "87447",
@@ -3198,7 +4308,13 @@
       "daily": 1.0,
       "rate": 80.4,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": {
+        "rank": "66.3",
+        "change": "26.33",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "66.3% / 562"
+      }
     },
     {
       "ctid": "1094412",
@@ -3214,7 +4330,13 @@
       "daily": 0.0,
       "rate": 86.3,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": {
+        "rank": "57.03",
+        "change": "14.06",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "57.03% / 547"
+      }
     },
     {
       "ctid": "1095948",
@@ -3230,7 +4352,13 @@
       "daily": 0.0,
       "rate": 84.6,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": {
+        "rank": "49.22",
+        "change": "35.16",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "49.22% / 577"
+      }
     },
     {
       "ctid": "88307",
@@ -3246,7 +4374,13 @@
       "daily": 0.0,
       "rate": 80.7,
       "completeRate": 94.6,
-      "perf": "C"
+      "perf": {
+        "rank": "93.64",
+        "change": "68.41",
+        "coeff": "0.93",
+        "group": "常规-初二物理",
+        "score": "93.64% / 589"
+      }
     },
     {
       "ctid": "1092267",
@@ -3262,7 +4396,13 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": {
+        "rank": "93.48",
+        "change": "26.11",
+        "coeff": "0.93",
+        "group": "常规-初三物理",
+        "score": "93.48% / 506"
+      }
     },
     {
       "ctid": "87673",
@@ -3278,7 +4418,13 @@
       "daily": 0.0,
       "rate": 81.2,
       "completeRate": 100.2,
-      "perf": "B"
+      "perf": {
+        "rank": "69.53",
+        "change": "8.59",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "69.53% / 602"
+      }
     },
     {
       "ctid": "1094419",
@@ -3294,7 +4440,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": {
+        "rank": "53.26",
+        "change": "23.79",
+        "coeff": "0.99",
+        "group": "常规-初三物理",
+        "score": "53.26% / 519"
+      }
     },
     {
       "ctid": "1304767",
@@ -3310,7 +4462,13 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": {
+        "rank": "69.57",
+        "change": "14.83",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "69.57% / 483"
+      }
     },
     {
       "ctid": "87588",
@@ -3326,7 +4484,13 @@
       "daily": 0.0,
       "rate": 78.6,
       "completeRate": 97.3,
-      "perf": "D"
+      "perf": {
+        "rank": "90.62",
+        "change": "28.9",
+        "coeff": "0.95",
+        "group": "常规-初中英语",
+        "score": "90.62% / 610"
+      }
     },
     {
       "ctid": "1304773",
@@ -3342,7 +4506,13 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": {
+        "rank": "59.09",
+        "change": "0.21",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "59.09% / 519"
+      }
     },
     {
       "ctid": "87870",
@@ -3358,7 +4528,13 @@
       "daily": 0.0,
       "rate": 76.3,
       "completeRate": 98.0,
-      "perf": "A"
+      "perf": {
+        "rank": "47.66",
+        "change": "46.09",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "47.66% / 592"
+      }
     },
     {
       "ctid": "1304766",
@@ -3374,7 +4550,13 @@
       "daily": 0.0,
       "rate": 79.1,
       "completeRate": 97.6,
-      "perf": "D"
+      "perf": {
+        "rank": "96.74",
+        "change": "0.1",
+        "coeff": "0.92",
+        "group": "常规-初三物理",
+        "score": "96.74% / 595"
+      }
     },
     {
       "ctid": "1304735",
@@ -3390,7 +4572,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.7,
-      "perf": "B"
+      "perf": {
+        "rank": "79.35",
+        "change": "13.03",
+        "coeff": "0.95",
+        "group": "常规-初三物理",
+        "score": "79.35% / 540"
+      }
     },
     {
       "ctid": "88175",
@@ -3406,7 +4594,13 @@
       "daily": 0.0,
       "rate": 96.5,
       "completeRate": 99.4,
-      "perf": "B"
+      "perf": {
+        "rank": "63.04",
+        "change": "3.04",
+        "coeff": "0.98",
+        "group": "常规-初三物理",
+        "score": "63.04% / 473"
+      }
     },
     {
       "ctid": "1093998",
@@ -3422,7 +4616,13 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": {
+        "rank": "86.72",
+        "change": "14.06",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "86.72% / 631"
+      }
     },
     {
       "ctid": "1096163",
@@ -3438,7 +4638,13 @@
       "daily": 0.0,
       "rate": 83.1,
       "completeRate": 97.3,
-      "perf": "B"
+      "perf": {
+        "rank": "80.47",
+        "change": "41.41",
+        "coeff": "0.97",
+        "group": "常规-初中英语",
+        "score": "80.47% / 602"
+      }
     },
     {
       "ctid": "87782",
@@ -3454,7 +4660,13 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.8,
-      "perf": "A"
+      "perf": {
+        "rank": "33.59",
+        "change": "42.97",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "33.59% / 530"
+      }
     },
     {
       "ctid": "1094561",
@@ -3470,7 +4682,13 @@
       "daily": 0.0,
       "rate": 86.5,
       "completeRate": 101.2,
-      "perf": "S"
+      "perf": {
+        "rank": "2.34",
+        "change": "28.13",
+        "coeff": "1.07",
+        "group": "常规-初中英语",
+        "score": "2.34% / 532"
+      }
     },
     {
       "ctid": "1093862",
@@ -3486,7 +4704,13 @@
       "daily": 0.0,
       "rate": 85.2,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": {
+        "rank": "13.28",
+        "change": "68.75",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "13.28% / 526"
+      }
     },
     {
       "ctid": "87966",
@@ -3502,7 +4726,13 @@
       "daily": 0.0,
       "rate": 97.0,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "69.09",
+        "change": "15.82",
+        "coeff": "0.98",
+        "group": "常规-初二物理",
+        "score": "69.09% / 458"
+      }
     },
     {
       "ctid": "1093852",
@@ -3518,7 +4748,13 @@
       "daily": 1.0,
       "rate": 93.6,
       "completeRate": 100.3,
-      "perf": "A"
+      "perf": {
+        "rank": "23.81",
+        "change": "13.69",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "23.81% / 541"
+      }
     },
     {
       "ctid": "1095250",
@@ -3534,7 +4770,13 @@
       "daily": 0.0,
       "rate": 83.0,
       "completeRate": 96.0,
-      "perf": "B"
+      "perf": {
+        "rank": "85.87",
+        "change": "6.92",
+        "coeff": "0.94",
+        "group": "常规-初三物理",
+        "score": "85.87% / 560"
+      }
     },
     {
       "ctid": "87741",
@@ -3550,7 +4792,13 @@
       "daily": 0.0,
       "rate": 96.2,
       "completeRate": 99.0,
-      "perf": "A"
+      "perf": {
+        "rank": "33.72",
+        "change": "3.49",
+        "coeff": "1.01",
+        "group": "常规-初三数学",
+        "score": "33.72% / 506"
+      }
     },
     {
       "ctid": "1304969",
@@ -3566,7 +4814,13 @@
       "daily": 1.0,
       "rate": 94.5,
       "completeRate": 98.3,
-      "perf": "B"
+      "perf": {
+        "rank": "49.09",
+        "change": "8.9",
+        "coeff": "1.01",
+        "group": "常规-初二物理",
+        "score": "49.09% / 468"
+      }
     },
     {
       "ctid": "1300030",
@@ -3582,7 +4836,13 @@
       "daily": 0.0,
       "rate": 77.1,
       "completeRate": 98.2,
-      "perf": "C"
+      "perf": {
+        "rank": "91.41",
+        "change": "5.47",
+        "coeff": "0.95",
+        "group": "常规-初中英语",
+        "score": "91.41% / 678"
+      }
     },
     {
       "ctid": "1093863",
@@ -3598,7 +4858,13 @@
       "daily": 0.0,
       "rate": 79.4,
       "completeRate": 98.1,
-      "perf": "C"
+      "perf": {
+        "rank": "92.97",
+        "change": "2.34",
+        "coeff": "0.94",
+        "group": "常规-初中英语",
+        "score": "92.97% / 600"
+      }
     },
     {
       "ctid": "87772",
@@ -3614,7 +4880,13 @@
       "daily": 1.0,
       "rate": 70.6,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": {
+        "rank": "28.12",
+        "change": "52.35",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "28.12% / 634"
+      }
     },
     {
       "ctid": "87837",
@@ -3630,7 +4902,13 @@
       "daily": 0.0,
       "rate": 82.7,
       "completeRate": 96.6,
-      "perf": "C"
+      "perf": {
+        "rank": "89.06",
+        "change": "70.31",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "89.06% / 559"
+      }
     },
     {
       "ctid": "87850",
@@ -3646,7 +4924,13 @@
       "daily": 0.0,
       "rate": 91.1,
       "completeRate": 100.0,
-      "perf": "S"
+      "perf": {
+        "rank": "0.74",
+        "change": "17.51",
+        "coeff": "1.08",
+        "group": "常规-初二数学",
+        "score": "0.74% / 571"
+      }
     },
     {
       "ctid": "1092397",
@@ -3662,7 +4946,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": {
+        "rank": "50.0",
+        "change": "12.5",
+        "coeff": "1.0",
+        "group": "常规-初中政治",
+        "score": "50% / 499"
+      }
     },
     {
       "ctid": "87895",
@@ -3678,7 +4968,13 @@
       "daily": 0.0,
       "rate": 76.6,
       "completeRate": 100.5,
-      "perf": "A"
+      "perf": {
+        "rank": "30.47",
+        "change": "47.65",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "30.47% / 607"
+      }
     },
     {
       "ctid": "87641",
@@ -3694,7 +4990,13 @@
       "daily": 0.0,
       "rate": 79.8,
       "completeRate": 96.6,
-      "perf": "A"
+      "perf": {
+        "rank": "15.62",
+        "change": "64.07",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "15.62% / 571"
+      }
     },
     {
       "ctid": "1096172",
@@ -3710,7 +5012,13 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 99.6,
-      "perf": "A"
+      "perf": {
+        "rank": "42.86",
+        "change": "14.28",
+        "coeff": "1.01",
+        "group": "常规-初中生物",
+        "score": "42.86% / 458"
+      }
     },
     {
       "ctid": "1089509",
@@ -3726,7 +5034,13 @@
       "daily": 0.0,
       "rate": 81.7,
       "completeRate": 97.1,
-      "perf": "C"
+      "perf": {
+        "rank": "92.19",
+        "change": "2.34",
+        "coeff": "0.95",
+        "group": "常规-初中英语",
+        "score": "92.19% / 552"
+      }
     },
     {
       "ctid": "88138",
@@ -3742,7 +5056,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 100.0,
-      "perf": "B"
+      "perf": {
+        "rank": "75.0",
+        "change": "0.0",
+        "coeff": "0.98",
+        "group": "常规-初中政治",
+        "score": "75% / 519"
+      }
     },
     {
       "ctid": "87733",
@@ -3758,7 +5078,13 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 99.4,
-      "perf": "A"
+      "perf": {
+        "rank": "18.6",
+        "change": "23.26",
+        "coeff": "1.02",
+        "group": "常规-初三数学",
+        "score": "18.6% / 322"
+      }
     },
     {
       "ctid": "1300014",
@@ -3774,7 +5100,13 @@
       "daily": 0.0,
       "rate": 76.1,
       "completeRate": 95.9,
-      "perf": "S"
+      "perf": {
+        "rank": "12.5",
+        "change": "52.34",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "12.5% / 596"
+      }
     },
     {
       "ctid": "1300230",
@@ -3790,7 +5122,13 @@
       "daily": 0.0,
       "rate": 91.8,
       "completeRate": 100.1,
-      "perf": "B"
+      "perf": {
+        "rank": "67.19",
+        "change": "17.97",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "67.19% / 445"
+      }
     },
     {
       "ctid": "87865",
@@ -3806,7 +5144,13 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 99.6,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "0.0",
+        "coeff": "0.93",
+        "group": "常规-初中政治",
+        "score": "100% / 500"
+      }
     },
     {
       "ctid": "87803",
@@ -3822,7 +5166,13 @@
       "daily": 0.0,
       "rate": 81.9,
       "completeRate": 97.0,
-      "perf": "B"
+      "perf": {
+        "rank": "63.28",
+        "change": "3.9",
+        "coeff": "0.99",
+        "group": "常规-初中英语",
+        "score": "63.28% / 549"
+      }
     },
     {
       "ctid": "87948",
@@ -3838,7 +5188,13 @@
       "daily": 0.0,
       "rate": 81.3,
       "completeRate": 104.0,
-      "perf": "S"
+      "perf": {
+        "rank": "2.73",
+        "change": "8.48",
+        "coeff": "1.12",
+        "group": "常规-初二物理",
+        "score": "2.73% / 524"
+      }
     },
     {
       "ctid": "87848",
@@ -3854,7 +5210,13 @@
       "daily": 0.0,
       "rate": 89.5,
       "completeRate": 101.5,
-      "perf": "B"
+      "perf": {
+        "rank": "43.81",
+        "change": "14.84",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "43.81% / 573"
+      }
     },
     {
       "ctid": "1304770",
@@ -3870,7 +5232,13 @@
       "daily": 0.0,
       "rate": 75.3,
       "completeRate": 92.5,
-      "perf": "D"
+      "perf": {
+        "rank": "98.91",
+        "change": "4.17",
+        "coeff": "0.9",
+        "group": "常规-初三物理",
+        "score": "98.91% / 559"
+      }
     },
     {
       "ctid": "1306511",
@@ -3886,7 +5254,13 @@
       "daily": 0.0,
       "rate": 69.2,
       "completeRate": 89.6,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "0.0",
+        "coeff": "0.83",
+        "group": "常规-初二物理",
+        "score": "100% / 663"
+      }
     },
     {
       "ctid": "1304968",
@@ -3902,7 +5276,13 @@
       "daily": 0.0,
       "rate": 79.7,
       "completeRate": 97.9,
-      "perf": "B"
+      "perf": {
+        "rank": "51.09",
+        "change": "40.49",
+        "coeff": "1.0",
+        "group": "常规-初三物理",
+        "score": "51.09% / 509"
+      }
     },
     {
       "ctid": "88366",
@@ -3918,7 +5298,13 @@
       "daily": 0.0,
       "rate": 77.2,
       "completeRate": 94.9,
-      "perf": "D"
+      "perf": {
+        "rank": "95.45",
+        "change": "3.86",
+        "coeff": "0.92",
+        "group": "常规-初二物理",
+        "score": "95.45% / 560"
+      }
     },
     {
       "ctid": "1307400",
@@ -3934,7 +5320,13 @@
       "daily": 0.0,
       "rate": 98.6,
       "completeRate": 100.7,
-      "perf": "B"
+      "perf": {
+        "rank": "61.76",
+        "change": "26.72",
+        "coeff": "0.99",
+        "group": "常规-初二数学",
+        "score": "61.76% / 441"
+      }
     },
     {
       "ctid": "1092250",
@@ -3950,7 +5342,13 @@
       "daily": 0.0,
       "rate": 78.4,
       "completeRate": 100.2,
-      "perf": "S"
+      "perf": {
+        "rank": "9.38",
+        "change": "86.71",
+        "coeff": "1.05",
+        "group": "常规-初中英语",
+        "score": "9.38% / 539"
+      }
     },
     {
       "ctid": "87943",
@@ -3966,7 +5364,13 @@
       "daily": 0.0,
       "rate": 79.6,
       "completeRate": 95.2,
-      "perf": "D"
+      "perf": {
+        "rank": "98.18",
+        "change": "2.85",
+        "coeff": "0.89",
+        "group": "常规-初二物理",
+        "score": "98.18% / 548"
+      }
     },
     {
       "ctid": "1304733",
@@ -3982,7 +5386,13 @@
       "daily": 0.0,
       "rate": 72.0,
       "completeRate": 102.3,
-      "perf": "A"
+      "perf": {
+        "rank": "27.27",
+        "change": "9.09",
+        "coeff": "1.04",
+        "group": "常规-初一物理",
+        "score": "27.27% / 535"
+      }
     },
     {
       "ctid": "1092251",
@@ -3998,7 +5408,13 @@
       "daily": 0.0,
       "rate": 74.7,
       "completeRate": 97.0,
-      "perf": "B"
+      "perf": {
+        "rank": "82.81",
+        "change": "3.9",
+        "coeff": "0.96",
+        "group": "常规-初中英语",
+        "score": "82.81% / 554"
+      }
     },
     {
       "ctid": "87853",
@@ -4014,7 +5430,13 @@
       "daily": 0.0,
       "rate": 75.9,
       "completeRate": 99.3,
-      "perf": "S"
+      "perf": {
+        "rank": "7.81",
+        "change": "73.44",
+        "coeff": "1.06",
+        "group": "常规-初中英语",
+        "score": "7.81% / 551"
+      }
     },
     {
       "ctid": "87836",
@@ -4030,7 +5452,13 @@
       "daily": 0.0,
       "rate": 76.2,
       "completeRate": 95.0,
-      "perf": "B"
+      "perf": {
+        "rank": "73.44",
+        "change": "13.28",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "73.44% / 567"
+      }
     },
     {
       "ctid": "1304774",
@@ -4046,7 +5474,13 @@
       "daily": 0.0,
       "rate": 79.2,
       "completeRate": 96.8,
-      "perf": "B"
+      "perf": {
+        "rank": "85.45",
+        "change": "12.68",
+        "coeff": "0.96",
+        "group": "常规-初二物理",
+        "score": "85.45% / 518"
+      }
     },
     {
       "ctid": "87448",
@@ -4062,7 +5496,13 @@
       "daily": 0.0,
       "rate": 85.5,
       "completeRate": 97.0,
-      "perf": "A"
+      "perf": {
+        "rank": "33.33",
+        "change": "10.9",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "33.33% / 519"
+      }
     },
     {
       "ctid": "88348",
@@ -4078,7 +5518,13 @@
       "daily": 0.0,
       "rate": 76.0,
       "completeRate": 93.9,
-      "perf": "C"
+      "perf": {
+        "rank": "94.55",
+        "change": "3.9",
+        "coeff": "0.93",
+        "group": "常规-初二物理",
+        "score": "94.55% / 550"
+      }
     },
     {
       "ctid": "1089397",
@@ -4094,7 +5540,13 @@
       "daily": 0.0,
       "rate": 78.7,
       "completeRate": 96.7,
-      "perf": "B"
+      "perf": {
+        "rank": "64.55",
+        "change": "60.81",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "64.55% / 496"
+      }
     },
     {
       "ctid": "1300024",
@@ -4110,7 +5562,13 @@
       "daily": 0.0,
       "rate": 75.9,
       "completeRate": 93.5,
-      "perf": "C"
+      "perf": {
+        "rank": "90.0",
+        "change": "9.07",
+        "coeff": "0.94",
+        "group": "常规-初二物理",
+        "score": "90% / 481"
+      }
     },
     {
       "ctid": "88210",
@@ -4126,7 +5584,13 @@
       "daily": 0.0,
       "rate": 67.5,
       "completeRate": 96.6,
-      "perf": "B"
+      "perf": {
+        "rank": "90.91",
+        "change": "9.09",
+        "coeff": "0.97",
+        "group": "常规-初一物理",
+        "score": "90.91% / 552"
+      }
     },
     {
       "ctid": "1301920",
@@ -4142,7 +5606,13 @@
       "daily": 0.0,
       "rate": 98.2,
       "completeRate": 99.1,
-      "perf": "D"
+      "perf": {
+        "rank": "95.35",
+        "change": "32.56",
+        "coeff": "0.93",
+        "group": "常规-初三数学",
+        "score": "95.35% / 438"
+      }
     },
     {
       "ctid": "1307288",
@@ -4158,7 +5628,13 @@
       "daily": 0.0,
       "rate": 96.4,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": {
+        "rank": "12.79",
+        "change": "8.14",
+        "coeff": "1.03",
+        "group": "常规-初三数学",
+        "score": "12.79% / 456"
+      }
     },
     {
       "ctid": "1304967",
@@ -4174,7 +5650,13 @@
       "daily": 0.0,
       "rate": 99.4,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": {
+        "rank": "10.0",
+        "change": "25.51",
+        "coeff": "1.05",
+        "group": "常规-初二物理",
+        "score": "10% / 371"
+      }
     },
     {
       "ctid": "87791",
@@ -4190,7 +5672,13 @@
       "daily": 0.0,
       "rate": 83.8,
       "completeRate": 97.8,
-      "perf": "C"
+      "perf": {
+        "rank": "91.82",
+        "change": "5.84",
+        "coeff": "0.94",
+        "group": "常规-初二物理",
+        "score": "91.82% / 507"
+      }
     },
     {
       "ctid": "1094414",
@@ -4206,7 +5694,13 @@
       "daily": 0.0,
       "rate": 79.7,
       "completeRate": 97.6,
-      "perf": "C"
+      "perf": {
+        "rank": "89.09",
+        "change": "7.17",
+        "coeff": "0.95",
+        "group": "常规-初二物理",
+        "score": "89.09% / 483"
+      }
     },
     {
       "ctid": "1307607",
@@ -4222,7 +5716,13 @@
       "daily": 0.0,
       "rate": 96.6,
       "completeRate": 99.3,
-      "perf": "B"
+      "perf": {
+        "rank": "80.23",
+        "change": "22.09",
+        "coeff": "0.97",
+        "group": "常规-初三数学",
+        "score": "80.23% / 393"
+      }
     },
     {
       "ctid": "1307120",
@@ -4238,7 +5738,13 @@
       "daily": 0.0,
       "rate": 77.4,
       "completeRate": 95.5,
-      "perf": "D"
+      "perf": {
+        "rank": "95.65",
+        "change": "7.23",
+        "coeff": "0.93",
+        "group": "常规-初三物理",
+        "score": "95.65% / 490"
+      }
     },
     {
       "ctid": "87874",
@@ -4254,7 +5760,13 @@
       "daily": 0.0,
       "rate": 91.2,
       "completeRate": 105.7,
-      "perf": "S"
+      "perf": {
+        "rank": "1.9",
+        "change": "34.64",
+        "coeff": "1.12",
+        "group": "常规-初一数学",
+        "score": "1.9% / 277"
+      }
     },
     {
       "ctid": "1300224",
@@ -4270,7 +5782,13 @@
       "daily": 0.0,
       "rate": 78.1,
       "completeRate": 94.2,
-      "perf": "D"
+      "perf": {
+        "rank": "96.36",
+        "change": "7.57",
+        "coeff": "0.92",
+        "group": "常规-初二物理",
+        "score": "96.36% / 545"
+      }
     },
     {
       "ctid": "1096161",
@@ -4286,7 +5804,13 @@
       "daily": 0.0,
       "rate": 96.0,
       "completeRate": 100.5,
-      "perf": "B"
+      "perf": {
+        "rank": "84.55",
+        "change": "8.85",
+        "coeff": "0.96",
+        "group": "常规-初二物理",
+        "score": "84.55% / 430"
+      }
     },
     {
       "ctid": "1307117",
@@ -4302,7 +5826,13 @@
       "daily": 0.0,
       "rate": 93.1,
       "completeRate": 98.7,
-      "perf": "D"
+      "perf": {
+        "rank": "99.26",
+        "change": "35.76",
+        "coeff": "0.91",
+        "group": "常规-初二数学",
+        "score": "99.26% / 418"
+      }
     },
     {
       "ctid": "1304971",
@@ -4318,7 +5848,13 @@
       "daily": 0.0,
       "rate": 74.5,
       "completeRate": 93.9,
-      "perf": "B"
+      "perf": {
+        "rank": "79.69",
+        "change": "3.12",
+        "coeff": "0.97",
+        "group": "常规-初中英语",
+        "score": "79.69% / 527"
+      }
     },
     {
       "ctid": "1095955",
@@ -4334,7 +5870,13 @@
       "daily": 0.0,
       "rate": 94.8,
       "completeRate": 98.4,
-      "perf": "B"
+      "perf": {
+        "rank": "75.58",
+        "change": "60.46",
+        "coeff": "0.97",
+        "group": "常规-初三数学",
+        "score": "75.58% / 393"
+      }
     },
     {
       "ctid": "87830",
@@ -4350,7 +5892,13 @@
       "daily": 1.0,
       "rate": 69.1,
       "completeRate": 93.4,
-      "perf": "D"
+      "perf": {
+        "rank": "99.22",
+        "change": "91.41",
+        "coeff": "0.91",
+        "group": "常规-初中英语",
+        "score": "99.22% / 571"
+      }
     },
     {
       "ctid": "1091188",
@@ -4366,7 +5914,13 @@
       "daily": 0.0,
       "rate": 95.0,
       "completeRate": 101.3,
-      "perf": "B"
+      "perf": {
+        "rank": "48.84",
+        "change": "32.56",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "48.84% / 403"
+      }
     },
     {
       "ctid": "1304970",
@@ -4382,7 +5936,13 @@
       "daily": 0.0,
       "rate": 71.6,
       "completeRate": 96.8,
-      "perf": "B"
+      "perf": {
+        "rank": "76.56",
+        "change": "75.78",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "76.56% / 540"
+      }
     },
     {
       "ctid": "1306990",
@@ -4398,7 +5958,13 @@
       "daily": 0.0,
       "rate": 91.6,
       "completeRate": 98.2,
-      "perf": "C"
+      "perf": {
+        "rank": "90.22",
+        "change": "16.54",
+        "coeff": "0.94",
+        "group": "常规-初三物理",
+        "score": "90.22% / 398"
+      }
     },
     {
       "ctid": "1306972",
@@ -4414,7 +5980,13 @@
       "daily": 0.0,
       "rate": 91.3,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "50.0",
+        "change": "41.24",
+        "coeff": "1.0",
+        "group": "常规-初二数学",
+        "score": "50% / 428"
+      }
     },
     {
       "ctid": "88343",
@@ -4430,7 +6002,13 @@
       "daily": 0.0,
       "rate": 82.4,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": {
+        "rank": "65.45",
+        "change": "24.27",
+        "coeff": "0.99",
+        "group": "常规-初二物理",
+        "score": "65.45% / 438"
+      }
     },
     {
       "ctid": "1092253",
@@ -4446,7 +6024,13 @@
       "daily": 0.0,
       "rate": 92.9,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": {
+        "rank": "75.0",
+        "change": "12.5",
+        "coeff": "0.98",
+        "group": "常规-初中地理",
+        "score": "75% / 405"
+      }
     },
     {
       "ctid": "1309058",
@@ -4462,7 +6046,13 @@
       "daily": 0.0,
       "rate": 93.2,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": {
+        "rank": "6.25",
+        "change": "9.37",
+        "coeff": "1.06",
+        "group": "常规-初中英语",
+        "score": "6.25% / 367"
+      }
     },
     {
       "ctid": "87864",
@@ -4478,7 +6068,13 @@
       "daily": 1.0,
       "rate": 89.0,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "49.52",
+        "change": "47.6",
+        "coeff": "1.01",
+        "group": "常规-初一数学",
+        "score": "49.52% / 381"
+      }
     },
     {
       "ctid": "1306505",
@@ -4494,7 +6090,13 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 100.6,
-      "perf": "B"
+      "perf": {
+        "rank": "57.61",
+        "change": "16.56",
+        "coeff": "0.99",
+        "group": "常规-初三物理",
+        "score": "57.61% / 387"
+      }
     },
     {
       "ctid": "87757",
@@ -4510,7 +6112,13 @@
       "daily": 0.0,
       "rate": 87.9,
       "completeRate": 97.1,
-      "perf": "B"
+      "perf": {
+        "rank": "77.94",
+        "change": "16.95",
+        "coeff": "0.98",
+        "group": "常规-初二数学",
+        "score": "77.94% / 435"
+      }
     },
     {
       "ctid": "87926",
@@ -4526,7 +6134,13 @@
       "daily": 0.0,
       "rate": 93.4,
       "completeRate": 99.2,
-      "perf": "C"
+      "perf": {
+        "rank": "87.62",
+        "change": "73.2",
+        "coeff": "0.97",
+        "group": "常规-初一数学",
+        "score": "87.62% / 426"
+      }
     },
     {
       "ctid": "1309054",
@@ -4542,7 +6156,13 @@
       "daily": 0.0,
       "rate": 93.9,
       "completeRate": 99.1,
-      "perf": "A"
+      "perf": {
+        "rank": "26.56",
+        "change": "4.68",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "26.56% / 319"
+      }
     },
     {
       "ctid": "1300027",
@@ -4558,7 +6178,13 @@
       "daily": -1.0,
       "rate": 72.9,
       "completeRate": 103.8,
-      "perf": "B"
+      "perf": {
+        "rank": "45.45",
+        "change": "45.46",
+        "coeff": "1.02",
+        "group": "常规-初一物理",
+        "score": "45.45% / 542"
+      }
     },
     {
       "ctid": "1304765",
@@ -4574,7 +6200,13 @@
       "daily": 0.0,
       "rate": 93.0,
       "completeRate": 98.8,
-      "perf": "B"
+      "perf": {
+        "rank": "70.91",
+        "change": "2.69",
+        "coeff": "0.98",
+        "group": "常规-初二物理",
+        "score": "70.91% / 377"
+      }
     },
     {
       "ctid": "1092261",
@@ -4590,7 +6222,13 @@
       "daily": 0.0,
       "rate": 89.8,
       "completeRate": 99.6,
-      "perf": "B"
+      "perf": {
+        "rank": "48.44",
+        "change": "14.84",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "48.44% / 385"
+      }
     },
     {
       "ctid": "1306506",
@@ -4606,7 +6244,13 @@
       "daily": 0.0,
       "rate": 68.4,
       "completeRate": 88.6,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "1.05",
+        "coeff": "0.85",
+        "group": "常规-初三物理",
+        "score": "100% / 532"
+      }
     },
     {
       "ctid": "87907",
@@ -4622,7 +6266,13 @@
       "daily": 0.0,
       "rate": 83.4,
       "completeRate": 98.7,
-      "perf": "A"
+      "perf": {
+        "rank": "42.73",
+        "change": "44.19",
+        "coeff": "1.01",
+        "group": "常规-初二物理",
+        "score": "42.73% / 417"
+      }
     },
     {
       "ctid": "1306509",
@@ -4638,7 +6288,13 @@
       "daily": 0.0,
       "rate": 91.5,
       "completeRate": 99.0,
-      "perf": "B"
+      "perf": {
+        "rank": "71.74",
+        "change": "15.95",
+        "coeff": "0.97",
+        "group": "常规-初三物理",
+        "score": "71.74% / 398"
+      }
     },
     {
       "ctid": "1094691",
@@ -4654,7 +6310,13 @@
       "daily": 0.0,
       "rate": 90.6,
       "completeRate": 96.1,
-      "perf": "B"
+      "perf": {
+        "rank": "80.43",
+        "change": "8.85",
+        "coeff": "0.95",
+        "group": "常规-初三物理",
+        "score": "80.43% / 384"
+      }
     },
     {
       "ctid": "1307293",
@@ -4670,7 +6332,13 @@
       "daily": 0.0,
       "rate": 84.5,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "80.91",
+        "change": "78.11",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "80.91% / 426"
+      }
     },
     {
       "ctid": "1306448",
@@ -4686,7 +6354,13 @@
       "daily": 0.0,
       "rate": 88.5,
       "completeRate": 97.9,
-      "perf": "B"
+      "perf": {
+        "rank": "81.82",
+        "change": "2.38",
+        "coeff": "0.97",
+        "group": "常规-初二物理",
+        "score": "81.82% / 396"
+      }
     },
     {
       "ctid": "1309056",
@@ -4702,7 +6376,13 @@
       "daily": 0.0,
       "rate": 86.4,
       "completeRate": 96.3,
-      "perf": "A"
+      "perf": {
+        "rank": "39.06",
+        "change": "17.97",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "39.06% / 358"
+      }
     },
     {
       "ctid": "87734",
@@ -4718,7 +6398,13 @@
       "daily": 0.0,
       "rate": 87.1,
       "completeRate": 100.3,
-      "perf": "B"
+      "perf": {
+        "rank": "27.62",
+        "change": "29.11",
+        "coeff": "1.02",
+        "group": "常规-初一数学",
+        "score": "27.62% / 416"
+      }
     },
     {
       "ctid": "1096284",
@@ -4734,7 +6420,13 @@
       "daily": 0.0,
       "rate": 84.3,
       "completeRate": 99.8,
-      "perf": "C"
+      "perf": {
+        "rank": "87.27",
+        "change": "7.12",
+        "coeff": "0.96",
+        "group": "常规-初二物理",
+        "score": "87.27% / 421"
+      }
     },
     {
       "ctid": "1306980",
@@ -4750,7 +6442,13 @@
       "daily": 0.0,
       "rate": 83.6,
       "completeRate": 99.1,
-      "perf": "D"
+      "perf": {
+        "rank": "95.31",
+        "change": "5.47",
+        "coeff": "0.94",
+        "group": "常规-初中英语",
+        "score": "95.31% / 412"
+      }
     },
     {
       "ctid": "1306976",
@@ -4766,7 +6464,13 @@
       "daily": 0.0,
       "rate": 87.2,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "78.26",
+        "change": "1.42",
+        "coeff": "0.96",
+        "group": "常规-初三物理",
+        "score": "78.26% / 383"
+      }
     },
     {
       "ctid": "1089398",
@@ -4782,7 +6486,13 @@
       "daily": 0.0,
       "rate": 81.0,
       "completeRate": 97.8,
-      "perf": "B"
+      "perf": {
+        "rank": "62.5",
+        "change": "37.5",
+        "coeff": "0.99",
+        "group": "常规-初中政治",
+        "score": "62.5% / 397"
+      }
     },
     {
       "ctid": "1304775",
@@ -4798,7 +6508,13 @@
       "daily": 0.0,
       "rate": 82.7,
       "completeRate": 99.9,
-      "perf": "B"
+      "perf": {
+        "rank": "72.83",
+        "change": "16.64",
+        "coeff": "0.97",
+        "group": "常规-初三物理",
+        "score": "72.83% / 369"
+      }
     },
     {
       "ctid": "1096165",
@@ -4814,7 +6530,13 @@
       "daily": 0.0,
       "rate": 81.5,
       "completeRate": 98.6,
-      "perf": "B"
+      "perf": {
+        "rank": "72.73",
+        "change": "11.38",
+        "coeff": "0.98",
+        "group": "常规-初二物理",
+        "score": "72.73% / 363"
+      }
     },
     {
       "ctid": "1309055",
@@ -4830,7 +6552,13 @@
       "daily": 0.0,
       "rate": 79.9,
       "completeRate": 97.0,
-      "perf": "B"
+      "perf": {
+        "rank": "81.25",
+        "change": "9.37",
+        "coeff": "0.97",
+        "group": "常规-初中英语",
+        "score": "81.25% / 385"
+      }
     },
     {
       "ctid": "87967",
@@ -4846,7 +6574,13 @@
       "daily": 0.0,
       "rate": 89.1,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": {
+        "rank": "37.5",
+        "change": "12.5",
+        "coeff": "1.0",
+        "group": "常规-初中政治",
+        "score": "37.5% / 397"
+      }
     },
     {
       "ctid": "1309146",
@@ -4862,7 +6596,13 @@
       "daily": 0.0,
       "rate": 77.7,
       "completeRate": 95.2,
-      "perf": "B"
+      "perf": {
+        "rank": "75.78",
+        "change": "17.19",
+        "coeff": "0.98",
+        "group": "常规-初中英语",
+        "score": "75.78% / 356"
+      }
     },
     {
       "ctid": "1096283",
@@ -4878,7 +6618,13 @@
       "daily": 0.0,
       "rate": 96.9,
       "completeRate": 99.2,
-      "perf": "B"
+      "perf": {
+        "rank": "43.48",
+        "change": "10.2",
+        "coeff": "1.0",
+        "group": "常规-初三物理",
+        "score": "43.48% / 344"
+      }
     },
     {
       "ctid": "1309147",
@@ -4894,7 +6640,13 @@
       "daily": 1.0,
       "rate": 78.2,
       "completeRate": 99.6,
-      "perf": "S"
+      "perf": {
+        "rank": "3.12",
+        "change": "16.41",
+        "coeff": "1.07",
+        "group": "常规-初中英语",
+        "score": "3.12% / 366"
+      }
     },
     {
       "ctid": "1309149",
@@ -4910,7 +6662,13 @@
       "daily": 0.0,
       "rate": 76.0,
       "completeRate": 94.6,
-      "perf": "A"
+      "perf": {
+        "rank": "23.44",
+        "change": "9.37",
+        "coeff": "1.03",
+        "group": "常规-初中英语",
+        "score": "23.44% / 334"
+      }
     },
     {
       "ctid": "1309057",
@@ -4926,7 +6684,13 @@
       "daily": 0.0,
       "rate": 70.7,
       "completeRate": 96.2,
-      "perf": "A"
+      "perf": {
+        "rank": "34.38",
+        "change": "64.06",
+        "coeff": "1.02",
+        "group": "常规-初中英语",
+        "score": "34.38% / 359"
+      }
     },
     {
       "ctid": "1306974",
@@ -4942,7 +6706,13 @@
       "daily": 0.0,
       "rate": 97.3,
       "completeRate": 100.4,
-      "perf": "S"
+      "perf": {
+        "rank": "1.47",
+        "change": "24.08",
+        "coeff": "1.06",
+        "group": "常规-初二数学",
+        "score": "1.47% / 249"
+      }
     },
     {
       "ctid": "1306988",
@@ -4958,7 +6728,13 @@
       "daily": 0.0,
       "rate": 94.6,
       "completeRate": 98.5,
-      "perf": "B"
+      "perf": {
+        "rank": "46.51",
+        "change": "3.49",
+        "coeff": "1.0",
+        "group": "常规-初三数学",
+        "score": "46.51% / 259"
+      }
     },
     {
       "ctid": "1307606",
@@ -4974,7 +6750,13 @@
       "daily": 0.0,
       "rate": 95.9,
       "completeRate": 98.3,
-      "perf": "C"
+      "perf": {
+        "rank": "93.02",
+        "change": "37.21",
+        "coeff": "0.94",
+        "group": "常规-初三数学",
+        "score": "93.02% / 269"
+      }
     },
     {
       "ctid": "1096042",
@@ -4990,7 +6772,13 @@
       "daily": 0.0,
       "rate": 97.7,
       "completeRate": 99.5,
-      "perf": "A"
+      "perf": {
+        "rank": "44.55",
+        "change": "2.49",
+        "coeff": "1.01",
+        "group": "常规-初二物理",
+        "score": "44.55% / 240"
+      }
     },
     {
       "ctid": "88039",
@@ -5006,7 +6794,13 @@
       "daily": 0.0,
       "rate": 96.8,
       "completeRate": 99.7,
-      "perf": "A"
+      "perf": {
+        "rank": "39.13",
+        "change": "12.45",
+        "coeff": "1.01",
+        "group": "常规-初三物理",
+        "score": "39.13% / 253"
+      }
     },
     {
       "ctid": "1307286",
@@ -5022,7 +6816,13 @@
       "daily": 0.0,
       "rate": 96.3,
       "completeRate": 99.5,
-      "perf": "D"
+      "perf": {
+        "rank": "97.06",
+        "change": "30.64",
+        "coeff": "0.94",
+        "group": "常规-初二数学",
+        "score": "97.06% / 271"
+      }
     },
     {
       "ctid": "1307399",
@@ -5038,7 +6838,13 @@
       "daily": 0.0,
       "rate": 95.8,
       "completeRate": 99.9,
-      "perf": "C"
+      "perf": {
+        "rank": "93.38",
+        "change": "18.2",
+        "coeff": "0.95",
+        "group": "常规-初二数学",
+        "score": "93.38% / 269"
+      }
     },
     {
       "ctid": "88249",
@@ -5054,7 +6860,13 @@
       "daily": 0.0,
       "rate": 97.1,
       "completeRate": 100.7,
-      "perf": "S"
+      "perf": {
+        "rank": "5.47",
+        "change": "22.65",
+        "coeff": "1.06",
+        "group": "常规-初中英语",
+        "score": "5.47% / 239"
+      }
     },
     {
       "ctid": "1306979",
@@ -5070,7 +6882,13 @@
       "daily": 0.0,
       "rate": 94.7,
       "completeRate": 98.7,
-      "perf": "B"
+      "perf": {
+        "rank": "78.68",
+        "change": "11.53",
+        "coeff": "0.97",
+        "group": "常规-初二数学",
+        "score": "78.68% / 255"
+      }
     },
     {
       "ctid": "1307930",
@@ -5086,7 +6904,13 @@
       "daily": 0.0,
       "rate": 94.3,
       "completeRate": 99.2,
-      "perf": "A"
+      "perf": {
+        "rank": "42.97",
+        "change": "6.25",
+        "coeff": "1.01",
+        "group": "常规-初中英语",
+        "score": "42.97% / 264"
+      }
     },
     {
       "ctid": "87827",
@@ -5102,7 +6926,13 @@
       "daily": 0.0,
       "rate": 84.7,
       "completeRate": 98.9,
-      "perf": "A"
+      "perf": {
+        "rank": "15.24",
+        "change": "2.07",
+        "coeff": "1.04",
+        "group": "常规-初一数学",
+        "score": "15.24% / 251"
+      }
     },
     {
       "ctid": "1096046",
@@ -5118,7 +6948,13 @@
       "daily": 0.0,
       "rate": 77.3,
       "completeRate": 96.2,
-      "perf": "D"
+      "perf": {
+        "rank": "100.0",
+        "change": "27.27",
+        "coeff": "0.87",
+        "group": "常规-初一物理",
+        "score": "100% / 346"
+      }
     },
     {
       "ctid": "1309148",
@@ -5134,7 +6970,13 @@
       "daily": 0.0,
       "rate": 82.0,
       "completeRate": 95.5,
-      "perf": "B"
+      "perf": {
+        "rank": "58.59",
+        "change": "3.12",
+        "coeff": "1.0",
+        "group": "常规-初中英语",
+        "score": "58.59% / 226"
+      }
     },
     {
       "ctid": "1306512",
@@ -5150,7 +6992,13 @@
       "daily": 0.0,
       "rate": 77.0,
       "completeRate": 95.3,
-      "perf": "C"
+      "perf": {
+        "rank": "90.91",
+        "change": "6.29",
+        "coeff": "0.94",
+        "group": "常规-初二物理",
+        "score": "90.91% / 245"
+      }
     }
   ]
 }
