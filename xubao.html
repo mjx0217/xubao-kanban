@@ -339,8 +339,8 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
       var av = a[col], bv = b[col];
       if (col === 'subjects') { av = Array.isArray(av) ? av.join() : ''; bv = Array.isArray(bv) ? bv.join() : ''; }
       if (col === 'perf') {
-        av = (av && av.rank) ? Number(av.rank) || 0 : 99;
-        bv = (bv && bv.rank) ? Number(bv.rank) || 0 : 99;
+        var order = { S: 1, A: 2, B: 3, C: 4, D: 5 };
+        av = order[av] || 99; bv = order[bv] || 99;
       } else if (colDef && colDef.numeric) {
         av = Number(av) || 0; bv = Number(bv) || 0;
       }
