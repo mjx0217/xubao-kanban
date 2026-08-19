@@ -339,8 +339,8 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
       var av = a[col], bv = b[col];
       if (col === 'subjects') { av = Array.isArray(av) ? av.join() : ''; bv = Array.isArray(bv) ? bv.join() : ''; }
       if (col === 'perf') {
-        var order = { S: 1, A: 2, B: 3, C: 4, D: 5 };
-        av = order[av] || 99; bv = order[bv] || 99;
+        av = (av && av.rank) ? Number(av.rank) || 0 : 99;
+        bv = (bv && bv.rank) ? Number(bv.rank) || 0 : 99;
       } else if (colDef && colDef.numeric) {
         av = Number(av) || 0; bv = Number(bv) || 0;
       }
@@ -429,9 +429,15 @@ tbody td { padding: 10px 8px; color: #333; text-align: center; vertical-align: m
         }
         if (c.key === 'rate') { html += '<td>' + val.toFixed(1) + '%</td>'; return; }
         if (c.key === 'perf') {
-          var perfColor = { S:'#15803d', A:'#4ade80', B:'#ea580c', C:'#facc15', D:'#ef4444' };
-          var color = perfColor[val] || '#6b7280';
-          html += '<td><span style="display:inline-block;min-width:22px;padding:2px 6px;border-radius:8px;font-weight:700;font-size:12px;background:' + color + ';color:#fff;line-height:1.4;">' + val + '</span></td>'; return;
+          var p = val && val.rank ? val : {};
+          var rank = p.rank || '--';
+          var coeff = p.coeff || '--';
+          var group = p.group || '';
+          var change = p.change || '';
+          var score = p.score || '';
+          var changeStr = change ? (Number(change) > 0 ? '+' + change : change) : '';
+          var tooltip = group + (score ? ' | ' + score : '') + (changeStr ? ' | ' + changeStr : '');
+          html += '<td title="' + tooltip + '"><span style="font-weight:600;font-size:13px;">' + rank + '</span><span style="font-size:11px;color:#888;margin-left:4px;">×' + coeff + '</span></td>'; return;
         }
         if (c.numeric) { html += '<td>' + fmt(val) + '</td>'; return; }
         html += '<td>' + val + '</td>';
