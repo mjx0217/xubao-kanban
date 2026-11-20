@@ -193,7 +193,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="name">学科</th>
         <th data-col="inClass">在班人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
-        <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
         <th data-col="gap">距离完标人次 ↕</th>
@@ -217,7 +216,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="ctCount">班主任数 ↕</th>
         <th data-col="inClass">在班人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
-        <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
         <th data-col="gap">距离完标人次 ↕</th>
@@ -249,7 +247,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="grades">年级</th>
         <th data-col="inClass">在班人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
-        <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
         <th data-col="gap">距离完标人次 ↕</th>
@@ -324,7 +321,7 @@ function loadData() {
     })
     .catch(() => {
       document.getElementById('subjectBody').innerHTML =
-        '<tr><td colspan="10" class="loading">数据加载失败，请稍后刷新</td></tr>';
+        '<tr><td colspan="9" class="loading">数据加载失败，请稍后刷新</td></tr>';
     });
 }
 
@@ -409,13 +406,13 @@ function toggleFilter(kind, val, btn) {
 }
 
 // 数字聚合辅助
-const AGG_KEYS = ['inClass','lianbao','achieved','target','gap','daily'];
+const AGG_KEYS = ['inClass','lianbao','target','gap','daily'];
 
 function aggregate(rows) {
   const out = {};
   AGG_KEYS.forEach(k => out[k] = 0);
   rows.forEach(r => AGG_KEYS.forEach(k => out[k] += (r[k] || 0)));
-  out.completeRate = out.target > 0 ? Math.round(out.achieved / out.target * 10000) / 100 : 0;
+  out.completeRate = out.target > 0 ? Math.round(out.lianbao / out.target * 10000) / 100 : 0;
   return out;
 }
 
@@ -454,18 +451,17 @@ function filterFacts(facts, subjects, grades, versions, difficulties) {
 // 行级聚合 → 各指标
 // 注意：事实表不存「达成」字段，因为它恒等于「联报人次」
 function aggregateFacts(rs) {
-  const out = { inClass: 0, lianbao: 0, achieved: 0, target: 0, daily: 0 };
+  const out = { inClass: 0, lianbao: 0, target: 0, daily: 0 };
   for (const r of rs) {
     out.inClass += r.inClass || 0;
     out.lianbao += r.lianbao || 0;
-    out.achieved += r.lianbao || 0;
     out.target += r.target || 0;
     out.daily += r.daily || 0;
   }
-  out.completeRate = out.target > 0 ? Math.round(out.achieved / out.target * 10000) / 100 : 0;
+  out.completeRate = out.target > 0 ? Math.round(out.lianbao / out.target * 10000) / 100 : 0;
   out.lianbaoRate = out.inClass > 0 ? Math.round(out.lianbao / out.inClass * 10000) / 100 : 0;
   out.targetRate = out.inClass > 0 ? Math.round(out.target / out.inClass * 10000) / 100 : 0;
-  out.gap = Math.round((out.target - out.achieved) * 100) / 100;
+  out.gap = Math.round((out.target - out.lianbao) * 100) / 100;
   return out;
 }
 
@@ -499,7 +495,7 @@ function applyFilters() {
     agg.versions = [...new Set(rs.map(r => r.version).filter(Boolean))].sort();
     agg.difficulties = [...new Set(rs.map(r => r.difficulty).filter(Boolean))].sort();
     return agg;
-  }).sort((a, b) => b.achieved - a.achieved);
+  }).sort((a, b) => b.lianbao - a.lianbao);
 
   // 按班主任 id 索引上一版行（用于筛选后的环比）
   const prevCtMap = new Map();
@@ -549,7 +545,7 @@ function applyFilters() {
     }
     agg.subjects = [...new Set(grpMap[g].rows.flatMap(r => r.subjects || []))].sort();
     return agg;
-  }).sort((a, b) => b.achieved - a.achieved);
+  }).sort((a, b) => b.lianbao - a.lianbao);
 
   // ===== 3. 学科汇总（由 cts 聚合）=====
   const subjMap = {};
@@ -584,7 +580,7 @@ function applyFilters() {
     }
     agg.ctCount = new Set(subjMap[s].map(c => c.ctid)).size;
     return agg;
-  }).sort((a, b) => b.achieved - a.achieved);
+  }).sort((a, b) => b.lianbao - a.lianbao);
 
   // ===== 4. 附环比 =====
   // 筛选后要用「同一筛选条件下」的上一版完成率来算 delta，
@@ -701,7 +697,6 @@ function renderSubjectTable() {
       '<td class="td-name">' + r.name + '</td>' +
       '<td class="td-num">' + fmt(r.inClass) + '</td>' +
       '<td class="td-num">' + fmt(r.lianbao) + '</td>' +
-      '<td class="td-num">' + fmt(r.achieved) + '</td>' +
       '<td class="td-num">' + fmt(r.target) + '</td>' +
       rateCell(r.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(r.gap) + '</td>' +
@@ -723,7 +718,6 @@ function renderGroupTable() {
       '<td class="td-num">' + fmt(r.ctCount) + '</td>' +
       '<td class="td-num">' + fmt(r.inClass) + '</td>' +
       '<td class="td-num">' + fmt(r.lianbao) + '</td>' +
-      '<td class="td-num">' + fmt(r.achieved) + '</td>' +
       '<td class="td-num">' + fmt(r.target) + '</td>' +
       rateCell(r.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(r.gap) + '</td>' +
@@ -752,7 +746,6 @@ function renderCtTable() {
       '<td>' + (c.grades || []).join('/') + '</td>' +
       '<td class="td-num">' + fmt(c.inClass) + '</td>' +
       '<td class="td-num">' + fmt(c.lianbao) + '</td>' +
-      '<td class="td-num">' + fmt(c.achieved) + '</td>' +
       '<td class="td-num">' + fmt(c.target) + '</td>' +
       rateCell(c.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(c.gap) + '</td>' +
