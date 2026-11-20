@@ -161,6 +161,14 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
     <span class="filter-label">年级</span>
     <div class="capsule-group" id="gradeCapsules"></div>
   </div>
+  <div class="filter-row">
+    <span class="filter-label">版本</span>
+    <div class="capsule-group" id="versionCapsules"></div>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">难度</span>
+    <div class="capsule-group" id="difficultyCapsules"></div>
+  </div>
 </div>
 
 <div class="legend-bar">
@@ -261,6 +269,8 @@ let rawData = {};
 let filteredAll = { subjects: [], groups: [], classTeachers: [] };
 let currentSubjects = [];
 let currentGrades = [];
+let currentVersions = [];
+let currentDifficulties = [];
 let currentCtGroups = [];
 let currentCtSearch = '';
 let sortCol = 'completeRate';
@@ -303,6 +313,11 @@ function loadData() {
     .then(d => {
       rawData = d;
       BASE_TIME = (d.meta && d.meta.prevUpdated) ? d.meta.prevUpdated : '';
+      // 事实表：数组 → 对象，字段名来自后端 factFields
+      rawData.facts = factsToObjects(d.facts, d.factFields);
+      if (d.__prevFacts) {
+        rawData.__prevFacts = factsToObjects(d.__prevFacts, d.__prevFactFields || d.factFields);
+      }
       if (d.meta && d.meta.updated) {
         document.getElementById('updateTime').textContent = '数据更新：' + d.meta.updated;
       }
@@ -346,10 +361,34 @@ function buildCapsules() {
     btn.onclick = () => toggleFilter('grade', g, btn);
     gradeContainer.appendChild(btn);
   });
+
+  // 版本 / 难度：选项来自 meta（后端按业务顺序排好）
+  const m = rawData.meta || {};
+  buildFilterRow('versionCapsules', m.versions || [], 'version');
+  buildFilterRow('difficultyCapsules', m.difficulties || [], 'difficulty');
+}
+
+// 通用胶囊行构建
+function buildFilterRow(containerId, values, kind) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = '';
+  values.forEach(v => {
+    const btn = document.createElement('button');
+    btn.className = 'capsule';
+    btn.textContent = v;
+    btn.dataset.val = v;
+    btn.onclick = () => toggleFilter(kind, v, btn);
+    container.appendChild(btn);
+  });
 }
 
 function toggleFilter(kind, val, btn) {
-  const arr = kind === 'subject' ? currentSubjects : currentGrades;
+  const map = {
+    subject: currentSubjects, grade: currentGrades,
+    version: currentVersions, difficulty: currentDifficulties,
+  };
+  const arr = map[kind];
   const idx = arr.indexOf(val);
   if (idx === -1) { arr.push(val); btn.classList.add('active'); }
   else { arr.splice(idx, 1); btn.classList.remove('active'); }
@@ -367,15 +406,92 @@ function aggregate(rows) {
   return out;
 }
 
+// 事实表数组 → 对象数组（字段名来自后端 factFields）
+function factsToObjects(facts, fields) {
+  if (!facts || !facts.length) return [];
+  const names = (fields && fields.length) ? fields
+    : ['ctid','name','group','subject','grade','version','difficulty','inClass','lianbao','achieved','daily','target'];
+  return facts.map(row => {
+    const o = {};
+    for (let i = 0; i < names.length; i++) o[names[i]] = row[i];
+    return o;
+  });
+}
+
+// 行级筛选：各维度为「多选」，空数组 = 不限
+// 多选之间是「与」关系（如 数学 且 全国版 且 S级）
+function filterFacts(facts, subjects, grades, versions, difficulties) {
+  if (!facts || !facts.length) return [];
+  return facts.filter(r => {
+    if (subjects.length && !subjects.includes(r.subject)) return false;
+    if (grades.length && !grades.includes(r.grade)) return false;
+    if (versions.length && !versions.includes(r.version)) return false;
+    if (difficulties.length && !difficulties.includes(r.difficulty)) return false;
+    return true;
+  });
+}
+
+// 行级聚合 → 各指标
+function aggregateFacts(rs) {
+  const out = { inClass: 0, lianbao: 0, achieved: 0, target: 0, daily: 0 };
+  for (const r of rs) {
+    out.inClass += r.inClass || 0;
+    out.lianbao += r.lianbao || 0;
+    out.achieved += r.achieved || 0;
+    out.target += r.target || 0;
+    out.daily += r.daily || 0;
+  }
+  out.completeRate = out.target > 0 ? Math.round(out.achieved / out.target * 10000) / 100 : 0;
+  out.lianbaoRate = out.inClass > 0 ? Math.round(out.lianbao / out.inClass * 10000) / 100 : 0;
+  out.targetRate = out.inClass > 0 ? Math.round(out.target / out.inClass * 10000) / 100 : 0;
+  out.gap = Math.round((out.target - out.achieved) * 100) / 100;
+  return out;
+}
+
 function applyFilters() {
-  // ===== 1. 班主任筛选 =====
-  let cts = rawData.classTeachers.slice();
-  if (currentSubjects.length > 0) {
-    cts = cts.filter(c => (c.subjects || []).some(s => currentSubjects.includes(s)));
+  // ===== 1. 行级筛选 =====
+  // 一律在「行级事实表」上筛选，再逐层聚合出 班主任/教学组/学科。
+  // 为什么必须行级：一名班主任常带多个版本/难度
+  // （299 名班主任 → 549 个「班主任×版本×难度」组合），
+  // 若只筛班主任，版本/难度筛选根本不会改变任何数字。
+  // 顺带把 学科/年级 也统一到行级语义，口径一致。
+  const rows = filterFacts(rawData.facts,
+    currentSubjects, currentGrades, currentVersions, currentDifficulties);
+  const prevRows = rawData.__prevFacts
+    ? filterFacts(rawData.__prevFacts,
+        currentSubjects, currentGrades, currentVersions, currentDifficulties)
+    : null;
+
+  // 按班主任聚合
+  const ctMap = new Map();
+  rows.forEach(r => {
+    if (!ctMap.has(r.ctid)) ctMap.set(r.ctid, []);
+    ctMap.get(r.ctid).push(r);
+  });
+  let cts = [...ctMap.entries()].map(([ctid, rs]) => {
+    const agg = aggregateFacts(rs);
+    agg.ctid = ctid;
+    agg.name = rs[0].name || '';
+    agg.group = rs[0].group || '未知';
+    agg.subjects = [...new Set(rs.map(r => r.subject).filter(Boolean))].sort();
+    agg.grades = [...new Set(rs.map(r => r.grade).filter(Boolean))].sort();
+    agg.versions = [...new Set(rs.map(r => r.version).filter(Boolean))].sort();
+    agg.difficulties = [...new Set(rs.map(r => r.difficulty).filter(Boolean))].sort();
+    return agg;
+  }).sort((a, b) => b.achieved - a.achieved);
+
+  // 按班主任 id 索引上一版行（用于筛选后的环比）
+  const prevCtMap = new Map();
+  if (prevRows) {
+    prevRows.forEach(r => {
+      if (!prevCtMap.has(r.ctid)) prevCtMap.set(r.ctid, []);
+      prevCtMap.get(r.ctid).push(r);
+    });
   }
-  if (currentGrades.length > 0) {
-    cts = cts.filter(c => (c.grades || []).some(g => currentGrades.includes(g)));
-  }
+  const prevCtAgg = new Map();
+  prevCtMap.forEach((rs, k) => prevCtAgg.set(k, aggregateFacts(rs)));
+
+  // ===== 2. 教学组汇总（由 cts 聚合，保证与筛选联动）=====
 
   // ===== 2. 教学组汇总（由 cts 聚合，保证与筛选联动）=====
   const grpMap = {};
@@ -387,13 +503,29 @@ function applyFilters() {
     grpMap[g].ctCount++;
     grpMap[g].rows.push(c);
   });
+  // 基线版按教学组聚合（同一筛选条件下），用于重算 delta
+  const prevGrpMap = new Map();
+  if (prevRows) {
+    prevRows.forEach(r => {
+      const g = r.group || '未知';
+      if (!prevGrpMap.has(g)) prevGrpMap.set(g, []);
+      prevGrpMap.get(g).push(r);
+    });
+  }
   const groups = Object.keys(grpMap).map(g => {
     const agg = aggregate(grpMap[g].rows);
     agg.name = g;
     agg.ctCount = grpMap[g].ctCount;
     const last = ((rawData.__lastRates || {}).groups || {})[g] || {};
-    agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
-    agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    const pg = prevGrpMap.get(g);
+    if (pg && pg.length) {
+      const pa = aggregateFacts(pg);
+      agg.lastCompleteRate = pa.completeRate;
+      agg.delta = Math.round((agg.completeRate - pa.completeRate) * 100) / 100;
+    } else {
+      agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+      agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    }
     agg.subjects = [...new Set(grpMap[g].rows.flatMap(r => r.subjects || []))].sort();
     return agg;
   }).sort((a, b) => b.achieved - a.achieved);
@@ -406,22 +538,47 @@ function applyFilters() {
       subjMap[s].push(c);
     });
   });
+  // 基线版按学科聚合（同一筛选条件下），用于重算 delta
+  const prevSubjMap = new Map();
+  if (prevRows) {
+    prevRows.forEach(r => {
+      const s = r.subject;
+      if (!s) return;
+      if (!prevSubjMap.has(s)) prevSubjMap.set(s, []);
+      prevSubjMap.get(s).push(r);
+    });
+  }
   const subjects = Object.keys(subjMap).map(s => {
     const agg = aggregate(subjMap[s]);
     agg.name = s;
     const last = ((rawData.__lastRates || {}).subjects || {})[s] || {};
-    agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
-    agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    const ps = prevSubjMap.get(s);
+    if (ps && ps.length) {
+      const pa = aggregateFacts(ps);
+      agg.lastCompleteRate = pa.completeRate;
+      agg.delta = Math.round((agg.completeRate - pa.completeRate) * 100) / 100;
+    } else {
+      agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+      agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    }
     agg.ctCount = new Set(subjMap[s].map(c => c.ctid)).size;
     return agg;
   }).sort((a, b) => b.achieved - a.achieved);
 
-  // ===== 4. 给每个班主任附环比 =====
+  // ===== 4. 附环比 =====
+  // 筛选后要用「同一筛选条件下」的上一版完成率来算 delta，
+  // 所以优先用基线事实表重算（prevCtAgg）；没有基线事实表时退回后端预计算的 __lastRates。
   const lastCt = ((rawData.__lastRates || {}).classTeachers || {});
   cts.forEach(c => {
-    const last = lastCt[c.ctid] || {};
-    c.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
-    c.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    const prevAgg = prevCtAgg.get(c.ctid);
+    if (prevAgg && prevAgg.target > 0) {
+      c.lastCompleteRate = prevAgg.completeRate;
+      c.delta = Math.round((c.completeRate - prevAgg.completeRate) * 100) / 100;
+    } else {
+      const last = lastCt[c.ctid] || {};
+      c.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+      c.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
+    }
   });
 
   filteredAll = { subjects, groups, classTeachers: cts };
@@ -452,8 +609,11 @@ function applyFilters() {
   // ===== 6. Meta =====
   const subjectLabel = currentSubjects.length > 0 ? currentSubjects.join('+') : '全部学科';
   const gradeLabel = currentGrades.length > 0 ? currentGrades.join('+') : '全部年级';
-  document.getElementById('subjectMeta').textContent = subjectLabel + ' · ' + gradeLabel + ' · ' + subjects.length + ' 个学科';
-  document.getElementById('groupMeta').textContent = subjectLabel + ' · ' + groups.length + ' 个教学组';
+  const versionLabel = currentVersions.length > 0 ? currentVersions.join('+') : '全部版本';
+  const diffLabel = currentDifficulties.length > 0 ? currentDifficulties.join('+') : '全部难度';
+  const filterLabel = subjectLabel + ' · ' + gradeLabel + ' · ' + versionLabel + ' · ' + diffLabel;
+  document.getElementById('subjectMeta').textContent = filterLabel + ' · ' + subjects.length + ' 个学科';
+  document.getElementById('groupMeta').textContent = filterLabel + ' · ' + groups.length + ' 个教学组';
   document.getElementById('ctMeta').textContent = '共 ' + cts.length + ' 位班主任';
 
   renderTables();
