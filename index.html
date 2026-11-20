@@ -315,19 +315,32 @@ function loadData() {
       BASE_TIME = (d.meta && d.meta.prevUpdated) ? d.meta.prevUpdated : '';
       // 事实表：数组 → 对象，字段名来自后端 factFields
       rawData.facts = factsToObjects(d.facts, d.factFields);
-      if (d.__prevFacts) {
-        rawData.__prevFacts = factsToObjects(d.__prevFacts, d.__prevFactFields || d.factFields);
-      }
       if (d.meta && d.meta.updated) {
         document.getElementById('updateTime').textContent = '数据更新：' + d.meta.updated;
       }
       buildCapsules();
       applyFilters();
+      loadPrevFacts();
     })
     .catch(() => {
       document.getElementById('subjectBody').innerHTML =
         '<tr><td colspan="10" class="loading">数据加载失败，请稍后刷新</td></tr>';
     });
+}
+
+// 加载基线版事实表（用于筛选后重算环比）
+// 基线事实表单独存一个文件，避免主 json 体积翻倍
+function loadPrevFacts() {
+  const ref = rawData.__prevFactsRef;
+  if (!ref) return;
+  fetch(ref + '?t=' + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .then(pf => {
+      if (!pf || !pf.facts) return;
+      rawData.__prevFacts = factsToObjects(pf.facts, pf.factFields);
+      applyFilters();   // 重算：筛选后的环比
+    })
+    .catch(() => {});
 }
 
 function forceReload() {
@@ -410,10 +423,17 @@ function aggregate(rows) {
 function factsToObjects(facts, fields) {
   if (!facts || !facts.length) return [];
   const names = (fields && fields.length) ? fields
-    : ['ctid','name','group','subject','grade','version','difficulty','inClass','lianbao','achieved','daily','target'];
+    : ['ctid','subject','grade','version','difficulty','inClass','lianbao','daily','target'];
+  // 事实表刻意不含「姓名/教学组」（体积考虑），由 ctid 关联 classTeachers 补齐
+  const ctInfo = {};
+  (rawData.classTeachers || []).forEach(c => {
+    ctInfo[c.ctid] = { name: c.name, group: c.group };
+  });
   return facts.map(row => {
     const o = {};
     for (let i = 0; i < names.length; i++) o[names[i]] = row[i];
+    const info = ctInfo[o.ctid];
+    if (info) { o.name = info.name; o.group = info.group; }
     return o;
   });
 }
@@ -432,12 +452,13 @@ function filterFacts(facts, subjects, grades, versions, difficulties) {
 }
 
 // 行级聚合 → 各指标
+// 注意：事实表不存「达成」字段，因为它恒等于「联报人次」
 function aggregateFacts(rs) {
   const out = { inClass: 0, lianbao: 0, achieved: 0, target: 0, daily: 0 };
   for (const r of rs) {
     out.inClass += r.inClass || 0;
     out.lianbao += r.lianbao || 0;
-    out.achieved += r.achieved || 0;
+    out.achieved += r.lianbao || 0;
     out.target += r.target || 0;
     out.daily += r.daily || 0;
   }
