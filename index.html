@@ -124,10 +124,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
       <div class="header-stat-label">在班人次</div>
     </div>
     <div class="header-stat">
-      <div class="header-stat-val green" id="totalXubao">-</div>
-      <div class="header-stat-label">续报人次</div>
-    </div>
-    <div class="header-stat">
       <div class="header-stat-val green" id="totalLianbao">-</div>
       <div class="header-stat-label">联报人次</div>
     </div>
@@ -178,7 +174,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
       <thead><tr>
         <th data-col="name">学科</th>
         <th data-col="inClass">在班人次 ↕</th>
-        <th data-col="xubao">续报人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
@@ -203,7 +198,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="name">教学组</th>
         <th data-col="ctCount">班主任数 ↕</th>
         <th data-col="inClass">在班人次 ↕</th>
-        <th data-col="xubao">续报人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
@@ -236,7 +230,6 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="group">教学组</th>
         <th data-col="grades">年级</th>
         <th data-col="inClass">在班人次 ↕</th>
-        <th data-col="xubao">续报人次 ↕</th>
         <th data-col="lianbao">联报人次 ↕</th>
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
@@ -344,14 +337,13 @@ function toggleFilter(kind, val, btn) {
 }
 
 // 数字聚合辅助
-const AGG_KEYS = ['inClass','xubao','lianbao','achieved','target','gap','daily'];
+const AGG_KEYS = ['inClass','lianbao','achieved','target','gap','daily'];
 
 function aggregate(rows) {
   const out = {};
   AGG_KEYS.forEach(k => out[k] = 0);
   rows.forEach(r => AGG_KEYS.forEach(k => out[k] += (r[k] || 0)));
   out.completeRate = out.target > 0 ? Math.round(out.achieved / out.target * 10000) / 100 : 0;
-  out.xubaoRate = out.inClass > 0 ? Math.round(out.xubao / out.inClass * 10000) / 100 : 0;
   return out;
 }
 
@@ -414,7 +406,6 @@ function applyFilters() {
   // ===== 5. Header =====
   const total = aggregate(cts);
   document.getElementById('totalInClass').textContent = fmt(total.inClass);
-  document.getElementById('totalXubao').textContent = fmt(total.xubao);
   document.getElementById('totalLianbao').textContent = fmt(total.lianbao);
   document.getElementById('totalCompleteRate').textContent = total.completeRate + '%';
   document.getElementById('totalGap').textContent = fmt(total.gap);
@@ -489,7 +480,6 @@ function renderSubjectTable() {
     return '<tr>' +
       '<td class="td-name">' + r.name + '</td>' +
       '<td class="td-num">' + fmt(r.inClass) + '</td>' +
-      '<td class="td-num">' + fmt(r.xubao) + '</td>' +
       '<td class="td-num">' + fmt(r.lianbao) + '</td>' +
       '<td class="td-num">' + fmt(r.achieved) + '</td>' +
       '<td class="td-num">' + fmt(r.target) + '</td>' +
@@ -512,7 +502,6 @@ function renderGroupTable() {
           '<span class="sub-badge">' + r.subjects.join('/') + '</span>' : '') + '</td>' +
       '<td class="td-num">' + fmt(r.ctCount) + '</td>' +
       '<td class="td-num">' + fmt(r.inClass) + '</td>' +
-      '<td class="td-num">' + fmt(r.xubao) + '</td>' +
       '<td class="td-num">' + fmt(r.lianbao) + '</td>' +
       '<td class="td-num">' + fmt(r.achieved) + '</td>' +
       '<td class="td-num">' + fmt(r.target) + '</td>' +
@@ -542,7 +531,6 @@ function renderCtTable() {
       '<td>' + (c.group || '未知') + '</td>' +
       '<td>' + (c.grades || []).join('/') + '</td>' +
       '<td class="td-num">' + fmt(c.inClass) + '</td>' +
-      '<td class="td-num">' + fmt(c.xubao) + '</td>' +
       '<td class="td-num">' + fmt(c.lianbao) + '</td>' +
       '<td class="td-num">' + fmt(c.achieved) + '</td>' +
       '<td class="td-num">' + fmt(c.target) + '</td>' +
