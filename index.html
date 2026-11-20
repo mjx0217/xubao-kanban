@@ -265,6 +265,15 @@ let currentCtGroups = [];
 let currentCtSearch = '';
 let sortCol = 'completeRate';
 let sortDir = 'desc';
+// 对比基准时间（完整字符串），用于「完成率变化」的标注
+let BASE_TIME = '';
+
+// 时间缩写：'2026-11-20 12:00' → '11-20 12:00'
+function shortTime(t) {
+  if (!t) return '';
+  const m = String(t).match(/(\d{4})-(\d{2})-(\d{2})\s*(\d{2}:\d{2})/);
+  return m ? (m[2] + '-' + m[3] + ' ' + m[4]) : String(t);
+}
 
 // 相对颜色：列内相对排名，越高越绿
 function rateColor(val, localVals, reverse) {
@@ -293,6 +302,7 @@ function loadData() {
     .then(r => r.json())
     .then(d => {
       rawData = d;
+      BASE_TIME = (d.meta && d.meta.prevUpdated) ? d.meta.prevUpdated : '';
       if (d.meta && d.meta.updated) {
         document.getElementById('updateTime').textContent = '数据更新：' + d.meta.updated;
       }
@@ -426,17 +436,17 @@ function applyFilters() {
   document.getElementById('boardTitle').textContent = '沈阳基地·续报完成率看板';
 
   const m = rawData.meta || {};
-  const prevTxt = m.prevUpdated ? '（对比 ' + m.prevUpdated + '）' : '';
+  const prevTxt = m.prevUpdated ? '（对比 ' + shortTime(m.prevUpdated) + ' 数据）' : '';
   document.getElementById('footerNote').textContent =
     '沈阳基地 · ' + (m.period || '') + ' · 数据时间 ' + (m.updated || '') + ' ' + prevTxt;
 
   // ===== 5b. 完成率变化的对比基准标注 =====
-  // 三处同时体现「和谁比」：列头副标题、图例说明、单元格内的基线值
+  // 三处同时体现「和谁比」：列头副标题、图例说明、单元格内的基准值
   if (m.prevUpdated) {
-    const baseTxt = '对比基准 ' + m.prevUpdated;
+    const baseTxt = '较 ' + shortTime(m.prevUpdated) + ' 数据';
     document.querySelectorAll('.delta-base-sub').forEach(el => { el.textContent = baseTxt; });
     const lg = document.getElementById('deltaBaseLegend');
-    if (lg) lg.textContent = ' · 完成率变化 = 与 ' + m.prevUpdated + ' 对比';
+    if (lg) lg.textContent = ' · 完成率变化 = ' + baseTxt;
   }
 
   // ===== 6. Meta =====
@@ -478,13 +488,15 @@ function makeSortFn(col) {
 }
 
 // 完成率变化单元格：正=提升(绿)，负=下降(红)
-// 副标题显示基准完成率，让「变化」有参照：+3.2pp（基线 58.1%）
+// 副标题显示基准时间 + 当时的完成率，让「变化」有参照：
+//   +17.92pp
+//   11-20 12:00数据 42.81%
 function deltaCell(d, lastRate) {
   if (d === null || d === undefined) return '<span class="td-rate">—</span>';
   const cls = d > 0 ? 'delta-up' : (d < 0 ? 'delta-down' : '');
   const sign = d > 0 ? '+' : '';
   const base = (lastRate !== null && lastRate !== undefined)
-    ? '<span class="delta-base">基线 ' + lastRate + '%</span>' : '';
+    ? '<span class="delta-base">' + shortTime(BASE_TIME) + '数据 ' + lastRate + '%</span>' : '';
   return '<span class="delta-cell">' +
     '<span class="delta-val ' + cls + '">' + sign + d + 'pp</span>' +
     base + '</span>';
