@@ -108,6 +108,13 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
 .loading { text-align: center; padding: 60px; color: #999; }
 .delta-up { color: #16a34a; font-weight: 600; }
 .delta-down { color: #dc2626; font-weight: 600; }
+/* 完成率变化：主值 + 基准值（体现「跟谁比」）*/
+.delta-cell { display: flex; flex-direction: column; align-items: center; gap: 1px; line-height: 1.25; }
+.delta-val { font-weight: 600; font-variant-numeric: tabular-nums; }
+.delta-base { font-size: 10px; color: #a8a8b0; font-weight: 400; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.delta-cell:hover .delta-base { color: #7c7c88; }
+/* 列头里的对比基准标注 */
+.th-sub { display: block; font-size: 10px; font-weight: 400; color: #b5b5bd; margin-top: 1px; }
 .sub-badge {
   display: inline-block; font-size: 11px; color: #059669; background: #ecfdf5;
   border: 1px solid #a7f3d0; border-radius: 4px; padding: 0 5px; margin-left: 4px; font-weight: 400;
@@ -133,7 +140,7 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
     </div>
     <div class="header-stat">
       <div class="header-stat-val amber" id="totalGap">-</div>
-      <div class="header-stat-label">缺口人次</div>
+      <div class="header-stat-label">距离完标人次</div>
     </div>
     <div class="header-stat">
       <div class="header-stat-val" id="totalDaily">-</div>
@@ -160,7 +167,10 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
   <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> 列内最高（最优）</div>
   <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 列内居中</div>
   <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 列内最低（最差）</div>
-  <div class="legend-note">点击列头可排序 · 完成率 = 联报人次 ÷ 联报人次目标（官方口径）</div>
+  <div class="legend-note">
+    点击列头可排序 · 完成率 = 联报人次 ÷ 联报人次目标（官方口径）
+    <span id="deltaBaseLegend"></span>
+  </div>
 </div>
 
 <div class="content">
@@ -178,9 +188,9 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
-        <th data-col="gap">缺口人次 ↕</th>
+        <th data-col="gap">距离完标人次 ↕</th>
         <th data-col="daily">今日新增 ↕</th>
-        <th data-col="delta">完成率变化 ↕</th>
+        <th data-col="delta">完成率变化 ↕<span class="th-sub delta-base-sub"></span></th>
       </tr></thead>
       <tbody id="subjectBody"></tbody>
     </table>
@@ -202,9 +212,9 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
-        <th data-col="gap">缺口人次 ↕</th>
+        <th data-col="gap">距离完标人次 ↕</th>
         <th data-col="daily">今日新增 ↕</th>
-        <th data-col="delta">完成率变化 ↕</th>
+        <th data-col="delta">完成率变化 ↕<span class="th-sub delta-base-sub"></span></th>
       </tr></thead>
       <tbody id="groupBody"></tbody>
     </table>
@@ -234,9 +244,9 @@ tbody td { padding: 10px 12px; color: #333; text-align: center; }
         <th data-col="achieved">联报达成 ↕</th>
         <th data-col="target">目标人次 ↕</th>
         <th data-col="completeRate">完成率 ↕</th>
-        <th data-col="gap">缺口人次 ↕</th>
+        <th data-col="gap">距离完标人次 ↕</th>
         <th data-col="daily">今日新增 ↕</th>
-        <th data-col="delta">完成率变化 ↕</th>
+        <th data-col="delta">完成率变化 ↕<span class="th-sub delta-base-sub"></span></th>
       </tr></thead>
       <tbody id="ctBody"></tbody>
     </table>
@@ -373,6 +383,7 @@ function applyFilters() {
     agg.ctCount = grpMap[g].ctCount;
     const last = ((rawData.__lastRates || {}).groups || {})[g] || {};
     agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+    agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
     agg.subjects = [...new Set(grpMap[g].rows.flatMap(r => r.subjects || []))].sort();
     return agg;
   }).sort((a, b) => b.achieved - a.achieved);
@@ -390,6 +401,7 @@ function applyFilters() {
     agg.name = s;
     const last = ((rawData.__lastRates || {}).subjects || {})[s] || {};
     agg.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+    agg.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
     agg.ctCount = new Set(subjMap[s].map(c => c.ctid)).size;
     return agg;
   }).sort((a, b) => b.achieved - a.achieved);
@@ -399,6 +411,7 @@ function applyFilters() {
   cts.forEach(c => {
     const last = lastCt[c.ctid] || {};
     c.delta = (last.delta !== undefined && last.delta !== null) ? last.delta : null;
+    c.lastCompleteRate = (last.lastCompleteRate !== undefined && last.lastCompleteRate !== null) ? last.lastCompleteRate : null;
   });
 
   filteredAll = { subjects, groups, classTeachers: cts };
@@ -416,6 +429,15 @@ function applyFilters() {
   const prevTxt = m.prevUpdated ? '（对比 ' + m.prevUpdated + '）' : '';
   document.getElementById('footerNote').textContent =
     '沈阳基地 · ' + (m.period || '') + ' · 数据时间 ' + (m.updated || '') + ' ' + prevTxt;
+
+  // ===== 5b. 完成率变化的对比基准标注 =====
+  // 三处同时体现「和谁比」：列头副标题、图例说明、单元格内的基线值
+  if (m.prevUpdated) {
+    const baseTxt = '对比基准 ' + m.prevUpdated;
+    document.querySelectorAll('.delta-base-sub').forEach(el => { el.textContent = baseTxt; });
+    const lg = document.getElementById('deltaBaseLegend');
+    if (lg) lg.textContent = ' · 完成率变化 = 与 ' + m.prevUpdated + ' 对比';
+  }
 
   // ===== 6. Meta =====
   const subjectLabel = currentSubjects.length > 0 ? currentSubjects.join('+') : '全部学科';
@@ -456,11 +478,16 @@ function makeSortFn(col) {
 }
 
 // 完成率变化单元格：正=提升(绿)，负=下降(红)
-function deltaCell(d) {
+// 副标题显示基准完成率，让「变化」有参照：+3.2pp（基线 58.1%）
+function deltaCell(d, lastRate) {
   if (d === null || d === undefined) return '<span class="td-rate">—</span>';
   const cls = d > 0 ? 'delta-up' : (d < 0 ? 'delta-down' : '');
   const sign = d > 0 ? '+' : '';
-  return '<span class="td-rate ' + cls + '">' + sign + d + 'pp</span>';
+  const base = (lastRate !== null && lastRate !== undefined)
+    ? '<span class="delta-base">基线 ' + lastRate + '%</span>' : '';
+  return '<span class="delta-cell">' +
+    '<span class="delta-val ' + cls + '">' + sign + d + 'pp</span>' +
+    base + '</span>';
 }
 
 // 目标完成率单元格（带进度条）
@@ -486,7 +513,7 @@ function renderSubjectTable() {
       rateCell(r.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(r.gap) + '</td>' +
       '<td class="td-num">' + fmt(r.daily) + '</td>' +
-      '<td>' + deltaCell(r.delta) + '</td>' +
+      '<td>' + deltaCell(r.delta, r.lastCompleteRate) + '</td>' +
     '</tr>';
   }).join('');
   markSort('#subjectTable');
@@ -508,7 +535,7 @@ function renderGroupTable() {
       rateCell(r.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(r.gap) + '</td>' +
       '<td class="td-num">' + fmt(r.daily) + '</td>' +
-      '<td>' + deltaCell(r.delta) + '</td>' +
+      '<td>' + deltaCell(r.delta, r.lastCompleteRate) + '</td>' +
     '</tr>';
   }).join('');
   markSort('#groupTable');
@@ -537,7 +564,7 @@ function renderCtTable() {
       rateCell(c.completeRate, _v.completeRate) +
       '<td class="td-num">' + fmt(c.gap) + '</td>' +
       '<td class="td-num">' + fmt(c.daily) + '</td>' +
-      '<td>' + deltaCell(c.delta) + '</td>' +
+      '<td>' + deltaCell(c.delta, c.lastCompleteRate) + '</td>' +
     '</tr>';
   }).join('');
   document.getElementById('ctMeta').textContent = '共 ' + cts.length + ' 位班主任' +
