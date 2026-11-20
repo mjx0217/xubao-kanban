@@ -127,15 +127,20 @@
 
 | 顺序 | 来源 | 说明 |
 |---|---|---|
-| 1 | 本地 `xubao_data.json` | **上一次发布的版本**（build() 时尚未覆盖），读取几乎不耗时 |
-| 2 | 本地 `xubao_data_last.json` | 再往前一版 |
-| 3 | GitHub commit 历史 | 仅当本地文件都缺失时使用（换机器 / 首次部署）|
+| 1 | 本地 `history/*.json` | **历史版本存档目录**（保留最近 10 版），从新到旧挑第一个合法的 ★最准确 |
+| 2 | 本地 `xubao_data.json` | 上一次发布的版本（build() 时尚未覆盖）|
+| 3 | 本地 `xubao_data_last.json` | 再往前一版（兼容旧存档）|
+| 4 | GitHub commit 历史 | 仅当本地文件都缺失时使用（换机器 / 首次部署）|
 
 > ⚠️ **踩坑（2026-11-20 17:27 修复）**：早前只读 `xubao_data_last.json`，
 > 但 `main()` 的存档顺序是「先读旧 data.json → 写进 last.json → 再写新 data.json」，
 > 所以 `xubao_data_last.json` 存的是**上上次**而不是上次。
 > 结果构建 17:00 时基线取到 15:00（应为 16:00）。
 > **基线要取「上一次发布的版本」，不是「上上次」。**
+
+> ⚠️ **踩坑（2026-11-20 17:37 修复）**：改成只留一版存档后，
+> 同版本重跑会把当前版本复制进 last → 本地再没有更早的版本 → 基线只能退回网络兜底。
+> **修法**：存档到 `history/` 目录（带时间戳的文件名），保留最近 10 版。
 
 > ⚠️ 走 GitHub API 拉历史版本的大文件很慢：本机实测单次 33 秒，
 > 还可能 `IncompleteRead` 断流（721KB 文件）。
@@ -180,9 +185,11 @@ python3 scripts/build_xubao.py             # 生成 + 推送 GitHub
 ```
 index.html              看板前端
 xubao_data.json         当前数据（含行级事实表）
-xubao_data_last.json    上一版存档（本地基线来源）
+xubao_data_last.json    上一版存档（兼容用）
 xubao_prev_facts.json   基线版行级事实表（筛选后重算环比）
+history/                本地历史版本存档（本地基线来源，保留最近 10 版）
 scripts/build_xubao.py  数据构建 + 推送脚本
+scripts/seed_history.py 把指定底表存成历史版本（补建用，不推送）
 scripts/test_baseline.py  环比基线选取单元测试（7 场景）
 .github/workflows/pages.yml  GitHub Pages 部署
 ```
