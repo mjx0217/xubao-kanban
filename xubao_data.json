@@ -17,11 +17,11 @@
     "ctCount": 299,
     "groupCount": 14,
     "subjectCount": 7,
-    "prevUpdated": "2026-11-20 12:00",
-    "prevCompleteRate": 41.26,
-    "prevAchieved": 35019.0,
-    "prevGap": 49863.32,
-    "prevDaily": 31015.0
+    "prevUpdated": "2026-11-20 14:00",
+    "prevCompleteRate": 57.86,
+    "prevAchieved": 49109.0,
+    "prevGap": 35773.32,
+    "prevDaily": 45104.0
   },
   "subjects": [
     {
@@ -7628,1593 +7628,1593 @@
   "__lastRates": {
     "subjects": {
       "数学": {
-        "lastCompleteRate": 42.94,
-        "lastAchieved": 15149.0,
-        "delta": 16.04
+        "lastCompleteRate": 58.98,
+        "lastAchieved": 20807.0,
+        "delta": 0.0
       },
       "物理": {
-        "lastCompleteRate": 38.96,
-        "lastAchieved": 9253.0,
-        "delta": 17.19
+        "lastCompleteRate": 56.15,
+        "lastAchieved": 13336.0,
+        "delta": 0.0
       },
       "英语": {
-        "lastCompleteRate": 42.72,
-        "lastAchieved": 8359.0,
-        "delta": 17.6
+        "lastCompleteRate": 60.32,
+        "lastAchieved": 11803.0,
+        "delta": 0.0
       },
       "历史": {
-        "lastCompleteRate": 36.61,
-        "lastAchieved": 718.0,
-        "delta": 15.19
+        "lastCompleteRate": 51.8,
+        "lastAchieved": 1016.0,
+        "delta": 0.0
       },
       "生物": {
-        "lastCompleteRate": 35.79,
-        "lastAchieved": 528.0,
-        "delta": 14.43
+        "lastCompleteRate": 50.22,
+        "lastAchieved": 741.0,
+        "delta": 0.0
       },
       "地理": {
-        "lastCompleteRate": 34.06,
-        "lastAchieved": 519.0,
-        "delta": 13.65
+        "lastCompleteRate": 47.71,
+        "lastAchieved": 727.0,
+        "delta": 0.0
       },
       "道德与法治": {
-        "lastCompleteRate": 37.19,
-        "lastAchieved": 493.0,
-        "delta": 14.03
+        "lastCompleteRate": 51.22,
+        "lastAchieved": 679.0,
+        "delta": 0.0
       }
     },
     "groups": {
       "刘宇": {
-        "lastCompleteRate": 41.48,
-        "lastAchieved": 3275.0,
-        "delta": 17.09
+        "lastCompleteRate": 58.57,
+        "lastAchieved": 4624.0,
+        "delta": 0.0
       },
       "孟京雷": {
-        "lastCompleteRate": 44.58,
-        "lastAchieved": 3420.0,
-        "delta": 14.72
+        "lastCompleteRate": 59.3,
+        "lastAchieved": 4550.0,
+        "delta": 0.0
       },
       "杭禹则": {
-        "lastCompleteRate": 44.21,
-        "lastAchieved": 3289.0,
-        "delta": 15.39
+        "lastCompleteRate": 59.6,
+        "lastAchieved": 4434.0,
+        "delta": 0.0
       },
       "刘鹤鑫": {
-        "lastCompleteRate": 42.89,
-        "lastAchieved": 2976.0,
-        "delta": 17.05
+        "lastCompleteRate": 59.94,
+        "lastAchieved": 4159.0,
+        "delta": 0.0
       },
       "张钧瑞": {
-        "lastCompleteRate": 42.81,
-        "lastAchieved": 2842.0,
-        "delta": 17.92
+        "lastCompleteRate": 60.73,
+        "lastAchieved": 4032.0,
+        "delta": 0.0
       },
       "郑欣悦": {
-        "lastCompleteRate": 42.33,
-        "lastAchieved": 2735.0,
-        "delta": 17.88
+        "lastCompleteRate": 60.21,
+        "lastAchieved": 3890.0,
+        "delta": 0.0
       },
       "王欣": {
-        "lastCompleteRate": 43.02,
-        "lastAchieved": 2782.0,
-        "delta": 16.99
+        "lastCompleteRate": 60.01,
+        "lastAchieved": 3881.0,
+        "delta": 0.0
       },
       "魏述博": {
-        "lastCompleteRate": 39.84,
-        "lastAchieved": 2577.0,
-        "delta": 16.71
+        "lastCompleteRate": 56.55,
+        "lastAchieved": 3658.0,
+        "delta": 0.0
       },
       "郭佳": {
-        "lastCompleteRate": 39.33,
-        "lastAchieved": 2401.0,
-        "delta": 17.64
+        "lastCompleteRate": 56.97,
+        "lastAchieved": 3478.0,
+        "delta": 0.0
       },
       "李宇娇": {
-        "lastCompleteRate": 38.67,
-        "lastAchieved": 2331.0,
-        "delta": 16.47
+        "lastCompleteRate": 55.14,
+        "lastAchieved": 3324.0,
+        "delta": 0.0
       },
       "梁恩泉": {
-        "lastCompleteRate": 41.05,
-        "lastAchieved": 2188.0,
-        "delta": 15.99
+        "lastCompleteRate": 57.04,
+        "lastAchieved": 3040.0,
+        "delta": 0.0
       },
       "孙英哲": {
-        "lastCompleteRate": 37.75,
-        "lastAchieved": 1944.0,
-        "delta": 18.09
+        "lastCompleteRate": 55.84,
+        "lastAchieved": 2876.0,
+        "delta": 0.0
       },
       "缪家新": {
-        "lastCompleteRate": 36.84,
-        "lastAchieved": 1211.0,
-        "delta": 14.73
+        "lastCompleteRate": 51.57,
+        "lastAchieved": 1695.0,
+        "delta": 0.0
       },
       "朱太阳": {
-        "lastCompleteRate": 34.91,
-        "lastAchieved": 1047.0,
-        "delta": 14.04
+        "lastCompleteRate": 48.95,
+        "lastAchieved": 1468.0,
+        "delta": 0.0
       }
     },
     "classTeachers": {
       "87737": {
-        "lastCompleteRate": 60.91,
-        "lastAchieved": 243.0,
-        "delta": 16.04
+        "lastCompleteRate": 76.95,
+        "lastAchieved": 307.0,
+        "delta": 0.0
       },
       "87538": {
-        "lastCompleteRate": 52.7,
-        "lastAchieved": 206.0,
-        "delta": 17.14
+        "lastCompleteRate": 69.84,
+        "lastAchieved": 273.0,
+        "delta": 0.0
       },
       "1091010": {
-        "lastCompleteRate": 46.17,
-        "lastAchieved": 181.0,
-        "delta": 21.17
+        "lastCompleteRate": 67.34,
+        "lastAchieved": 264.0,
+        "delta": 0.0
       },
       "1093008": {
-        "lastCompleteRate": 50.73,
-        "lastAchieved": 197.0,
-        "delta": 16.23
+        "lastCompleteRate": 66.96,
+        "lastAchieved": 260.0,
+        "delta": 0.0
       },
       "1093010": {
-        "lastCompleteRate": 48.55,
-        "lastAchieved": 180.0,
-        "delta": 18.88
+        "lastCompleteRate": 67.43,
+        "lastAchieved": 250.0,
+        "delta": 0.0
       },
       "1092252": {
-        "lastCompleteRate": 46.26,
-        "lastAchieved": 166.0,
-        "delta": 23.14
+        "lastCompleteRate": 69.4,
+        "lastAchieved": 249.0,
+        "delta": 0.0
       },
       "1093856": {
-        "lastCompleteRate": 43.9,
-        "lastAchieved": 169.0,
-        "delta": 20.01
+        "lastCompleteRate": 63.91,
+        "lastAchieved": 246.0,
+        "delta": 0.0
       },
       "1096169": {
-        "lastCompleteRate": 41.98,
-        "lastAchieved": 164.0,
-        "delta": 20.74
+        "lastCompleteRate": 62.72,
+        "lastAchieved": 245.0,
+        "delta": 0.0
       },
       "88100": {
-        "lastCompleteRate": 45.25,
-        "lastAchieved": 168.0,
-        "delta": 20.2
+        "lastCompleteRate": 65.45,
+        "lastAchieved": 243.0,
+        "delta": 0.0
       },
       "87874": {
-        "lastCompleteRate": 53.93,
-        "lastAchieved": 187.0,
-        "delta": 15.58
+        "lastCompleteRate": 69.51,
+        "lastAchieved": 241.0,
+        "delta": 0.0
       },
       "1093184": {
-        "lastCompleteRate": 48.83,
-        "lastAchieved": 174.0,
-        "delta": 18.8
+        "lastCompleteRate": 67.63,
+        "lastAchieved": 241.0,
+        "delta": 0.0
       },
       "1091009": {
-        "lastCompleteRate": 47.04,
-        "lastAchieved": 176.0,
-        "delta": 16.83
+        "lastCompleteRate": 63.87,
+        "lastAchieved": 239.0,
+        "delta": 0.0
       },
       "87652": {
-        "lastCompleteRate": 42.18,
-        "lastAchieved": 156.0,
-        "delta": 21.63
+        "lastCompleteRate": 63.81,
+        "lastAchieved": 236.0,
+        "delta": 0.0
       },
       "1093853": {
-        "lastCompleteRate": 51.74,
-        "lastAchieved": 190.0,
-        "delta": 12.26
+        "lastCompleteRate": 64.0,
+        "lastAchieved": 235.0,
+        "delta": 0.0
       },
       "87966": {
-        "lastCompleteRate": 40.29,
-        "lastAchieved": 150.0,
-        "delta": 22.56
+        "lastCompleteRate": 62.85,
+        "lastAchieved": 234.0,
+        "delta": 0.0
       },
       "88154": {
-        "lastCompleteRate": 43.84,
-        "lastAchieved": 169.0,
-        "delta": 16.6
+        "lastCompleteRate": 60.44,
+        "lastAchieved": 233.0,
+        "delta": 0.0
       },
       "1093852": {
-        "lastCompleteRate": 50.57,
-        "lastAchieved": 177.0,
-        "delta": 15.71
+        "lastCompleteRate": 66.28,
+        "lastAchieved": 232.0,
+        "delta": 0.0
       },
       "1093854": {
-        "lastCompleteRate": 42.81,
-        "lastAchieved": 163.0,
-        "delta": 18.12
+        "lastCompleteRate": 60.93,
+        "lastAchieved": 232.0,
+        "delta": 0.0
       },
       "87742": {
-        "lastCompleteRate": 52.41,
-        "lastAchieved": 193.0,
-        "delta": 10.59
+        "lastCompleteRate": 63.0,
+        "lastAchieved": 232.0,
+        "delta": 0.0
       },
       "88152": {
-        "lastCompleteRate": 46.1,
-        "lastAchieved": 173.0,
-        "delta": 15.72
+        "lastCompleteRate": 61.82,
+        "lastAchieved": 232.0,
+        "delta": 0.0
       },
       "1092259": {
-        "lastCompleteRate": 41.23,
-        "lastAchieved": 165.0,
-        "delta": 15.5
+        "lastCompleteRate": 56.73,
+        "lastAchieved": 227.0,
+        "delta": 0.0
       },
       "87827": {
-        "lastCompleteRate": 53.49,
-        "lastAchieved": 180.0,
-        "delta": 13.97
+        "lastCompleteRate": 67.46,
+        "lastAchieved": 227.0,
+        "delta": 0.0
       },
       "1092394": {
-        "lastCompleteRate": 41.85,
-        "lastAchieved": 146.0,
-        "delta": 23.22
+        "lastCompleteRate": 65.07,
+        "lastAchieved": 227.0,
+        "delta": 0.0
       },
       "87741": {
-        "lastCompleteRate": 44.62,
-        "lastAchieved": 156.0,
-        "delta": 19.74
+        "lastCompleteRate": 64.36,
+        "lastAchieved": 225.0,
+        "delta": 0.0
       },
       "87779": {
-        "lastCompleteRate": 45.77,
-        "lastAchieved": 156.0,
-        "delta": 20.24
+        "lastCompleteRate": 66.01,
+        "lastAchieved": 225.0,
+        "delta": 0.0
       },
       "1300016": {
-        "lastCompleteRate": 40.18,
-        "lastAchieved": 155.0,
-        "delta": 17.88
+        "lastCompleteRate": 58.06,
+        "lastAchieved": 224.0,
+        "delta": 0.0
       },
       "87926": {
-        "lastCompleteRate": 57.54,
-        "lastAchieved": 187.0,
-        "delta": 11.08
+        "lastCompleteRate": 68.62,
+        "lastAchieved": 223.0,
+        "delta": 0.0
       },
       "1301829": {
-        "lastCompleteRate": 44.69,
-        "lastAchieved": 159.0,
-        "delta": 17.99
+        "lastCompleteRate": 62.68,
+        "lastAchieved": 223.0,
+        "delta": 0.0
       },
       "87752": {
-        "lastCompleteRate": 43.91,
-        "lastAchieved": 164.0,
-        "delta": 15.8
+        "lastCompleteRate": 59.71,
+        "lastAchieved": 223.0,
+        "delta": 0.0
       },
       "87893": {
-        "lastCompleteRate": 44.28,
-        "lastAchieved": 154.0,
-        "delta": 19.83
+        "lastCompleteRate": 64.11,
+        "lastAchieved": 223.0,
+        "delta": 0.0
       },
       "1092428": {
-        "lastCompleteRate": 46.52,
-        "lastAchieved": 173.0,
-        "delta": 13.18
+        "lastCompleteRate": 59.7,
+        "lastAchieved": 222.0,
+        "delta": 0.0
       },
       "1302752": {
-        "lastCompleteRate": 41.92,
-        "lastAchieved": 164.0,
-        "delta": 14.82
+        "lastCompleteRate": 56.74,
+        "lastAchieved": 222.0,
+        "delta": 0.0
       },
       "88310": {
-        "lastCompleteRate": 43.57,
-        "lastAchieved": 142.0,
-        "delta": 23.93
+        "lastCompleteRate": 67.5,
+        "lastAchieved": 220.0,
+        "delta": 0.0
       },
       "87854": {
-        "lastCompleteRate": 45.89,
-        "lastAchieved": 170.0,
-        "delta": 13.23
+        "lastCompleteRate": 59.12,
+        "lastAchieved": 219.0,
+        "delta": 0.0
       },
       "1095953": {
-        "lastCompleteRate": 41.1,
-        "lastAchieved": 149.0,
-        "delta": 19.31
+        "lastCompleteRate": 60.41,
+        "lastAchieved": 219.0,
+        "delta": 0.0
       },
       "87872": {
-        "lastCompleteRate": 48.97,
-        "lastAchieved": 163.0,
-        "delta": 16.53
+        "lastCompleteRate": 65.5,
+        "lastAchieved": 218.0,
+        "delta": 0.0
       },
       "88224": {
-        "lastCompleteRate": 51.84,
-        "lastAchieved": 164.0,
-        "delta": 17.07
+        "lastCompleteRate": 68.91,
+        "lastAchieved": 218.0,
+        "delta": 0.0
       },
       "1300229": {
-        "lastCompleteRate": 41.03,
-        "lastAchieved": 150.0,
-        "delta": 18.61
+        "lastCompleteRate": 59.64,
+        "lastAchieved": 218.0,
+        "delta": 0.0
       },
       "1304732": {
-        "lastCompleteRate": 44.01,
-        "lastAchieved": 153.0,
-        "delta": 18.7
+        "lastCompleteRate": 62.71,
+        "lastAchieved": 218.0,
+        "delta": 0.0
       },
       "1302751": {
-        "lastCompleteRate": 54.62,
-        "lastAchieved": 168.0,
-        "delta": 15.93
+        "lastCompleteRate": 70.55,
+        "lastAchieved": 217.0,
+        "delta": 0.0
       },
       "1307471": {
-        "lastCompleteRate": 46.46,
-        "lastAchieved": 168.0,
-        "delta": 13.55
+        "lastCompleteRate": 60.01,
+        "lastAchieved": 217.0,
+        "delta": 0.0
       },
       "1092390": {
-        "lastCompleteRate": 49.49,
-        "lastAchieved": 161.0,
-        "delta": 17.21
+        "lastCompleteRate": 66.7,
+        "lastAchieved": 217.0,
+        "delta": 0.0
       },
       "1089400": {
-        "lastCompleteRate": 35.55,
-        "lastAchieved": 143.0,
-        "delta": 18.15
+        "lastCompleteRate": 53.7,
+        "lastAchieved": 216.0,
+        "delta": 0.0
       },
       "1093214": {
-        "lastCompleteRate": 40.05,
-        "lastAchieved": 152.0,
-        "delta": 16.59
+        "lastCompleteRate": 56.64,
+        "lastAchieved": 215.0,
+        "delta": 0.0
       },
       "1306520": {
-        "lastCompleteRate": 47.97,
-        "lastAchieved": 157.0,
-        "delta": 17.72
+        "lastCompleteRate": 65.69,
+        "lastAchieved": 215.0,
+        "delta": 0.0
       },
       "87851": {
-        "lastCompleteRate": 38.53,
-        "lastAchieved": 149.0,
-        "delta": 16.55
+        "lastCompleteRate": 55.08,
+        "lastAchieved": 213.0,
+        "delta": 0.0
       },
       "87673": {
-        "lastCompleteRate": 50.84,
-        "lastAchieved": 153.0,
-        "delta": 19.94
+        "lastCompleteRate": 70.78,
+        "lastAchieved": 213.0,
+        "delta": 0.0
       },
       "1307287": {
-        "lastCompleteRate": 42.47,
-        "lastAchieved": 154.0,
-        "delta": 16.0
+        "lastCompleteRate": 58.47,
+        "lastAchieved": 212.0,
+        "delta": 0.0
       },
       "88206": {
-        "lastCompleteRate": 43.16,
-        "lastAchieved": 147.0,
-        "delta": 18.79
+        "lastCompleteRate": 61.95,
+        "lastAchieved": 211.0,
+        "delta": 0.0
       },
       "1095951": {
-        "lastCompleteRate": 38.93,
-        "lastAchieved": 140.0,
-        "delta": 19.46
+        "lastCompleteRate": 58.39,
+        "lastAchieved": 210.0,
+        "delta": 0.0
       },
       "1306973": {
-        "lastCompleteRate": 48.62,
-        "lastAchieved": 155.0,
-        "delta": 17.26
+        "lastCompleteRate": 65.88,
+        "lastAchieved": 210.0,
+        "delta": 0.0
       },
       "1091008": {
-        "lastCompleteRate": 46.33,
-        "lastAchieved": 157.0,
-        "delta": 15.34
+        "lastCompleteRate": 61.67,
+        "lastAchieved": 209.0,
+        "delta": 0.0
       },
       "1095947": {
-        "lastCompleteRate": 41.56,
-        "lastAchieved": 157.0,
-        "delta": 13.51
+        "lastCompleteRate": 55.07,
+        "lastAchieved": 208.0,
+        "delta": 0.0
       },
       "87864": {
-        "lastCompleteRate": 46.24,
-        "lastAchieved": 152.0,
-        "delta": 16.42
+        "lastCompleteRate": 62.66,
+        "lastAchieved": 206.0,
+        "delta": 0.0
       },
       "87780": {
-        "lastCompleteRate": 39.73,
-        "lastAchieved": 147.0,
-        "delta": 15.67
+        "lastCompleteRate": 55.4,
+        "lastAchieved": 205.0,
+        "delta": 0.0
       },
       "87700": {
-        "lastCompleteRate": 36.03,
-        "lastAchieved": 146.0,
-        "delta": 14.56
+        "lastCompleteRate": 50.59,
+        "lastAchieved": 205.0,
+        "delta": 0.0
       },
       "1306974": {
-        "lastCompleteRate": 61.06,
-        "lastAchieved": 173.0,
-        "delta": 10.94
+        "lastCompleteRate": 72.0,
+        "lastAchieved": 204.0,
+        "delta": 0.0
       },
       "1089509": {
-        "lastCompleteRate": 49.07,
-        "lastAchieved": 157.0,
-        "delta": 14.69
+        "lastCompleteRate": 63.76,
+        "lastAchieved": 204.0,
+        "delta": 0.0
       },
       "1304728": {
-        "lastCompleteRate": 47.87,
-        "lastAchieved": 157.0,
-        "delta": 14.33
+        "lastCompleteRate": 62.2,
+        "lastAchieved": 204.0,
+        "delta": 0.0
       },
       "87940": {
-        "lastCompleteRate": 37.98,
-        "lastAchieved": 140.0,
-        "delta": 17.37
+        "lastCompleteRate": 55.35,
+        "lastAchieved": 204.0,
+        "delta": 0.0
       },
       "1094555": {
-        "lastCompleteRate": 36.36,
-        "lastAchieved": 127.0,
-        "delta": 21.76
+        "lastCompleteRate": 58.12,
+        "lastAchieved": 203.0,
+        "delta": 0.0
       },
       "1091007": {
-        "lastCompleteRate": 36.91,
-        "lastAchieved": 137.0,
-        "delta": 17.78
+        "lastCompleteRate": 54.69,
+        "lastAchieved": 203.0,
+        "delta": 0.0
       },
       "1093860": {
-        "lastCompleteRate": 49.31,
-        "lastAchieved": 146.0,
-        "delta": 19.25
+        "lastCompleteRate": 68.56,
+        "lastAchieved": 203.0,
+        "delta": 0.0
       },
       "87736": {
-        "lastCompleteRate": 49.37,
-        "lastAchieved": 153.0,
-        "delta": 16.13
+        "lastCompleteRate": 65.5,
+        "lastAchieved": 203.0,
+        "delta": 0.0
       },
       "87956": {
-        "lastCompleteRate": 42.36,
-        "lastAchieved": 141.0,
-        "delta": 18.33
+        "lastCompleteRate": 60.69,
+        "lastAchieved": 202.0,
+        "delta": 0.0
       },
       "1306516": {
-        "lastCompleteRate": 46.65,
-        "lastAchieved": 151.0,
-        "delta": 15.76
+        "lastCompleteRate": 62.41,
+        "lastAchieved": 202.0,
+        "delta": 0.0
       },
       "1093857": {
-        "lastCompleteRate": 44.64,
-        "lastAchieved": 144.0,
-        "delta": 17.68
+        "lastCompleteRate": 62.32,
+        "lastAchieved": 201.0,
+        "delta": 0.0
       },
       "1094417": {
-        "lastCompleteRate": 40.93,
-        "lastAchieved": 139.0,
-        "delta": 17.95
+        "lastCompleteRate": 58.88,
+        "lastAchieved": 200.0,
+        "delta": 0.0
       },
       "1092389": {
-        "lastCompleteRate": 41.4,
-        "lastAchieved": 143.0,
-        "delta": 16.5
+        "lastCompleteRate": 57.9,
+        "lastAchieved": 200.0,
+        "delta": 0.0
       },
       "1092391": {
-        "lastCompleteRate": 48.22,
-        "lastAchieved": 142.0,
-        "delta": 19.7
+        "lastCompleteRate": 67.92,
+        "lastAchieved": 200.0,
+        "delta": 0.0
       },
       "1096286": {
-        "lastCompleteRate": 44.12,
-        "lastAchieved": 137.0,
-        "delta": 19.97
+        "lastCompleteRate": 64.09,
+        "lastAchieved": 199.0,
+        "delta": 0.0
       },
       "87757": {
-        "lastCompleteRate": 48.2,
-        "lastAchieved": 154.0,
-        "delta": 14.08
+        "lastCompleteRate": 62.28,
+        "lastAchieved": 199.0,
+        "delta": 0.0
       },
       "88110": {
-        "lastCompleteRate": 43.72,
-        "lastAchieved": 149.0,
-        "delta": 14.67
+        "lastCompleteRate": 58.39,
+        "lastAchieved": 199.0,
+        "delta": 0.0
       },
       "87448": {
-        "lastCompleteRate": 46.1,
-        "lastAchieved": 153.0,
-        "delta": 13.56
+        "lastCompleteRate": 59.66,
+        "lastAchieved": 198.0,
+        "delta": 0.0
       },
       "88347": {
-        "lastCompleteRate": 39.9,
-        "lastAchieved": 145.0,
-        "delta": 14.59
+        "lastCompleteRate": 54.49,
+        "lastAchieved": 198.0,
+        "delta": 0.0
       },
       "1094563": {
-        "lastCompleteRate": 36.75,
-        "lastAchieved": 139.0,
-        "delta": 15.34
+        "lastCompleteRate": 52.09,
+        "lastAchieved": 197.0,
+        "delta": 0.0
       },
       "87941": {
-        "lastCompleteRate": 41.71,
-        "lastAchieved": 141.0,
-        "delta": 16.27
+        "lastCompleteRate": 57.98,
+        "lastAchieved": 196.0,
+        "delta": 0.0
       },
       "88291": {
-        "lastCompleteRate": 42.8,
-        "lastAchieved": 141.0,
-        "delta": 16.7
+        "lastCompleteRate": 59.5,
+        "lastAchieved": 196.0,
+        "delta": 0.0
       },
       "1092393": {
-        "lastCompleteRate": 39.62,
-        "lastAchieved": 138.0,
-        "delta": 16.37
+        "lastCompleteRate": 55.99,
+        "lastAchieved": 195.0,
+        "delta": 0.0
       },
       "1092260": {
-        "lastCompleteRate": 43.71,
-        "lastAchieved": 146.0,
-        "delta": 14.67
+        "lastCompleteRate": 58.38,
+        "lastAchieved": 195.0,
+        "delta": 0.0
       },
       "88308": {
-        "lastCompleteRate": 43.37,
-        "lastAchieved": 148.0,
-        "delta": 13.49
+        "lastCompleteRate": 56.86,
+        "lastAchieved": 194.0,
+        "delta": 0.0
       },
       "1094415": {
-        "lastCompleteRate": 36.31,
-        "lastAchieved": 120.0,
-        "delta": 22.08
+        "lastCompleteRate": 58.39,
+        "lastAchieved": 193.0,
+        "delta": 0.0
       },
       "1300015": {
-        "lastCompleteRate": 45.33,
-        "lastAchieved": 139.0,
-        "delta": 17.61
+        "lastCompleteRate": 62.94,
+        "lastAchieved": 193.0,
+        "delta": 0.0
       },
       "87787": {
-        "lastCompleteRate": 39.5,
-        "lastAchieved": 139.0,
-        "delta": 15.34
+        "lastCompleteRate": 54.84,
+        "lastAchieved": 193.0,
+        "delta": 0.0
       },
       "1089396": {
-        "lastCompleteRate": 35.8,
-        "lastAchieved": 117.0,
-        "delta": 22.95
+        "lastCompleteRate": 58.75,
+        "lastAchieved": 192.0,
+        "delta": 0.0
       },
       "1095956": {
-        "lastCompleteRate": 42.32,
-        "lastAchieved": 143.0,
-        "delta": 14.51
+        "lastCompleteRate": 56.83,
+        "lastAchieved": 192.0,
+        "delta": 0.0
       },
       "1092251": {
-        "lastCompleteRate": 42.42,
-        "lastAchieved": 131.0,
-        "delta": 19.75
+        "lastCompleteRate": 62.17,
+        "lastAchieved": 192.0,
+        "delta": 0.0
       },
       "1300025": {
-        "lastCompleteRate": 45.67,
-        "lastAchieved": 142.0,
-        "delta": 16.08
+        "lastCompleteRate": 61.75,
+        "lastAchieved": 192.0,
+        "delta": 0.0
       },
       "1304768": {
-        "lastCompleteRate": 38.93,
-        "lastAchieved": 132.0,
-        "delta": 17.7
+        "lastCompleteRate": 56.63,
+        "lastAchieved": 192.0,
+        "delta": 0.0
       },
       "1300018": {
-        "lastCompleteRate": 41.6,
-        "lastAchieved": 140.0,
-        "delta": 15.15
+        "lastCompleteRate": 56.75,
+        "lastAchieved": 191.0,
+        "delta": 0.0
       },
       "1306449": {
-        "lastCompleteRate": 48.79,
-        "lastAchieved": 140.0,
-        "delta": 17.77
+        "lastCompleteRate": 66.56,
+        "lastAchieved": 191.0,
+        "delta": 0.0
       },
       "1306983": {
-        "lastCompleteRate": 34.74,
-        "lastAchieved": 114.0,
-        "delta": 23.46
+        "lastCompleteRate": 58.2,
+        "lastAchieved": 191.0,
+        "delta": 0.0
       },
       "88172": {
-        "lastCompleteRate": 40.11,
-        "lastAchieved": 143.0,
-        "delta": 13.46
+        "lastCompleteRate": 53.57,
+        "lastAchieved": 191.0,
+        "delta": 0.0
       },
       "1093862": {
-        "lastCompleteRate": 46.54,
-        "lastAchieved": 141.0,
-        "delta": 16.17
+        "lastCompleteRate": 62.71,
+        "lastAchieved": 190.0,
+        "delta": 0.0
       },
       "1094421": {
-        "lastCompleteRate": 40.29,
-        "lastAchieved": 137.0,
-        "delta": 15.59
+        "lastCompleteRate": 55.88,
+        "lastAchieved": 190.0,
+        "delta": 0.0
       },
       "1304730": {
-        "lastCompleteRate": 40.08,
-        "lastAchieved": 129.0,
-        "delta": 18.96
+        "lastCompleteRate": 59.04,
+        "lastAchieved": 190.0,
+        "delta": 0.0
       },
       "1306513": {
-        "lastCompleteRate": 37.71,
-        "lastAchieved": 129.0,
-        "delta": 17.84
+        "lastCompleteRate": 55.55,
+        "lastAchieved": 190.0,
+        "delta": 0.0
       },
       "1302749": {
-        "lastCompleteRate": 32.01,
-        "lastAchieved": 109.0,
-        "delta": 23.49
+        "lastCompleteRate": 55.5,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "87476": {
-        "lastCompleteRate": 42.61,
-        "lastAchieved": 143.0,
-        "delta": 13.71
+        "lastCompleteRate": 56.32,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "1096163": {
-        "lastCompleteRate": 44.52,
-        "lastAchieved": 141.0,
-        "delta": 15.16
+        "lastCompleteRate": 59.68,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "1300226": {
-        "lastCompleteRate": 38.32,
-        "lastAchieved": 133.0,
-        "delta": 16.14
+        "lastCompleteRate": 54.46,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "88211": {
-        "lastCompleteRate": 38.85,
-        "lastAchieved": 130.0,
-        "delta": 17.63
+        "lastCompleteRate": 56.48,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "1304965": {
-        "lastCompleteRate": 37.73,
-        "lastAchieved": 125.0,
-        "delta": 19.32
+        "lastCompleteRate": 57.05,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "87669": {
-        "lastCompleteRate": 45.28,
-        "lastAchieved": 141.0,
-        "delta": 15.41
+        "lastCompleteRate": 60.69,
+        "lastAchieved": 189.0,
+        "delta": 0.0
       },
       "1094554": {
-        "lastCompleteRate": 40.64,
-        "lastAchieved": 133.0,
-        "delta": 16.8
+        "lastCompleteRate": 57.44,
+        "lastAchieved": 188.0,
+        "delta": 0.0
       },
       "1096290": {
-        "lastCompleteRate": 36.83,
-        "lastAchieved": 126.0,
-        "delta": 18.13
+        "lastCompleteRate": 54.96,
+        "lastAchieved": 188.0,
+        "delta": 0.0
       },
       "87850": {
-        "lastCompleteRate": 42.99,
-        "lastAchieved": 142.0,
-        "delta": 13.93
+        "lastCompleteRate": 56.92,
+        "lastAchieved": 188.0,
+        "delta": 0.0
       },
       "1094422": {
-        "lastCompleteRate": 32.94,
-        "lastAchieved": 115.0,
-        "delta": 20.62
+        "lastCompleteRate": 53.56,
+        "lastAchieved": 187.0,
+        "delta": 0.0
       },
       "87870": {
-        "lastCompleteRate": 45.41,
-        "lastAchieved": 133.0,
-        "delta": 18.1
+        "lastCompleteRate": 63.51,
+        "lastAchieved": 186.0,
+        "delta": 0.0
       },
       "1092584": {
-        "lastCompleteRate": 35.54,
-        "lastAchieved": 131.0,
-        "delta": 14.65
+        "lastCompleteRate": 50.19,
+        "lastAchieved": 185.0,
+        "delta": 0.0
       },
       "1096288": {
-        "lastCompleteRate": 46.98,
-        "lastAchieved": 129.0,
-        "delta": 20.39
+        "lastCompleteRate": 67.37,
+        "lastAchieved": 185.0,
+        "delta": 0.0
       },
       "1306981": {
-        "lastCompleteRate": 39.5,
-        "lastAchieved": 121.0,
-        "delta": 20.9
+        "lastCompleteRate": 60.4,
+        "lastAchieved": 185.0,
+        "delta": 0.0
       },
       "1307472": {
-        "lastCompleteRate": 46.55,
-        "lastAchieved": 136.0,
-        "delta": 16.43
+        "lastCompleteRate": 62.98,
+        "lastAchieved": 184.0,
+        "delta": 0.0
       },
       "87733": {
-        "lastCompleteRate": 49.36,
-        "lastAchieved": 145.0,
-        "delta": 13.28
+        "lastCompleteRate": 62.64,
+        "lastAchieved": 184.0,
+        "delta": 0.0
       },
       "87835": {
-        "lastCompleteRate": 46.7,
-        "lastAchieved": 133.0,
-        "delta": 17.9
+        "lastCompleteRate": 64.6,
+        "lastAchieved": 184.0,
+        "delta": 0.0
       },
       "1300027": {
-        "lastCompleteRate": 53.92,
-        "lastAchieved": 137.0,
-        "delta": 18.11
+        "lastCompleteRate": 72.03,
+        "lastAchieved": 183.0,
+        "delta": 0.0
       },
       "1300020": {
-        "lastCompleteRate": 45.88,
-        "lastAchieved": 140.0,
-        "delta": 14.09
+        "lastCompleteRate": 59.97,
+        "lastAchieved": 183.0,
+        "delta": 0.0
       },
       "1306524": {
-        "lastCompleteRate": 38.27,
-        "lastAchieved": 120.0,
-        "delta": 20.08
+        "lastCompleteRate": 58.35,
+        "lastAchieved": 183.0,
+        "delta": 0.0
       },
       "1306987": {
-        "lastCompleteRate": 44.71,
-        "lastAchieved": 134.0,
-        "delta": 16.01
+        "lastCompleteRate": 60.72,
+        "lastAchieved": 182.0,
+        "delta": 0.0
       },
       "1092249": {
-        "lastCompleteRate": 44.59,
-        "lastAchieved": 129.0,
-        "delta": 18.33
+        "lastCompleteRate": 62.92,
+        "lastAchieved": 182.0,
+        "delta": 0.0
       },
       "1091154": {
-        "lastCompleteRate": 45.97,
-        "lastAchieved": 149.0,
-        "delta": 9.88
+        "lastCompleteRate": 55.85,
+        "lastAchieved": 181.0,
+        "delta": 0.0
       },
       "1301689": {
-        "lastCompleteRate": 38.21,
-        "lastAchieved": 126.0,
-        "delta": 16.68
+        "lastCompleteRate": 54.89,
+        "lastAchieved": 181.0,
+        "delta": 0.0
       },
       "1096284": {
-        "lastCompleteRate": 42.32,
-        "lastAchieved": 125.0,
-        "delta": 18.96
+        "lastCompleteRate": 61.28,
+        "lastAchieved": 181.0,
+        "delta": 0.0
       },
       "1096173": {
-        "lastCompleteRate": 33.68,
-        "lastAchieved": 116.0,
-        "delta": 18.59
+        "lastCompleteRate": 52.27,
+        "lastAchieved": 180.0,
+        "delta": 0.0
       },
       "1307290": {
-        "lastCompleteRate": 36.88,
-        "lastAchieved": 126.0,
-        "delta": 15.81
+        "lastCompleteRate": 52.69,
+        "lastAchieved": 180.0,
+        "delta": 0.0
       },
       "1306525": {
-        "lastCompleteRate": 45.14,
-        "lastAchieved": 126.0,
-        "delta": 19.35
+        "lastCompleteRate": 64.49,
+        "lastAchieved": 180.0,
+        "delta": 0.0
       },
       "1096042": {
-        "lastCompleteRate": 49.49,
-        "lastAchieved": 133.0,
-        "delta": 17.12
+        "lastCompleteRate": 66.61,
+        "lastAchieved": 179.0,
+        "delta": 0.0
       },
       "1301690": {
-        "lastCompleteRate": 36.91,
-        "lastAchieved": 121.0,
-        "delta": 17.39
+        "lastCompleteRate": 54.3,
+        "lastAchieved": 178.0,
+        "delta": 0.0
       },
       "1301921": {
-        "lastCompleteRate": 37.62,
-        "lastAchieved": 127.0,
-        "delta": 15.11
+        "lastCompleteRate": 52.73,
+        "lastAchieved": 178.0,
+        "delta": 0.0
       },
       "87895": {
-        "lastCompleteRate": 45.43,
-        "lastAchieved": 135.0,
-        "delta": 14.47
+        "lastCompleteRate": 59.9,
+        "lastAchieved": 178.0,
+        "delta": 0.0
       },
       "1306989": {
-        "lastCompleteRate": 41.6,
-        "lastAchieved": 130.0,
-        "delta": 15.37
+        "lastCompleteRate": 56.97,
+        "lastAchieved": 178.0,
+        "delta": 0.0
       },
       "1096170": {
-        "lastCompleteRate": 37.14,
-        "lastAchieved": 116.0,
-        "delta": 19.85
+        "lastCompleteRate": 56.99,
+        "lastAchieved": 178.0,
+        "delta": 0.0
       },
       "1094411": {
-        "lastCompleteRate": 39.84,
-        "lastAchieved": 123.0,
-        "delta": 17.48
+        "lastCompleteRate": 57.32,
+        "lastAchieved": 177.0,
+        "delta": 0.0
       },
       "1092392": {
-        "lastCompleteRate": 33.07,
-        "lastAchieved": 120.0,
-        "delta": 15.71
+        "lastCompleteRate": 48.78,
+        "lastAchieved": 177.0,
+        "delta": 0.0
       },
       "87793": {
-        "lastCompleteRate": 38.94,
-        "lastAchieved": 134.0,
-        "delta": 12.5
+        "lastCompleteRate": 51.44,
+        "lastAchieved": 177.0,
+        "delta": 0.0
       },
       "1307400": {
-        "lastCompleteRate": 40.03,
-        "lastAchieved": 124.0,
-        "delta": 17.11
+        "lastCompleteRate": 57.14,
+        "lastAchieved": 177.0,
+        "delta": 0.0
       },
       "1300019": {
-        "lastCompleteRate": 32.51,
-        "lastAchieved": 112.0,
-        "delta": 18.58
+        "lastCompleteRate": 51.09,
+        "lastAchieved": 176.0,
+        "delta": 0.0
       },
       "87701": {
-        "lastCompleteRate": 43.67,
-        "lastAchieved": 130.0,
-        "delta": 15.45
+        "lastCompleteRate": 59.12,
+        "lastAchieved": 176.0,
+        "delta": 0.0
       },
       "1307927": {
-        "lastCompleteRate": 32.41,
-        "lastAchieved": 109.0,
-        "delta": 19.92
+        "lastCompleteRate": 52.33,
+        "lastAchieved": 176.0,
+        "delta": 0.0
       },
       "88111": {
-        "lastCompleteRate": 39.35,
-        "lastAchieved": 128.0,
-        "delta": 14.45
+        "lastCompleteRate": 53.8,
+        "lastAchieved": 175.0,
+        "delta": 0.0
       },
       "87447": {
-        "lastCompleteRate": 38.9,
-        "lastAchieved": 128.0,
-        "delta": 14.28
+        "lastCompleteRate": 53.18,
+        "lastAchieved": 175.0,
+        "delta": 0.0
       },
       "1096041": {
-        "lastCompleteRate": 41.7,
-        "lastAchieved": 133.0,
-        "delta": 13.17
+        "lastCompleteRate": 54.87,
+        "lastAchieved": 175.0,
+        "delta": 0.0
       },
       "87734": {
-        "lastCompleteRate": 48.65,
-        "lastAchieved": 135.0,
-        "delta": 14.06
+        "lastCompleteRate": 62.71,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "1306986": {
-        "lastCompleteRate": 37.83,
-        "lastAchieved": 120.0,
-        "delta": 17.03
+        "lastCompleteRate": 54.86,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "87836": {
-        "lastCompleteRate": 35.9,
-        "lastAchieved": 113.0,
-        "delta": 19.38
+        "lastCompleteRate": 55.28,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "1307288": {
-        "lastCompleteRate": 53.54,
-        "lastAchieved": 141.0,
-        "delta": 12.53
+        "lastCompleteRate": 66.07,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "87942": {
-        "lastCompleteRate": 33.24,
-        "lastAchieved": 110.0,
-        "delta": 19.34
+        "lastCompleteRate": 52.58,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "1306519": {
-        "lastCompleteRate": 49.01,
-        "lastAchieved": 136.0,
-        "delta": 13.69
+        "lastCompleteRate": 62.7,
+        "lastAchieved": 174.0,
+        "delta": 0.0
       },
       "1089510": {
-        "lastCompleteRate": 43.25,
-        "lastAchieved": 124.0,
-        "delta": 17.09
+        "lastCompleteRate": 60.34,
+        "lastAchieved": 173.0,
+        "delta": 0.0
       },
       "1094561": {
-        "lastCompleteRate": 48.22,
-        "lastAchieved": 137.0,
-        "delta": 12.67
+        "lastCompleteRate": 60.89,
+        "lastAchieved": 173.0,
+        "delta": 0.0
       },
       "1096162": {
-        "lastCompleteRate": 33.77,
-        "lastAchieved": 108.0,
-        "delta": 20.01
+        "lastCompleteRate": 53.78,
+        "lastAchieved": 172.0,
+        "delta": 0.0
       },
       "1096171": {
-        "lastCompleteRate": 40.2,
-        "lastAchieved": 126.0,
-        "delta": 14.68
+        "lastCompleteRate": 54.88,
+        "lastAchieved": 172.0,
+        "delta": 0.0
       },
       "1304967": {
-        "lastCompleteRate": 37.68,
-        "lastAchieved": 114.0,
-        "delta": 19.17
+        "lastCompleteRate": 56.85,
+        "lastAchieved": 172.0,
+        "delta": 0.0
       },
       "1094000": {
-        "lastCompleteRate": 45.38,
-        "lastAchieved": 135.0,
-        "delta": 12.1
+        "lastCompleteRate": 57.48,
+        "lastAchieved": 171.0,
+        "delta": 0.0
       },
       "1095948": {
-        "lastCompleteRate": 34.76,
-        "lastAchieved": 111.0,
-        "delta": 18.8
+        "lastCompleteRate": 53.56,
+        "lastAchieved": 171.0,
+        "delta": 0.0
       },
       "87837": {
-        "lastCompleteRate": 39.57,
-        "lastAchieved": 118.0,
-        "delta": 17.77
+        "lastCompleteRate": 57.34,
+        "lastAchieved": 171.0,
+        "delta": 0.0
       },
       "1304773": {
-        "lastCompleteRate": 34.08,
-        "lastAchieved": 109.0,
-        "delta": 19.38
+        "lastCompleteRate": 53.46,
+        "lastAchieved": 171.0,
+        "delta": 0.0
       },
       "1094564": {
-        "lastCompleteRate": 36.58,
-        "lastAchieved": 115.0,
-        "delta": 17.5
+        "lastCompleteRate": 54.08,
+        "lastAchieved": 170.0,
+        "delta": 0.0
       },
       "87948": {
-        "lastCompleteRate": 37.34,
-        "lastAchieved": 118.0,
-        "delta": 16.46
+        "lastCompleteRate": 53.8,
+        "lastAchieved": 170.0,
+        "delta": 0.0
       },
       "1092266": {
-        "lastCompleteRate": 43.58,
-        "lastAchieved": 124.0,
-        "delta": 15.81
+        "lastCompleteRate": 59.39,
+        "lastAchieved": 169.0,
+        "delta": 0.0
       },
       "1300022": {
-        "lastCompleteRate": 34.28,
-        "lastAchieved": 108.0,
-        "delta": 19.36
+        "lastCompleteRate": 53.64,
+        "lastAchieved": 169.0,
+        "delta": 0.0
       },
       "1304729": {
-        "lastCompleteRate": 38.56,
-        "lastAchieved": 123.0,
-        "delta": 14.41
+        "lastCompleteRate": 52.97,
+        "lastAchieved": 169.0,
+        "delta": 0.0
       },
       "1093863": {
-        "lastCompleteRate": 41.94,
-        "lastAchieved": 117.0,
-        "delta": 18.64
+        "lastCompleteRate": 60.58,
+        "lastAchieved": 169.0,
+        "delta": 0.0
       },
       "1307291": {
-        "lastCompleteRate": 39.74,
-        "lastAchieved": 122.0,
-        "delta": 14.98
+        "lastCompleteRate": 54.72,
+        "lastAchieved": 168.0,
+        "delta": 0.0
       },
       "1089964": {
-        "lastCompleteRate": 37.04,
-        "lastAchieved": 111.0,
-        "delta": 19.02
+        "lastCompleteRate": 56.06,
+        "lastAchieved": 168.0,
+        "delta": 0.0
       },
       "1092261": {
-        "lastCompleteRate": 41.79,
-        "lastAchieved": 115.0,
-        "delta": 19.26
+        "lastCompleteRate": 61.05,
+        "lastAchieved": 168.0,
+        "delta": 0.0
       },
       "87781": {
-        "lastCompleteRate": 52.21,
-        "lastAchieved": 135.0,
-        "delta": 12.76
+        "lastCompleteRate": 64.97,
+        "lastAchieved": 168.0,
+        "delta": 0.0
       },
       "1304969": {
-        "lastCompleteRate": 38.96,
-        "lastAchieved": 115.0,
-        "delta": 17.95
+        "lastCompleteRate": 56.91,
+        "lastAchieved": 168.0,
+        "delta": 0.0
       },
       "1096045": {
-        "lastCompleteRate": 37.73,
-        "lastAchieved": 117.0,
-        "delta": 16.12
+        "lastCompleteRate": 53.85,
+        "lastAchieved": 167.0,
+        "delta": 0.0
       },
       "1300026": {
-        "lastCompleteRate": 37.65,
-        "lastAchieved": 118.0,
-        "delta": 15.64
+        "lastCompleteRate": 53.29,
+        "lastAchieved": 167.0,
+        "delta": 0.0
       },
       "1092262": {
-        "lastCompleteRate": 47.14,
-        "lastAchieved": 129.0,
-        "delta": 13.53
+        "lastCompleteRate": 60.67,
+        "lastAchieved": 166.0,
+        "delta": 0.0
       },
       "1306972": {
-        "lastCompleteRate": 46.44,
-        "lastAchieved": 134.0,
-        "delta": 11.09
+        "lastCompleteRate": 57.53,
+        "lastAchieved": 166.0,
+        "delta": 0.0
       },
       "87848": {
-        "lastCompleteRate": 40.42,
-        "lastAchieved": 129.0,
-        "delta": 11.59
+        "lastCompleteRate": 52.01,
+        "lastAchieved": 166.0,
+        "delta": 0.0
       },
       "1089392": {
-        "lastCompleteRate": 42.26,
-        "lastAchieved": 120.0,
-        "delta": 16.2
+        "lastCompleteRate": 58.46,
+        "lastAchieved": 166.0,
+        "delta": 0.0
       },
       "1096165": {
-        "lastCompleteRate": 42.87,
-        "lastAchieved": 122.0,
-        "delta": 15.12
+        "lastCompleteRate": 57.99,
+        "lastAchieved": 165.0,
+        "delta": 0.0
       },
       "1306505": {
-        "lastCompleteRate": 42.86,
-        "lastAchieved": 120.0,
-        "delta": 16.07
+        "lastCompleteRate": 58.93,
+        "lastAchieved": 165.0,
+        "delta": 0.0
       },
       "87944": {
-        "lastCompleteRate": 32.26,
-        "lastAchieved": 103.0,
-        "delta": 19.43
+        "lastCompleteRate": 51.69,
+        "lastAchieved": 165.0,
+        "delta": 0.0
       },
       "88136": {
-        "lastCompleteRate": 35.61,
-        "lastAchieved": 105.0,
-        "delta": 20.34
+        "lastCompleteRate": 55.95,
+        "lastAchieved": 165.0,
+        "delta": 0.0
       },
       "88175": {
-        "lastCompleteRate": 36.02,
-        "lastAchieved": 111.0,
-        "delta": 17.2
+        "lastCompleteRate": 53.22,
+        "lastAchieved": 164.0,
+        "delta": 0.0
       },
       "1304963": {
-        "lastCompleteRate": 39.47,
-        "lastAchieved": 115.0,
-        "delta": 16.82
+        "lastCompleteRate": 56.29,
+        "lastAchieved": 164.0,
+        "delta": 0.0
       },
       "87957": {
-        "lastCompleteRate": 37.23,
-        "lastAchieved": 115.0,
-        "delta": 15.22
+        "lastCompleteRate": 52.45,
+        "lastAchieved": 162.0,
+        "delta": 0.0
       },
       "1309149": {
-        "lastCompleteRate": 47.97,
-        "lastAchieved": 117.0,
-        "delta": 18.45
+        "lastCompleteRate": 66.42,
+        "lastAchieved": 162.0,
+        "delta": 0.0
       },
       "87782": {
-        "lastCompleteRate": 41.31,
-        "lastAchieved": 112.0,
-        "delta": 18.45
+        "lastCompleteRate": 59.76,
+        "lastAchieved": 162.0,
+        "delta": 0.0
       },
       "1306988": {
-        "lastCompleteRate": 41.89,
-        "lastAchieved": 117.0,
-        "delta": 15.76
+        "lastCompleteRate": 57.65,
+        "lastAchieved": 161.0,
+        "delta": 0.0
       },
       "1303241": {
-        "lastCompleteRate": 68.48,
-        "lastAchieved": 142.0,
-        "delta": 9.17
+        "lastCompleteRate": 77.65,
+        "lastAchieved": 161.0,
+        "delta": 0.0
       },
       "87839": {
-        "lastCompleteRate": 41.28,
-        "lastAchieved": 119.0,
-        "delta": 14.22
+        "lastCompleteRate": 55.5,
+        "lastAchieved": 160.0,
+        "delta": 0.0
       },
       "1092267": {
-        "lastCompleteRate": 42.26,
-        "lastAchieved": 111.0,
-        "delta": 18.27
+        "lastCompleteRate": 60.53,
+        "lastAchieved": 159.0,
+        "delta": 0.0
       },
       "1094419": {
-        "lastCompleteRate": 35.45,
-        "lastAchieved": 99.0,
-        "delta": 21.49
+        "lastCompleteRate": 56.94,
+        "lastAchieved": 159.0,
+        "delta": 0.0
       },
       "1094691": {
-        "lastCompleteRate": 37.49,
-        "lastAchieved": 110.0,
-        "delta": 16.7
+        "lastCompleteRate": 54.19,
+        "lastAchieved": 159.0,
+        "delta": 0.0
       },
       "87772": {
-        "lastCompleteRate": 47.9,
-        "lastAchieved": 125.0,
-        "delta": 12.65
+        "lastCompleteRate": 60.55,
+        "lastAchieved": 158.0,
+        "delta": 0.0
       },
       "1092250": {
-        "lastCompleteRate": 39.36,
-        "lastAchieved": 113.0,
-        "delta": 15.33
+        "lastCompleteRate": 54.69,
+        "lastAchieved": 157.0,
+        "delta": 0.0
       },
       "88153": {
-        "lastCompleteRate": 37.95,
-        "lastAchieved": 111.0,
-        "delta": 15.73
+        "lastCompleteRate": 53.68,
+        "lastAchieved": 157.0,
+        "delta": 0.0
       },
       "1304765": {
-        "lastCompleteRate": 42.23,
-        "lastAchieved": 113.0,
-        "delta": 16.45
+        "lastCompleteRate": 58.68,
+        "lastAchieved": 157.0,
+        "delta": 0.0
       },
       "87947": {
-        "lastCompleteRate": 35.92,
-        "lastAchieved": 113.0,
-        "delta": 13.98
+        "lastCompleteRate": 49.9,
+        "lastAchieved": 157.0,
+        "delta": 0.0
       },
       "1306980": {
-        "lastCompleteRate": 45.01,
-        "lastAchieved": 111.0,
-        "delta": 18.25
+        "lastCompleteRate": 63.26,
+        "lastAchieved": 156.0,
+        "delta": 0.0
       },
       "1304964": {
-        "lastCompleteRate": 34.08,
-        "lastAchieved": 102.0,
-        "delta": 18.05
+        "lastCompleteRate": 52.13,
+        "lastAchieved": 156.0,
+        "delta": 0.0
       },
       "1306448": {
-        "lastCompleteRate": 41.86,
-        "lastAchieved": 113.0,
-        "delta": 15.94
+        "lastCompleteRate": 57.8,
+        "lastAchieved": 156.0,
+        "delta": 0.0
       },
       "1094412": {
-        "lastCompleteRate": 33.45,
-        "lastAchieved": 98.0,
-        "delta": 19.45
+        "lastCompleteRate": 52.9,
+        "lastAchieved": 155.0,
+        "delta": 0.0
       },
       "1096047": {
-        "lastCompleteRate": 35.09,
-        "lastAchieved": 111.0,
-        "delta": 13.59
+        "lastCompleteRate": 48.68,
+        "lastAchieved": 154.0,
+        "delta": 0.0
       },
       "1091188": {
-        "lastCompleteRate": 38.72,
-        "lastAchieved": 105.0,
-        "delta": 18.08
+        "lastCompleteRate": 56.8,
+        "lastAchieved": 154.0,
+        "delta": 0.0
       },
       "87853": {
-        "lastCompleteRate": 38.06,
-        "lastAchieved": 105.0,
-        "delta": 17.77
+        "lastCompleteRate": 55.83,
+        "lastAchieved": 154.0,
+        "delta": 0.0
       },
       "1093009": {
-        "lastCompleteRate": 33.63,
-        "lastAchieved": 105.0,
-        "delta": 15.38
+        "lastCompleteRate": 49.01,
+        "lastAchieved": 153.0,
+        "delta": 0.0
       },
       "1301704": {
-        "lastCompleteRate": 32.58,
-        "lastAchieved": 103.0,
-        "delta": 15.5
+        "lastCompleteRate": 48.08,
+        "lastAchieved": 152.0,
+        "delta": 0.0
       },
       "88210": {
-        "lastCompleteRate": 36.19,
-        "lastAchieved": 109.0,
-        "delta": 14.28
+        "lastCompleteRate": 50.47,
+        "lastAchieved": 152.0,
+        "delta": 0.0
       },
       "87641": {
-        "lastCompleteRate": 45.32,
-        "lastAchieved": 120.0,
-        "delta": 12.08
+        "lastCompleteRate": 57.4,
+        "lastAchieved": 152.0,
+        "delta": 0.0
       },
       "1304735": {
-        "lastCompleteRate": 36.75,
-        "lastAchieved": 103.0,
-        "delta": 17.49
+        "lastCompleteRate": 54.24,
+        "lastAchieved": 152.0,
+        "delta": 0.0
       },
       "1306512": {
-        "lastCompleteRate": 39.0,
-        "lastAchieved": 106.0,
-        "delta": 16.55
+        "lastCompleteRate": 55.55,
+        "lastAchieved": 151.0,
+        "delta": 0.0
       },
       "1304766": {
-        "lastCompleteRate": 38.83,
-        "lastAchieved": 98.0,
-        "delta": 20.6
+        "lastCompleteRate": 59.43,
+        "lastAchieved": 150.0,
+        "delta": 0.0
       },
       "1095250": {
-        "lastCompleteRate": 32.77,
-        "lastAchieved": 103.0,
-        "delta": 14.95
+        "lastCompleteRate": 47.72,
+        "lastAchieved": 150.0,
+        "delta": 0.0
       },
       "1096161": {
-        "lastCompleteRate": 40.93,
-        "lastAchieved": 102.0,
-        "delta": 19.25
+        "lastCompleteRate": 60.18,
+        "lastAchieved": 150.0,
+        "delta": 0.0
       },
       "88135": {
-        "lastCompleteRate": 39.94,
-        "lastAchieved": 97.0,
-        "delta": 21.42
+        "lastCompleteRate": 61.36,
+        "lastAchieved": 149.0,
+        "delta": 0.0
       },
       "1304733": {
-        "lastCompleteRate": 38.52,
-        "lastAchieved": 107.0,
-        "delta": 14.4
+        "lastCompleteRate": 52.92,
+        "lastAchieved": 147.0,
+        "delta": 0.0
       },
       "1307607": {
-        "lastCompleteRate": 48.38,
-        "lastAchieved": 122.0,
-        "delta": 9.91
+        "lastCompleteRate": 58.29,
+        "lastAchieved": 147.0,
+        "delta": 0.0
       },
       "1304771": {
-        "lastCompleteRate": 45.52,
-        "lastAchieved": 110.0,
-        "delta": 15.32
+        "lastCompleteRate": 60.84,
+        "lastAchieved": 147.0,
+        "delta": 0.0
       },
       "88335": {
-        "lastCompleteRate": 30.36,
-        "lastAchieved": 86.0,
-        "delta": 20.84
+        "lastCompleteRate": 51.2,
+        "lastAchieved": 145.0,
+        "delta": 0.0
       },
       "1095955": {
-        "lastCompleteRate": 39.78,
-        "lastAchieved": 100.0,
-        "delta": 17.5
+        "lastCompleteRate": 57.28,
+        "lastAchieved": 144.0,
+        "delta": 0.0
       },
       "1304731": {
-        "lastCompleteRate": 31.05,
-        "lastAchieved": 96.0,
-        "delta": 15.53
+        "lastCompleteRate": 46.58,
+        "lastAchieved": 144.0,
+        "delta": 0.0
       },
       "88249": {
-        "lastCompleteRate": 38.18,
-        "lastAchieved": 100.0,
-        "delta": 16.8
+        "lastCompleteRate": 54.98,
+        "lastAchieved": 144.0,
+        "delta": 0.0
       },
       "1095950": {
-        "lastCompleteRate": 39.6,
-        "lastAchieved": 102.0,
-        "delta": 16.31
+        "lastCompleteRate": 55.91,
+        "lastAchieved": 144.0,
+        "delta": 0.0
       },
       "1093851": {
-        "lastCompleteRate": 35.86,
-        "lastAchieved": 100.0,
-        "delta": 15.06
+        "lastCompleteRate": 50.92,
+        "lastAchieved": 142.0,
+        "delta": 0.0
       },
       "1096166": {
-        "lastCompleteRate": 45.5,
-        "lastAchieved": 111.0,
-        "delta": 12.71
+        "lastCompleteRate": 58.21,
+        "lastAchieved": 142.0,
+        "delta": 0.0
       },
       "1301354": {
-        "lastCompleteRate": 38.59,
-        "lastAchieved": 101.0,
-        "delta": 14.52
+        "lastCompleteRate": 53.11,
+        "lastAchieved": 139.0,
+        "delta": 0.0
       },
       "1304774": {
-        "lastCompleteRate": 31.26,
-        "lastAchieved": 82.0,
-        "delta": 21.34
+        "lastCompleteRate": 52.6,
+        "lastAchieved": 138.0,
+        "delta": 0.0
       },
       "1096283": {
-        "lastCompleteRate": 42.67,
-        "lastAchieved": 103.0,
-        "delta": 14.5
+        "lastCompleteRate": 57.17,
+        "lastAchieved": 138.0,
+        "delta": 0.0
       },
       "87792": {
-        "lastCompleteRate": 42.71,
-        "lastAchieved": 106.0,
-        "delta": 12.49
+        "lastCompleteRate": 55.2,
+        "lastAchieved": 137.0,
+        "delta": 0.0
       },
       "88299": {
-        "lastCompleteRate": 33.29,
-        "lastAchieved": 91.0,
-        "delta": 16.83
+        "lastCompleteRate": 50.12,
+        "lastAchieved": 137.0,
+        "delta": 0.0
       },
       "1304968": {
-        "lastCompleteRate": 35.03,
-        "lastAchieved": 90.0,
-        "delta": 17.9
+        "lastCompleteRate": 52.93,
+        "lastAchieved": 136.0,
+        "delta": 0.0
       },
       "1300014": {
-        "lastCompleteRate": 35.9,
-        "lastAchieved": 86.0,
-        "delta": 20.87
+        "lastCompleteRate": 56.77,
+        "lastAchieved": 136.0,
+        "delta": 0.0
       },
       "1309054": {
-        "lastCompleteRate": 36.49,
-        "lastAchieved": 88.0,
-        "delta": 19.49
+        "lastCompleteRate": 55.98,
+        "lastAchieved": 135.0,
+        "delta": 0.0
       },
       "1089397": {
-        "lastCompleteRate": 37.63,
-        "lastAchieved": 87.0,
-        "delta": 20.33
+        "lastCompleteRate": 57.96,
+        "lastAchieved": 134.0,
+        "delta": 0.0
       },
       "1309146": {
-        "lastCompleteRate": 49.01,
-        "lastAchieved": 107.0,
-        "delta": 11.91
+        "lastCompleteRate": 60.92,
+        "lastAchieved": 133.0,
+        "delta": 0.0
       },
       "87907": {
-        "lastCompleteRate": 38.37,
-        "lastAchieved": 90.0,
-        "delta": 17.91
+        "lastCompleteRate": 56.28,
+        "lastAchieved": 132.0,
+        "delta": 0.0
       },
       "87588": {
-        "lastCompleteRate": 48.06,
-        "lastAchieved": 96.0,
-        "delta": 18.02
+        "lastCompleteRate": 66.08,
+        "lastAchieved": 132.0,
+        "delta": 0.0
       },
       "1093884": {
-        "lastCompleteRate": 40.39,
-        "lastAchieved": 103.0,
-        "delta": 10.99
+        "lastCompleteRate": 51.38,
+        "lastAchieved": 131.0,
+        "delta": 0.0
       },
       "1089398": {
-        "lastCompleteRate": 49.46,
-        "lastAchieved": 98.0,
-        "delta": 16.65
+        "lastCompleteRate": 66.11,
+        "lastAchieved": 131.0,
+        "delta": 0.0
       },
       "1307293": {
-        "lastCompleteRate": 38.28,
-        "lastAchieved": 93.0,
-        "delta": 14.82
+        "lastCompleteRate": 53.1,
+        "lastAchieved": 129.0,
+        "delta": 0.0
       },
       "88355": {
-        "lastCompleteRate": 35.34,
-        "lastAchieved": 94.0,
-        "delta": 13.16
+        "lastCompleteRate": 48.5,
+        "lastAchieved": 129.0,
+        "delta": 0.0
       },
       "1300030": {
-        "lastCompleteRate": 33.75,
-        "lastAchieved": 85.0,
-        "delta": 17.46
+        "lastCompleteRate": 51.21,
+        "lastAchieved": 129.0,
+        "delta": 0.0
       },
       "1304962": {
-        "lastCompleteRate": 34.59,
-        "lastAchieved": 82.0,
-        "delta": 19.41
+        "lastCompleteRate": 54.0,
+        "lastAchieved": 128.0,
+        "delta": 0.0
       },
       "87753": {
-        "lastCompleteRate": 36.45,
-        "lastAchieved": 86.0,
-        "delta": 16.96
+        "lastCompleteRate": 53.41,
+        "lastAchieved": 126.0,
+        "delta": 0.0
       },
       "87906": {
-        "lastCompleteRate": 36.71,
-        "lastAchieved": 86.0,
-        "delta": 17.08
+        "lastCompleteRate": 53.79,
+        "lastAchieved": 126.0,
+        "delta": 0.0
       },
       "1304775": {
-        "lastCompleteRate": 34.44,
-        "lastAchieved": 89.0,
-        "delta": 14.32
+        "lastCompleteRate": 48.76,
+        "lastAchieved": 126.0,
+        "delta": 0.0
       },
       "1309056": {
-        "lastCompleteRate": 48.2,
-        "lastAchieved": 93.0,
-        "delta": 17.1
+        "lastCompleteRate": 65.3,
+        "lastAchieved": 126.0,
+        "delta": 0.0
       },
       "87803": {
-        "lastCompleteRate": 35.52,
-        "lastAchieved": 80.0,
-        "delta": 19.53
+        "lastCompleteRate": 55.05,
+        "lastAchieved": 124.0,
+        "delta": 0.0
       },
       "1306523": {
-        "lastCompleteRate": 34.8,
-        "lastAchieved": 91.0,
-        "delta": 12.24
+        "lastCompleteRate": 47.04,
+        "lastAchieved": 123.0,
+        "delta": 0.0
       },
       "87771": {
-        "lastCompleteRate": 32.5,
-        "lastAchieved": 87.0,
-        "delta": 13.45
+        "lastCompleteRate": 45.95,
+        "lastAchieved": 123.0,
+        "delta": 0.0
       },
       "1304971": {
-        "lastCompleteRate": 37.11,
-        "lastAchieved": 90.0,
-        "delta": 12.78
+        "lastCompleteRate": 49.89,
+        "lastAchieved": 121.0,
+        "delta": 0.0
       },
       "88298": {
-        "lastCompleteRate": 34.35,
-        "lastAchieved": 84.0,
-        "delta": 13.9
+        "lastCompleteRate": 48.25,
+        "lastAchieved": 118.0,
+        "delta": 0.0
       },
       "1300031": {
-        "lastCompleteRate": 36.35,
-        "lastAchieved": 88.0,
-        "delta": 12.4
+        "lastCompleteRate": 48.75,
+        "lastAchieved": 118.0,
+        "delta": 0.0
       },
       "1096167": {
-        "lastCompleteRate": 37.61,
-        "lastAchieved": 83.0,
-        "delta": 15.41
+        "lastCompleteRate": 53.02,
+        "lastAchieved": 117.0,
+        "delta": 0.0
       },
       "88343": {
-        "lastCompleteRate": 33.41,
-        "lastAchieved": 77.0,
-        "delta": 17.35
+        "lastCompleteRate": 50.76,
+        "lastAchieved": 117.0,
+        "delta": 0.0
       },
       "1309058": {
-        "lastCompleteRate": 40.2,
-        "lastAchieved": 92.0,
-        "delta": 10.92
+        "lastCompleteRate": 51.12,
+        "lastAchieved": 117.0,
+        "delta": 0.0
       },
       "1304770": {
-        "lastCompleteRate": 33.49,
-        "lastAchieved": 69.0,
-        "delta": 22.82
+        "lastCompleteRate": 56.31,
+        "lastAchieved": 116.0,
+        "delta": 0.0
       },
       "1306976": {
-        "lastCompleteRate": 25.26,
-        "lastAchieved": 67.0,
-        "delta": 18.48
+        "lastCompleteRate": 43.74,
+        "lastAchieved": 116.0,
+        "delta": 0.0
       },
       "88366": {
-        "lastCompleteRate": 43.0,
-        "lastAchieved": 78.0,
-        "delta": 20.39
+        "lastCompleteRate": 63.39,
+        "lastAchieved": 115.0,
+        "delta": 0.0
       },
       "1089394": {
-        "lastCompleteRate": 40.45,
-        "lastAchieved": 86.0,
-        "delta": 13.17
+        "lastCompleteRate": 53.62,
+        "lastAchieved": 114.0,
+        "delta": 0.0
       },
       "1092257": {
-        "lastCompleteRate": 34.07,
-        "lastAchieved": 76.0,
-        "delta": 16.59
+        "lastCompleteRate": 50.66,
+        "lastAchieved": 113.0,
+        "delta": 0.0
       },
       "1306509": {
-        "lastCompleteRate": 36.46,
-        "lastAchieved": 75.0,
-        "delta": 17.98
+        "lastCompleteRate": 54.44,
+        "lastAchieved": 112.0,
+        "delta": 0.0
       },
       "88348": {
-        "lastCompleteRate": 39.78,
-        "lastAchieved": 67.0,
-        "delta": 21.37
+        "lastCompleteRate": 61.15,
+        "lastAchieved": 103.0,
+        "delta": 0.0
       },
       "1092254": {
-        "lastCompleteRate": 37.16,
-        "lastAchieved": 73.0,
-        "delta": 13.74
+        "lastCompleteRate": 50.9,
+        "lastAchieved": 100.0,
+        "delta": 0.0
       },
       "1306506": {
-        "lastCompleteRate": 36.2,
-        "lastAchieved": 70.0,
-        "delta": 15.52
+        "lastCompleteRate": 51.72,
+        "lastAchieved": 100.0,
+        "delta": 0.0
       },
       "87738": {
-        "lastCompleteRate": 33.24,
-        "lastAchieved": 69.0,
-        "delta": 14.94
+        "lastCompleteRate": 48.18,
+        "lastAchieved": 100.0,
+        "delta": 0.0
       },
       "1092255": {
-        "lastCompleteRate": 31.49,
-        "lastAchieved": 68.0,
-        "delta": 14.36
+        "lastCompleteRate": 45.85,
+        "lastAchieved": 99.0,
+        "delta": 0.0
       },
       "88039": {
-        "lastCompleteRate": 37.16,
-        "lastAchieved": 69.0,
-        "delta": 16.15
+        "lastCompleteRate": 53.31,
+        "lastAchieved": 99.0,
+        "delta": 0.0
       },
       "88307": {
-        "lastCompleteRate": 44.81,
-        "lastAchieved": 74.0,
-        "delta": 14.53
+        "lastCompleteRate": 59.34,
+        "lastAchieved": 98.0,
+        "delta": 0.0
       },
       "1309147": {
-        "lastCompleteRate": 31.74,
-        "lastAchieved": 69.0,
-        "delta": 11.95
+        "lastCompleteRate": 43.69,
+        "lastAchieved": 95.0,
+        "delta": 0.0
       },
       "87791": {
-        "lastCompleteRate": 45.97,
-        "lastAchieved": 71.0,
-        "delta": 14.24
+        "lastCompleteRate": 60.21,
+        "lastAchieved": 93.0,
+        "delta": 0.0
       },
       "1307120": {
-        "lastCompleteRate": 27.61,
-        "lastAchieved": 48.0,
-        "delta": 24.15
+        "lastCompleteRate": 51.76,
+        "lastAchieved": 90.0,
+        "delta": 0.0
       },
       "87830": {
-        "lastCompleteRate": 37.65,
-        "lastAchieved": 56.0,
-        "delta": 22.19
+        "lastCompleteRate": 59.84,
+        "lastAchieved": 89.0,
+        "delta": 0.0
       },
       "1306511": {
-        "lastCompleteRate": 30.64,
-        "lastAchieved": 53.0,
-        "delta": 19.08
+        "lastCompleteRate": 49.72,
+        "lastAchieved": 86.0,
+        "delta": 0.0
       },
       "88150": {
-        "lastCompleteRate": 41.0,
-        "lastAchieved": 71.0,
-        "delta": 8.09
+        "lastCompleteRate": 49.09,
+        "lastAchieved": 85.0,
+        "delta": 0.0
       },
       "1089395": {
-        "lastCompleteRate": 33.41,
-        "lastAchieved": 60.0,
-        "delta": 13.37
+        "lastCompleteRate": 46.78,
+        "lastAchieved": 84.0,
+        "delta": 0.0
       },
       "87943": {
-        "lastCompleteRate": 33.66,
-        "lastAchieved": 57.0,
-        "delta": 15.94
+        "lastCompleteRate": 49.6,
+        "lastAchieved": 84.0,
+        "delta": 0.0
       },
       "1089399": {
-        "lastCompleteRate": 34.0,
-        "lastAchieved": 59.0,
-        "delta": 13.84
+        "lastCompleteRate": 47.84,
+        "lastAchieved": 83.0,
+        "delta": 0.0
       },
       "1096285": {
-        "lastCompleteRate": 26.12,
-        "lastAchieved": 49.0,
-        "delta": 17.06
+        "lastCompleteRate": 43.18,
+        "lastAchieved": 81.0,
+        "delta": 0.0
       },
       "1309057": {
-        "lastCompleteRate": 39.67,
-        "lastAchieved": 58.0,
-        "delta": 12.99
+        "lastCompleteRate": 52.66,
+        "lastAchieved": 77.0,
+        "delta": 0.0
       },
       "1096043": {
-        "lastCompleteRate": 27.76,
-        "lastAchieved": 49.0,
-        "delta": 14.73
+        "lastCompleteRate": 42.49,
+        "lastAchieved": 75.0,
+        "delta": 0.0
       },
       "1310252": {
-        "lastCompleteRate": 104.92,
-        "lastAchieved": 72.0,
-        "delta": 4.37
+        "lastCompleteRate": 109.29,
+        "lastAchieved": 75.0,
+        "delta": 0.0
       },
       "1092397": {
-        "lastCompleteRate": 32.83,
-        "lastAchieved": 51.0,
-        "delta": 14.17
+        "lastCompleteRate": 47.0,
+        "lastAchieved": 73.0,
+        "delta": 0.0
       },
       "1092265": {
-        "lastCompleteRate": 30.83,
-        "lastAchieved": 52.0,
-        "delta": 11.86
+        "lastCompleteRate": 42.69,
+        "lastAchieved": 72.0,
+        "delta": 0.0
       },
       "87789": {
-        "lastCompleteRate": 27.05,
-        "lastAchieved": 50.0,
-        "delta": 11.36
+        "lastCompleteRate": 38.41,
+        "lastAchieved": 71.0,
+        "delta": 0.0
       },
       "1094414": {
-        "lastCompleteRate": 34.81,
-        "lastAchieved": 53.0,
-        "delta": 10.51
+        "lastCompleteRate": 45.32,
+        "lastAchieved": 69.0,
+        "delta": 0.0
       },
       "1310360": {
-        "lastCompleteRate": 63.11,
-        "lastAchieved": 58.0,
-        "delta": 11.97
+        "lastCompleteRate": 75.08,
+        "lastAchieved": 69.0,
+        "delta": 0.0
       },
       "1310253": {
-        "lastCompleteRate": 97.24,
-        "lastAchieved": 63.0,
-        "delta": 6.17
+        "lastCompleteRate": 103.41,
+        "lastAchieved": 67.0,
+        "delta": 0.0
       },
       "1092253": {
-        "lastCompleteRate": 28.45,
-        "lastAchieved": 37.0,
-        "delta": 20.76
+        "lastCompleteRate": 49.21,
+        "lastAchieved": 64.0,
+        "delta": 0.0
       },
       "1309148": {
-        "lastCompleteRate": 34.2,
-        "lastAchieved": 47.0,
-        "delta": 11.64
+        "lastCompleteRate": 45.84,
+        "lastAchieved": 63.0,
+        "delta": 0.0
       },
       "87865": {
-        "lastCompleteRate": 26.95,
-        "lastAchieved": 37.0,
-        "delta": 18.93
+        "lastCompleteRate": 45.88,
+        "lastAchieved": 63.0,
+        "delta": 0.0
       },
       "1310250": {
-        "lastCompleteRate": 86.68,
-        "lastAchieved": 56.0,
-        "delta": 9.29
+        "lastCompleteRate": 95.97,
+        "lastAchieved": 62.0,
+        "delta": 0.0
       },
       "87826": {
-        "lastCompleteRate": 24.67,
-        "lastAchieved": 40.0,
-        "delta": 11.71
+        "lastCompleteRate": 36.38,
+        "lastAchieved": 59.0,
+        "delta": 0.0
       },
       "1092551": {
-        "lastCompleteRate": 18.9,
-        "lastAchieved": 31.0,
-        "delta": 17.07
+        "lastCompleteRate": 35.97,
+        "lastAchieved": 59.0,
+        "delta": 0.0
       },
       "1096172": {
-        "lastCompleteRate": 32.54,
-        "lastAchieved": 39.0,
-        "delta": 11.68
+        "lastCompleteRate": 44.22,
+        "lastAchieved": 53.0,
+        "delta": 0.0
       },
       "87967": {
-        "lastCompleteRate": 27.6,
-        "lastAchieved": 39.0,
-        "delta": 9.2
+        "lastCompleteRate": 36.8,
+        "lastAchieved": 52.0,
+        "delta": 0.0
       },
       "1310361": {
-        "lastCompleteRate": 34.98,
-        "lastAchieved": 20.0,
-        "delta": 17.49
+        "lastCompleteRate": 52.47,
+        "lastAchieved": 30.0,
+        "delta": 0.0
       },
       "1310359": {
-        "lastCompleteRate": 38.59,
-        "lastAchieved": 4.0,
-        "delta": 9.64
+        "lastCompleteRate": 48.23,
+        "lastAchieved": 5.0,
+        "delta": 0.0
       },
       "1310356": {
-        "lastCompleteRate": 39.21,
-        "lastAchieved": 2.0,
-        "delta": 19.6
+        "lastCompleteRate": 58.81,
+        "lastAchieved": 3.0,
+        "delta": 0.0
       },
       "1310358": {
-        "lastCompleteRate": 0.0,
-        "lastAchieved": 0.0,
-        "delta": 63.11
+        "lastCompleteRate": 63.11,
+        "lastAchieved": 1.0,
+        "delta": 0.0
       },
       "1310497": {
         "lastCompleteRate": 113.15,
