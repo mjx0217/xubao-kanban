@@ -36,6 +36,8 @@ SLOT_HOURS = [10, 12, 14, 16, 18, 20, 22]
 #      到 slot+45 分钟为止（覆盖下载耗时 + 构建耗时）
 WINDOW_MIN = 4
 WINDOW_MAX = 45
+# 合法 xlsx 的最小体积（正常底表约 1.3MB；错误 JSON 只有 ~110 字节）
+MIN_XLSX_BYTES = 50 * 1024
 # 等待底表落地的最长时间（秒）
 WAIT_FOR_FILE = 900          # 15 分钟
 FILE_POLL = 20                # 轮询间隔
@@ -85,7 +87,13 @@ def published_slot():
 
 
 def file_is_stable(path):
-    """文件是否已写完（大小连续两次不变，且没有 ~$ 锁文件）"""
+    """文件是否已写完且是合法的 xlsx（大小连续两次不变，且没有 ~$ 锁文件）
+
+    ⚠️ 2026-11-21 20:05 踩坑：上游导出接口登录态过期时，下载到的「xlsx」
+    其实是一个 110 字节的 JSON 错误体（{"code":10021,"msg":"未登录！"}）。
+    旧逻辑只看大小/时间稳定性 → 坏文件被当成正常底表 → build 阶段才炸。
+    现在额外校验 xlsx 文件头（PK\x03\x04）和最小体积，坏文件一律当作「还没写好」。
+    """
     lock = os.path.join(os.path.dirname(path), "~$" + os.path.basename(path))
     if os.path.exists(lock):
         return False
@@ -95,7 +103,21 @@ def file_is_stable(path):
         s2 = os.path.getsize(path)
     except OSError:
         return False
-    return s1 > 0 and s1 == s2
+    if s1 <= 0 or s1 != s2:
+        return False
+    # 校验是真正的 xlsx（zip 容器），而不是服务端错误 JSON
+    try:
+        with open(path, "rb") as f:
+            magic = f.read(4)
+    except OSError:
+        return False
+    if magic != b"PK\x03\x04":
+        log(f"⚠️ 不是合法 xlsx（疑似服务端错误体，{s2} 字节），跳过: {os.path.basename(path)}")
+        return False
+    if s2 < MIN_XLSX_BYTES:
+        log(f"⚠️ xlsx 体积过小（{s2} 字节 < {MIN_XLSX_BYTES}），跳过: {os.path.basename(path)}")
+        return False
+    return True
 
 
 def in_window(now):
