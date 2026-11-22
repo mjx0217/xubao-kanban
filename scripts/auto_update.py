@@ -31,7 +31,9 @@ DATA_FILE = "xubao_data.json"
 BUILD_SCRIPT = os.path.join(HERE, "build_xubao.py")
 
 # 计划槽位（小时）：与 Windows 计划任务 DownloadPush3143 的触发点一一对应
-SLOT_HOURS = [10, 12, 14, 16, 18, 20, 22]
+# ⚠️ 2026-11-22 用户要求去掉早盘 10 点档：服务端 10:00 前不给新底表，
+#    10:05 推送只会拿旧数据/空跑。改为 12 点起，6 个槽位。
+SLOT_HOURS = [12, 14, 16, 18, 20, 22]
 # 窗口：从 slot:04 开始（下载在 slot:03 触发，留 1 分钟给浏览器启动）
 #      到 slot+45 分钟为止（覆盖下载耗时 + 构建耗时）
 WINDOW_MIN = 4
