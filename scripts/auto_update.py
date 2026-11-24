@@ -235,7 +235,7 @@ def main():
             if ok:
                 t = report["group_total"]
                 log(f"📨 {gname} → group:{pgr.GROUP_CHANNELS[gname]} "
-                    f"完成率 {t['completeRate']:.2f}% 新增 {t['deltaLianbao']:+.0f}")
+                    f"完成率 {t['completeRate']:.2f}% 今日新增 {t['todayNew']:.0f}")
                 pushed.append(gname)
             else:
                 log(f"❌ {gname} 推送失败: {out[-200:]}")

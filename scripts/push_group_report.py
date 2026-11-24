@@ -59,7 +59,7 @@ def main():
         text = grp.render_text(report)
         t = report["group_total"]
         print(f"\n===== {gname} → group:{gid} =====")
-        print(f"完成率 {t['completeRate']:.2f}%  新增 {t['deltaLianbao']:+.0f}  "
+        print(f"完成率 {t['completeRate']:.2f}%  今日新增 {t['todayNew']:.0f}  "
               f"距完标 {t['gap']:.0f}  ({len(report['classTeachers'])}人)")
         if dry:
             print(text)
