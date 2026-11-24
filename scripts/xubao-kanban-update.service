@@ -1,0 +1,22 @@
+[Unit]
+Description=续报看板自动更新（构建+推送GitHub Pages+推教学组战报）
+# ⚠️ 完全不依赖 OpenClaw cron / LLM：
+# 2026-11-24 16:05 档没跑，是因为 OpenClaw cron 派发队列被别的任务堵死
+# （zhiyinbot 每20分钟私信任务连续 LLM idle timeout），底表 16:03 就下载好了却没人构建。
+# 改成 systemd timer → 零 LLM 依赖，不会被任何 agent 任务挤掉。
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/mjx/repos/xubao-kanban
+ExecStart=/usr/bin/python3 /home/mjx/repos/xubao-kanban/scripts/auto_update.py
+TimeoutStartSec=1800
+# 脚本退出码语义：0=已更新 / 10=跳过（无新数据或不在窗口，属正常）/ 1=失败
+# 10 不是错误，要让 systemd 视为成功，否则每次都会标记 failed
+SuccessExitStatus=10
+# 脚本自己管时间窗守卫（只在槽位 :04~:45 内干活），这里不再额外限制
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mjx/.npm-global/bin
+StandardOutput=append:/home/mjx/repos/xubao-kanban/auto_update.log
+StandardError=append:/home/mjx/repos/xubao-kanban/auto_update.log
+
+[Install]
+WantedBy=default.target

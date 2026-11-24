@@ -1,0 +1,13 @@
+[Unit]
+Description=续报看板每2小时更新（12/14/16/18/20/22 点 :05）
+
+[Timer]
+# 6 个槽位，每 2 小时一次（与 Windows 计划任务 DownloadPush3143 的 X:03 下载对应）
+OnCalendar=*-*-* 12,14,16,18,20,22:05:00
+# 关机/休眠错过 → 不补跑（业务规则：错过即作废）
+Persistent=false
+AccuracySec=10s
+Unit=xubao-kanban-update.service
+
+[Install]
+WantedBy=timers.target
